@@ -7,7 +7,11 @@ var photos =
 [ 
 	{
 		"image" : "escuela.png",
-		"firstline" : "<span>TEN EL CONTROL ABSOLUTO DE TU TERRENO, </span><p>DESDE CUALQUIER LUGAR DEL MUNDO,</p><span>SOLO CON UN CLIC</span>"
+		"firstline" : "<span>Pronto nueva versión de escuela de invierno</span>"
+	},
+	{
+		"image" : "MarioSalgado.jpg",
+		"firstline" : "<span>Grande Mario Salgado</span>"
 	}
 ];
 
