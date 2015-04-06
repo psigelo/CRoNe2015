@@ -49,9 +49,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="top-nav">
 				<span class="menu"><img src="images/menu-icon.png" alt=""/></span>
 				<ul class="nav1">
-					<li><a href="index.php" class="active">INICIO </a></li>
-					<li><a href="#cases" class="scroll">EXPOSITORES</a></li> 
-					<li><a href="#activities" class="scroll">ACTIVIDADES</a></li>
+					<li><a href="index.php" class="scroll">INICIO </a></li>
+					<li><a href="#expo" class="scroll">EXPOSITORES</a></li> 
+					<li><a href="#method" class="scroll">ACTIVIDADES</a></li>
 					<li><a href="registration.php">INSCRIPCIÓN</a></li>
 					<li><a href="contact.php">CONTACT</a></li>
 				</ul>
