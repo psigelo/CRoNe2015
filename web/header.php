@@ -8,7 +8,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 	<title>Crone 2015</title>
-	<link href="css/normalize.css" type="text/css" rel="stylesheet" media="all">
 	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 	<!--web-font-->

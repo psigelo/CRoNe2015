@@ -2,7 +2,7 @@
 	<div class="footer">
 		<div class="container">
 			<div class="footer-grids">
-				<div class="col-md-4 footer-grids-info">
+				<div class="footer-grids-info">
 					<h5>Contact us</h5>
 					<ul>
 						<li>Lorem Ipsu</li>
@@ -12,7 +12,7 @@
 						<li><a href="#">Send us an e-mail</a></li>
 					</ul>
 				</div>
-				<div class="col-md-4 footer-grids-info">
+				<div class="footer-grids-info">
 					<h5>Navigation</h5>
 					<ul>
 						<li><a href="#header" class="scroll">INICIO </a></li>
@@ -22,7 +22,7 @@
 						<li><a href="contact.php">CONTACT</a></li>
 					</ul>
 				</div>
-				<div class="col-md-4 footer-grids-info">
+				<div class="footer-grids-info">
 					<h5>Submit to our news letter</h5>
 					<p>Submit and get all the info about our 
 						work, new positions and new blog inputs.</p>

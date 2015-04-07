@@ -153,20 +153,42 @@ span.menu {
 	color:#fff;
 }
 /*-banner-bottom--*/
-.banner-bottom{
+.banner-bottom {
 	background:#313f4a;
-	padding: 2.5em 0 1.2em 0;
+	padding: 1em .5em 1em .5em;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
 }
-.banner-bottom-grids{
-	float:left;
-	width: 21%;
+.banner-bottom-grids {
+	max-width: 150px;
+    max-height: 125px;
+    vertical-align: center;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 2em;
 }
-.banner-bottom-grids.dr {
-	padding-top: 8px;
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }
-.banner-bottom-grids.ea {
-	width: 16%;
-	text-align: right;
+.banner-bottom-grids img {
+    cursor: pointer;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    display: inline-block;
+    margin: 1em;
+    transition: all 0.5s ease 0s;
+    width: 100px;
+}
+.banner-bottom-grids img:hover { 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
 }
 /*--activity-grids--*/
 .activity {
@@ -176,13 +198,19 @@ span.menu {
 	color: #333333;
 	font-size: 24px;
 	font-weight: 600;
-	margin: 0 0 0em 14px;
+	margin: 0 0 1em 14px;
 }
-.activity-grids{
+.activity-grids {
 	text-align: center;
-	border-top: 10px solid #c1c1c1;
+	/*border-top: 10px solid #c1c1c1;*/
 	padding-top: 3em;
-	margin: 1em;
+
+	float: left;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	width: 33.33333%;
 }
 .activity-grids h4{
 	color: #333333;
@@ -227,6 +255,15 @@ span.menu {
 	position:relative;
 	top:1px;
 }
+/* ===================================== */
+.col-md-4 {
+  /*position: relative;*/
+  float: left;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* ===================================== */
 /*--schedule--*/
 .schedule h4 {
 	text-align:center;
@@ -310,8 +347,15 @@ span.menu {
 	padding: 8em 0;
 }
 .expo-grids {
-	border-top: 10px solid #c1c1c1;
-	padding-top: 2em;
+	/*padding-top: 2em;*/
+	
+	/*position: relative;*/
+	float: left;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	width: 25%;
 }
 .expo h3{
 	color: #333333;
@@ -324,6 +368,8 @@ span.menu {
 }
 .expo-top {
 	margin-bottom: 2em;
+	border-top: 10px solid #c1c1c1;
+	padding-top: 2em;
 }
 .expo-grids-info img{
 	width:100%;
@@ -423,6 +469,13 @@ span.menu {
 .footer-grids {
 	border-bottom: 1px solid #434F59;
 	padding-bottom: 5em;
+}
+.footer-grids-info {
+	float: left;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 33.3333%;
 }
 .footer-grids-info h5 {
 	margin: 0;
@@ -892,7 +945,6 @@ table tr:hover td {
 		letter-spacing: 0.5px;
 	}
 }
-/* 768px and below --------------------- */
 @media(max-width:768px){
 	.header {
 		background: #f7f7f7;
@@ -957,19 +1009,6 @@ table tr:hover td {
 		overflow: hidden;
 		height: 90px;
 	}
-	.banner-bottom-grids {
-		width: 32%;
-	}
-	.banner-bottom-grids.dr {
-		width: 26%;
-	}
-	.banner-bottom-grids:nth-child(3) {
-		display: none;
-	}
-	.banner-bottom-grids.ea {
-		width: 16%;
-		text-align: left;
-	}
 	.method {
 		padding: 5em 0;
 	}
@@ -1005,6 +1044,12 @@ table tr:hover td {
 	}
 	.expo{
 		padding: 3em 0;
+	}
+	.expo-grids {
+		width: 50%;
+	}
+	.activity-grids {
+		width: 100%;
 	}
 	.caption h5 {
 		padding: 0.8em 0;
@@ -1111,12 +1156,6 @@ table tr:hover td {
 	}
 	.banner-title p {
 		height: 85px;
-	}
-	.banner-bottom-grids.dr {
-		width: 26%;
-	}
-	.banner-bottom-grids {
-		width: 32%;
 	}
 	.contact input[type="submit"] {
 		width: 24%;
@@ -1239,19 +1278,6 @@ table tr:hover td {
 	.banner-title h4 {
 		font-size: 22px;
 	}
-	.banner-bottom-grids.dr-one {
-		text-align: left;
-		display: none;
-	}
-	.banner-bottom-grids.dr {
-		width: 35%;
-	}
-	.banner-bottom-grids {
-		width: 42%;
-	}
-	.banner-bottom-grids.ea {
-		width: 23%;
-	}
 	.method-grids img{
 		width: 75%;
 	}
@@ -1283,6 +1309,9 @@ table tr:hover td {
 	}
 	.expo {
 		padding: 2em 0;
+	}
+	.expo h3 {
+		font-size: 21px;
 	}
 	.services-grids.three {
 		display: none;
@@ -1360,23 +1389,6 @@ table tr:hover td {
 	.banner-bottom {
 		padding: 1.5em 0 1em 0;
 	}
-	.banner-bottom-grids {
-		width: 33%;
-		margin: 0 1.6em;
-	}
-	.banner-bottom-grids img{
-		width:100%;
-	}
-	.banner-bottom-grids.dr {
-		width: 28%;
-		margin: 0;
-		float: left;
-		padding: 0;
-	}
-	.banner-bottom-grids.ea {
-		width: 20%;
-		margin: 0;
-	}
 	.method {
 		padding: 2em 0;
 	}
@@ -1447,7 +1459,10 @@ table tr:hover td {
 		font-size: 16px;
 	}
 	.expo h3 {
-		font-size: 21px;
+		font-size: 19px;
+	}
+	.expo-grids {
+		width: 100%;
 	}
 	.services h3 {
 		font-size: 21px;

@@ -16,7 +16,7 @@
 <div class="expo" id="expo">
 	<div class="container">
 		<h3>Expositores</h3>
-		<div class="col-md-3">
+		<!-- <div class="col-md-3"> -->
 			<div class="expo-grids">
 				<div class="expo-grids-info expo-top">
 					<img src="images/foto1.jpg" alt=""/>
@@ -39,8 +39,8 @@
 					</div>
 				</div>
 			</div>	
-		</div>
-		<div class="col-md-3">
+		<!-- </div>
+		<div class="col-md-3"> -->
 			<div class="expo-grids">
 				<div class="expo-grids-info expo-top">
 					<img src="images/foto3.jpg" alt=""/>
@@ -63,8 +63,8 @@
 					</div>
 				</div>
 			</div>		
-		</div>
-		<div class="col-md-3">
+		<!-- </div>
+		<div class="col-md-3"> -->
 			<div class="expo-grids">
 				<div class="expo-grids-info expo-top">
 					<img src="images/foto5.jpg" alt=""/>
@@ -87,8 +87,8 @@
 					</div>
 				</div>
 			</div>	
-		</div>
-		<div class="col-md-3">
+		<!-- </div>
+		<div class="col-md-3"> -->
 			<div class="expo-grids">
 				<div class="expo-grids-info expo-top">
 					<img src="images/foto7.jpg" alt=""/>
@@ -111,7 +111,7 @@
 					</div>
 				</div>
 			</div>	
-		</div>
+		<!-- </div> -->
 		<div class="clearfix"> </div>
 	</div>
 </div>	
@@ -121,26 +121,26 @@
 	<div class="container">
 		<h3>Actividades</h3>
 		<!-- Only works with 3 -->
-		<div class="col-md-4 activity-grids">
+		<div class="activity-grids">
 			<img src="images/img6.png" alt=""/>
 			<h4>Día 1 - Robótica</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<a class="activity-button" id="schedule-day-1-click"><h5>Mostrar programación completa</h5></a>
+			<a class="activity-button" id="schedule-day-1-click"><h5>Programación</h5></a>
 		</div>
-		<div class="col-md-4 activity-grids">
+		<div class="activity-grids">
 			<img src="images/img7.png" alt=""/>
 			<h4>Día 2 - Neurociencia</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<a class="activity-button" id="schedule-day-2-click"><h5>Mostrar programación completa</h5></a>
+			<a class="activity-button" id="schedule-day-2-click"><h5>Programación</h5></a>
 		</div>
-		<div class="col-md-4 activity-grids">
+		<div class="activity-grids">
 			<img src="images/img8.png" alt=""/>
 			<h4>Día 3 - Nanobótica</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<a class="activity-button" id="schedule-day-3-click"><h5>Mostrar programación completa</h5></a>
+			<a class="activity-button" id="schedule-day-3-click"><h5>Programación</h5></a>
 		</div>
 		<div class="clearfix"></div>
 
@@ -322,7 +322,7 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
 			in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-		<h3>Pascal Sigel,<span>World Leader</span></h3>
+		<h3>Pepito Juan,<span>World Leader</span></h3>
 	</div>
 </div>	
 <!--//method-text-->
@@ -395,21 +395,22 @@
 <!--banner-bottom-->
 <div class="banner-bottom">
 	<div class="container">
-		<div class="banner-bottom-grids dr dr-one">
-			<img src="images/img1.png" alt=""/>
-		</div>
-		<div class="banner-bottom-grids dr">
-			<img src="images/img2.png" alt=""/>
+		<div class="banner-bottom-grids">
+			<img src="images/aus00.jpg" alt=""/>
 		</div>
 		<div class="banner-bottom-grids">
-			<img src="images/img3.png" alt=""/>
+			<img src="images/aus01.jpg" alt=""/>
 		</div>
 		<div class="banner-bottom-grids">
-			<img src="images/img4.png" alt=""/>
+			<img src="images/aus02.png" alt=""/>
 		</div>
-		<div class="banner-bottom-grids ea">
-			<img src="images/img5.png" alt=""/>
+		<div class="banner-bottom-grids">
+			<img src="images/aus03.png" alt=""/>
 		</div>
+		<div class="banner-bottom-grids">
+			<img src="images/aus04.png" alt=""/>
+		</div>
+		<span class="stretch"></span>
 	</div>
 </div>	
 <!--//banner-bottom-->
