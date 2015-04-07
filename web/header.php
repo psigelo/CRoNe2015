@@ -65,14 +65,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</script>
 				<!-- /script-for-menu -->
 			</div>
-			<div class="social-icons">
+			<!-- <div class="social-icons">
 				<ul>
 					<li><a href="#"></a></li>
 					<li><a href="#" class="twit"></a></li>
 					<li><a href="#" class="drbl"></a></li>
 					<li><a href="#" class="msg"></a></li>
 				</ul>
-			</div>
+			</div> -->
 			<div class="clearfix"> </div>
 		</div>	
 	</div>

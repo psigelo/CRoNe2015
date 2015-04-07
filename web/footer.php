@@ -12,7 +12,7 @@
 						<li><a href="#">Send us an e-mail</a></li>
 					</ul>
 				</div>
-				<div class="footer-grids-info">
+				<!-- <div class="footer-grids-info">
 					<h5>Navigation</h5>
 					<ul>
 						<li><a href="#header" class="scroll">INICIO </a></li>
@@ -20,6 +20,14 @@
 						<li><a href="#activity" class="scroll">ACTIVIDADES</a></li>
 						<li><a href="registration.php">INSCRIPCIÓN</a></li>
 						<li><a href="contact.php">CONTACT</a></li>
+					</ul>
+				</div> -->
+				<div class="social-icons">
+					<ul>
+						<li><a href="#"></a></li>
+						<li><a href="#" class="twit"></a></li>
+						<li><a href="#" class="drbl"></a></li>
+						<li><a href="#" class="msg"></a></li>
 					</ul>
 				</div>
 				<div class="footer-grids-info">
