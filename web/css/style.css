@@ -348,15 +348,13 @@ span.menu {
 	padding: 8em 0;
 }
 .expo-grids {
-	/*padding-top: 2em;*/
-	
-	/*position: relative;*/
 	float: left;
 	min-height: 1px;
 	padding-left: 15px;
 	padding-right: 15px;
 
 	width: 25%;
+	margin-top: 15px;
 }
 .expo h3{
 	color: #333333;
@@ -379,8 +377,8 @@ span.menu {
 	display:none;
 	background: rgba(49, 63, 74, 0.86);
 	position: absolute;
-	top: 0%;
-	left: 0%;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 }
@@ -1383,6 +1381,9 @@ table tr:hover td {
 		margin: 5px 0 22px 0;
 	}
 	.social-icons {
+		display: none;
+	}
+	.activity-button {
 		display: none;
 	}
 	.banner-title h4 {
