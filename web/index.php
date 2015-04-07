@@ -13,9 +13,6 @@
 </div>
 <!--//banner-->
 <!--Expo-->
-
-<!-- ARREGLAR : Cuando se achica la pantalla se eliminan fotos !! ESO NO PUEDE PASAR -->
-
 <div class="expo" id="expo">
 	<div class="container">
 		<h3>Expositores</h3>
@@ -119,31 +116,31 @@
 	</div>
 </div>	
 <!--//Expo-->
-<!--method-grids-->
-<div class="method" id="method">
+<!--Activity-->
+<div class="activity" id="activity">
 	<div class="container">
 		<h3>Actividades</h3>
 		<!-- Only works with 3 -->
-		<div class="col-md-4 method-grids">
+		<div class="col-md-4 activity-grids">
 			<img src="images/img6.png" alt=""/>
 			<h4>Día 1 - Robótica</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<a class="method-button" id="schedule-day-1-click"><h5>Mostrar programación completa</h5></a>
+			<a class="activity-button" id="schedule-day-1-click"><h5>Mostrar programación completa</h5></a>
 		</div>
-		<div class="col-md-4 method-grids">
+		<div class="col-md-4 activity-grids">
 			<img src="images/img7.png" alt=""/>
 			<h4>Día 2 - Neurociencia</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<a class="method-button" id="schedule-day-2-click"><h5>Mostrar programación completa</h5></a>
+			<a class="activity-button" id="schedule-day-2-click"><h5>Mostrar programación completa</h5></a>
 		</div>
-		<div class="col-md-4 method-grids">
+		<div class="col-md-4 activity-grids">
 			<img src="images/img8.png" alt=""/>
 			<h4>Día 3 - Nanobótica</h4>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<a class="method-button" id="schedule-day-3-click"><h5>Mostrar programación completa</h5></a>
+			<a class="activity-button" id="schedule-day-3-click"><h5>Mostrar programación completa</h5></a>
 		</div>
 		<div class="clearfix"></div>
 
@@ -318,7 +315,7 @@
 	$('#schedule-day-3').slideUp(0);
 
 </script>
-<!--//method-grids-->
+<!--//Activity-->
 <!--method-text-->
 <div class="method-text">
 	<div class="container">

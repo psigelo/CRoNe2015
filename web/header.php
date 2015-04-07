@@ -8,8 +8,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 	<title>Crone 2015</title>
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/normalize.css" type="text/css" rel="stylesheet" media="all">
 	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 	<!--web-font-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<!--//web-font-->
@@ -51,7 +52,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<ul class="nav1">
 					<li><a href="index.php" class="scroll">INICIO </a></li>
 					<li><a href="#expo" class="scroll">EXPOSITORES</a></li> 
-					<li><a href="#method" class="scroll">ACTIVIDADES</a></li>
+					<li><a href="#activity" class="scroll">ACTIVIDADES</a></li>
 					<li><a href="registration.php">INSCRIPCIÓN</a></li>
 					<li><a href="contact.php">CONTACT</a></li>
 				</ul>

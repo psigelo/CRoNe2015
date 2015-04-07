@@ -15,12 +15,11 @@
 				<div class="col-md-4 footer-grids-info">
 					<h5>Navigation</h5>
 					<ul>
-						<li><a href="#header" class="scroll">HOME </a></li>
-						<li><a href="#method" class="scroll">METHOD</a></li>
-						<li><a href="#cases" class="scroll">CASES</a></li>
-						<li><a href="#services" class="scroll">SERVICES</a></li>
-						<li><a href="blog.html">BLOG</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="#header" class="scroll">INICIO </a></li>
+						<li><a href="#expo" class="scroll">EXPOSITORES</a></li> 
+						<li><a href="#activity" class="scroll">ACTIVIDADES</a></li>
+						<li><a href="registration.php">INSCRIPCIÓN</a></li>
+						<li><a href="contact.php">CONTACT</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 footer-grids-info">
