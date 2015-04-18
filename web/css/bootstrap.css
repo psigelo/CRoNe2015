@@ -2,6 +2,7 @@
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Editor: Mootmatutaevas
  */
 
 /*!
@@ -742,20 +743,25 @@ address {
   td.visible-xs {
     display: table-cell !important;
   }
-}
-@media (max-width: 767px) {
+/*}
+@media (max-width: 767px) {*/
   .visible-xs-block {
     display: block !important;
   }
-}
-@media (max-width: 767px) {
+/*}
+@media (max-width: 767px) {*/
   .visible-xs-inline {
     display: inline !important;
   }
-}
-@media (max-width: 767px) {
+/*}
+@media (max-width: 767px) {*/
   .visible-xs-inline-block {
     display: inline-block !important;
+  }
+/*}
+@media (max-width: 767px) {*/
+  .hidden-xs {
+    display: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -772,20 +778,25 @@ address {
   td.visible-sm {
     display: table-cell !important;
   }
-}
-@media (min-width: 768px) and (max-width: 991px) {
+/*}
+@media (min-width: 768px) and (max-width: 991px) {*/
   .visible-sm-block {
     display: block !important;
   }
-}
-@media (min-width: 768px) and (max-width: 991px) {
+/*}
+@media (min-width: 768px) and (max-width: 991px) {*/
   .visible-sm-inline {
     display: inline !important;
   }
-}
-@media (min-width: 768px) and (max-width: 991px) {
+/*}
+@media (min-width: 768px) and (max-width: 991px) {*/
   .visible-sm-inline-block {
     display: inline-block !important;
+  }
+/*}
+@media (min-width: 768px) and (max-width: 991px) {*/
+  .hidden-sm {
+    display: none !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -802,20 +813,25 @@ address {
   td.visible-md {
     display: table-cell !important;
   }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
+/*}
+@media (min-width: 992px) and (max-width: 1199px) {*/
   .visible-md-block {
     display: block !important;
   }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
+/*}
+@media (min-width: 992px) and (max-width: 1199px) {*/
   .visible-md-inline {
     display: inline !important;
   }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
+/*}
+@media (min-width: 992px) and (max-width: 1199px) {*/
   .visible-md-inline-block {
     display: inline-block !important;
+  }
+/*}
+@media (min-width: 992px) and (max-width: 1199px) {*/
+  .hidden-md {
+    display: none !important;
   }
 }
 @media (min-width: 1200px) {
@@ -832,38 +848,23 @@ address {
   td.visible-lg {
     display: table-cell !important;
   }
-}
-@media (min-width: 1200px) {
+/*}
+@media (min-width: 1200px) {*/
   .visible-lg-block {
     display: block !important;
   }
-}
-@media (min-width: 1200px) {
+/*}
+@media (min-width: 1200px) {*/
   .visible-lg-inline {
     display: inline !important;
   }
-}
-@media (min-width: 1200px) {
+/*}
+@media (min-width: 1200px) {*/
   .visible-lg-inline-block {
     display: inline-block !important;
   }
-}
-@media (max-width: 767px) {
-  .hidden-xs {
-    display: none !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .hidden-sm {
-    display: none !important;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .hidden-md {
-    display: none !important;
-  }
-}
-@media (min-width: 1200px) {
+/*}
+@media (min-width: 1200px) {*/
   .hidden-lg {
     display: none !important;
   }

@@ -1,5 +1,5 @@
 
-<?php include_once('header.php'); ?>
+<?php $current_page="contact"; include_once('header.php'); ?>
 
 	<!--contact-->
 	<div class="contact">

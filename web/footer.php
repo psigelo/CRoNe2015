@@ -12,22 +12,28 @@
 						<li><a href="#">Send us an e-mail</a></li>
 					</ul>
 				</div>
-				<!-- <div class="footer-grids-info">
+				<div class="footer-grids-info">
 					<h5>Navigation</h5>
 					<ul>
+						<?php if (strcmp($current_page, "index") == 0) { ?>
+
 						<li><a href="#header" class="scroll">INICIO </a></li>
 						<li><a href="#expo" class="scroll">EXPOSITORES</a></li> 
+						<li><a href="#poster" class="scroll">POSTERS</a></li> 
 						<li><a href="#activity" class="scroll">ACTIVIDADES</a></li>
-						<li><a href="registration.php">INSCRIPCIÓN</a></li>
+						<li><a href="#">INSCRIPCIÓN</a></li>
 						<li><a href="contact.php">CONTACT</a></li>
-					</ul>
-				</div> -->
-				<div class="social-icons">
-					<ul>
-						<li><a href="#"></a></li>
-						<li><a href="#" class="twit"></a></li>
-						<li><a href="#" class="drbl"></a></li>
-						<li><a href="#" class="msg"></a></li>
+
+						<?php } elseif ((strcmp($current_page, "contact") == 0)) { ?>
+						
+						<li><a href="index.php">INICIO </a></li>
+						<li><a href="index.php#expo">EXPOSITORES</a></li> 
+						<li><a href="index.php#poster">POSTERS</a></li> 
+						<li><a href="index.php#activity">ACTIVIDADES</a></li>
+						<li><a href="#">INSCRIPCIÓN</a></li>
+						<li><a href="#header" class="scroll">CONTACT</a></li>
+
+						<?php } ?>
 					</ul>
 				</div>
 				<div class="footer-grids-info">
@@ -41,6 +47,11 @@
 					</form>		
 				</div>
 				<div class="clearfix"></div>
+				<div class="social-media">
+					<a href="#" class="sb no-border light-gray facebook">Facebook</a>
+					<a href="#" class="sb no-border light-gray twitter">Twitter</a>
+					<a href="#" class="sb no-border light-gray vimeo">Facebook</a>
+				</div>
 			</div>	
 			<div class="copy-right">
 				<p>© 2015 All rights reserved | Template by <a href="http://w3layouts.com/"> W3layouts</a></p>

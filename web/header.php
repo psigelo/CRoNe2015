@@ -10,6 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<title>Crone 2015</title>
 	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/social-buttons.css" rel="stylesheet">
 	<!--web-font-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 	<!--//web-font-->
@@ -35,6 +36,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
+
+				// Activity
+				$('.activity-body-item').click(function () {
+					$(this).find('p').slideToggle();
+				});
+				$('.activity-body-item p').slideUp(0);
 			});
 	</script>
 	<!--//end-smoth-scrolling-->
@@ -49,11 +56,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="top-nav">
 				<span class="menu"><img src="images/menu-icon.png" alt=""/></span>
 				<ul class="nav1">
-					<li><a href="index.php" class="scroll">INICIO </a></li>
+					<?php if (strcmp($current_page, "index") == 0) { ?>
+
+					<li><a href="#header" class="scroll">INICIO </a></li>
 					<li><a href="#expo" class="scroll">EXPOSITORES</a></li> 
+					<li><a href="#poster" class="scroll">POSTERS</a></li> 
 					<li><a href="#activity" class="scroll">ACTIVIDADES</a></li>
-					<li><a href="registration.php">INSCRIPCIÓN</a></li>
+					<li><a href="#">INSCRIPCIÓN</a></li>
 					<li><a href="contact.php">CONTACT</a></li>
+
+					<?php } elseif ((strcmp($current_page, "contact") == 0)) { ?>
+					
+					<li><a href="index.php">INICIO </a></li>
+					<li><a href="index.php#expo">EXPOSITORES</a></li> 
+					<li><a href="index.php#poster">POSTERS</a></li> 
+					<li><a href="index.php#activity">ACTIVIDADES</a></li>
+					<li><a href="#">INSCRIPCIÓN</a></li>
+					<li><a href="#header" class="scroll">CONTACT</a></li>
+
+					<?php } ?>
 				</ul>
 				<!-- script-for-menu -->
 				 <script>
@@ -65,14 +86,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</script>
 				<!-- /script-for-menu -->
 			</div>
-			<!-- <div class="social-icons">
-				<ul>
-					<li><a href="#"></a></li>
-					<li><a href="#" class="twit"></a></li>
-					<li><a href="#" class="drbl"></a></li>
-					<li><a href="#" class="msg"></a></li>
-				</ul>
-			</div> -->
 			<div class="clearfix"> </div>
 		</div>	
 	</div>
