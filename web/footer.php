@@ -1,19 +1,42 @@
+	<!--banner-bottom-->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="banner-bottom-grids">
+				<img src="images/patro-utfsm.png" alt=""/>
+			</div>
+			<div class="banner-bottom-grids">
+				<img src="images/patro-feutfsm.png" alt=""/>
+			</div>
+<!-- 			<div class="banner-bottom-grids">
+				<img src="images/aus02.png" alt=""/>
+			</div>
+			<div class="banner-bottom-grids">
+				<img src="images/aus03.png" alt=""/>
+			</div>
+			<div class="banner-bottom-grids">
+				<img src="images/aus04.png" alt=""/>
+			</div> -->
+			<span class="stretch"></span>
+			<!-- <div class="clearfix"></div> -->
+		</div>
+	</div>	
+	<!--//banner-bottom-->
 	<!--footer-->
 	<div class="footer">
 		<div class="container">
 			<div class="footer-grids">
 				<div class="footer-grids-info">
-					<h5>Contact us</h5>
+					<h5>Contáctenos</h5>
 					<ul>
-						<li>Lorem Ipsu</li>
-						<li>8000 Aarhus</li>
-						<li>Denmark</li>
-						<li>+ 45 - So Call me Maybe</li>
-						<li><a href="#">Send us an e-mail</a></li>
+						<li>Avenida España 1680</li>
+						<li>Valparaíso, Chile</li>
+						<li>Oficina A 526</li>
+						<li>+56 32 2654551</li>
+						<li><a href="#">correo@correo.com</a></li>
 					</ul>
 				</div>
 				<div class="footer-grids-info">
-					<h5>Navigation</h5>
+					<h5>Navegación</h5>
 					<ul>
 						<?php if (strcmp($current_page, "index") == 0) { ?>
 
@@ -22,7 +45,7 @@
 						<li><a href="#poster" class="scroll">POSTERS</a></li> 
 						<li><a href="#activity" class="scroll">ACTIVIDADES</a></li>
 						<li><a href="#">INSCRIPCIÓN</a></li>
-						<li><a href="contact.php">CONTACT</a></li>
+						<li><a href="contact.php">CONTACTO</a></li>
 
 						<?php } elseif ((strcmp($current_page, "contact") == 0)) { ?>
 						
@@ -31,19 +54,18 @@
 						<li><a href="index.php#poster">POSTERS</a></li> 
 						<li><a href="index.php#activity">ACTIVIDADES</a></li>
 						<li><a href="#">INSCRIPCIÓN</a></li>
-						<li><a href="#header" class="scroll">CONTACT</a></li>
+						<li><a href="#header" class="scroll">CONTACTO</a></li>
 
 						<?php } ?>
 					</ul>
 				</div>
 				<div class="footer-grids-info">
-					<h5>Submit to our news letter</h5>
-					<p>Submit and get all the info about our 
-						work, new positions and new blog inputs.</p>
+					<h5>¡Suscríbete!</h5>
+					<p>Suscríbete y obtén información acerca de las distintas actividades.</p>
 					<form>
-						<input type="text" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}" required="">
-						<input type="email" value="Your E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your E-mail';}" required="">
-						<input type="submit" value="Submit" >
+						<input type="text" value="Tu nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Tu nombre';}" required="">
+						<input type="email" value="Tu correo electrónico" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Tu correo electrónico';}" required="">
+						<input type="submit" value="Suscribirme" >
 					</form>		
 				</div>
 				<div class="clearfix"></div>

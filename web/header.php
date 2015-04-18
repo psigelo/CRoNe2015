@@ -63,7 +63,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="#poster" class="scroll">POSTERS</a></li> 
 					<li><a href="#activity" class="scroll">ACTIVIDADES</a></li>
 					<li><a href="#">INSCRIPCIÓN</a></li>
-					<li><a href="contact.php">CONTACT</a></li>
+					<li><a href="contact.php">CONTACTO</a></li>
 
 					<?php } elseif ((strcmp($current_page, "contact") == 0)) { ?>
 					
@@ -72,7 +72,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="index.php#poster">POSTERS</a></li> 
 					<li><a href="index.php#activity">ACTIVIDADES</a></li>
 					<li><a href="#">INSCRIPCIÓN</a></li>
-					<li><a href="#header" class="scroll">CONTACT</a></li>
+					<li><a href="#header" class="scroll">CONTACTO</a></li>
 
 					<?php } ?>
 				</ul>

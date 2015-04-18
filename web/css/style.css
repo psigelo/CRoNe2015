@@ -12,6 +12,7 @@ body{
 /*-header--*/
 .header {
 	background: #f7f7f7;
+	/*background-color: rgba(247,247,247,0.2);*/
 	padding: 2em 0;
 }
 .header-logo{
@@ -126,12 +127,12 @@ span.menu {
     text-justify: distribute-all-lines;
 }
 .banner-bottom-grids {
-	max-width: 150px;
-    max-height: 125px;
+	/*max-width: 500px;
+    max-height: 300px; */
     vertical-align: center;
     display: inline-block;
     *display: inline;
-    zoom: 1;
+    /*zoom: 1;*/
     margin: 2em;
 }
 .stretch {
@@ -141,14 +142,14 @@ span.menu {
     line-height: 0
 }
 .banner-bottom-grids img {
-    /*cursor: pointer;*/
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     display: inline-block;
     margin: 1em;
     transition: all 0.5s ease 0s;
-    width: 100px;
+    max-height: 150px;
+    max-width: 150px;
 }
 .banner-bottom-grids img:hover { 
     filter: grayscale(0%);
@@ -185,7 +186,6 @@ span.menu {
 }
 .caption {
 	display:none;
-	background: rgba(49, 63, 74, 0.8);
 	position: absolute;
 	width: 100%;
 	left: 0;
@@ -194,9 +194,21 @@ span.menu {
 	top: 0;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+	background: rgba(49, 63, 74, 0.7);
+	text-shadow: 0 0 2px black;
+}
+.caption-bottom {
+	background: rgba(49, 63, 74, 0.9);
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 .expo-top div.caption-top {
 	top: 2em;
+}
+.caption-top h5 {
+	font-size:21px
+}
+.caption-bottom h5 {
+	font-size: 15px;
 }
 .caption-bottom {
 	bottom: 0;
@@ -206,7 +218,6 @@ span.menu {
 .caption h5 {
 	margin: 0;
 	padding: 1em .5em;
-	font-size: 17px;
 	color: white;
 	text-align: center;
 }
@@ -222,6 +233,9 @@ span.menu {
 	font-size: 24px;
 	font-weight: 600;
 	margin: 0 0 1em 14px;
+}
+.poster-grids p {
+	text-align: center;
 }
 /*--activity--*/
 .activity {
