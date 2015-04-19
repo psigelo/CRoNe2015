@@ -39,9 +39,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 				// Activity
 				$('.activity-body-item').click(function () {
-					$(this).find('p').slideToggle();
+					$(this).find('.activity-body-item-description').slideToggle();
 				});
-				$('.activity-body-item p').slideUp(0);
+				$('.activity-body-item-description').slideUp(0);
 			});
 	</script>
 	<!--//end-smoth-scrolling-->
@@ -68,12 +68,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<?php } elseif ((strcmp($current_page, "contact") == 0)) { ?>
 					
 					<li><a href="index.php">INICIO </a></li>
-					<li><a href="index.php#expo">EXPOSITORES</a></li> 
+					<!-- <li><a href="index.php#expo">EXPOSITORES</a></li> 
 					<li><a href="index.php#poster">POSTERS</a></li> 
-					<li><a href="index.php#activity">ACTIVIDADES</a></li>
+					<li><a href="index.php#activity">ACTIVIDADES</a></li> -->
 					<li><a href="#">INSCRIPCIÓN</a></li>
 					<li><a href="#header" class="scroll">CONTACTO</a></li>
 
+					<?php } elseif ((strcmp($current_page, "expo-details") == 0)) { ?>
+					
+					<li><a href="index.php">INICIO </a></li>
+					<li><a href="#bio" class="scroll">BIOGRAFÍA</a></li> 
+					<li><a href="#talk" class="scroll">CHARLA</a></li> 
+					<!-- <li><a href="index.php#activity">ACTIVIDADES</a></li> -->
+					<li><a href="#">INSCRIPCIÓN</a></li>
+					<li><a href="contact.php">CONTACTO</a></li>
+					
 					<?php } ?>
 				</ul>
 				<!-- script-for-menu -->

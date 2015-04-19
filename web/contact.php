@@ -6,8 +6,8 @@
 		<div class="container">
 			<div class="map">
 				<h4>MAPA</h4>
-				<iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Universidad%20T%C3%A9cnica%20Federico%20Santa%20Mar%C3%ADa%2C%20Valparaiso%2C%20Chile&key=AIzaSyD2p4zjRNQSdX48rdPjHYyRAKgVlorwaIo"></iframe> 
-				<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200538.305462562!2d-82.2829565022741!3d38.429324863439504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1425628742386" frameborder="0" style="border:0"></iframe> -->
+				<!-- <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Universidad%20T%C3%A9cnica%20Federico%20Santa%20Mar%C3%ADa%2C%20Valparaiso%2C%20Chile&key=AIzaSyD2p4zjRNQSdX48rdPjHYyRAKgVlorwaIo"></iframe>  -->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200538.305462562!2d-82.2829565022741!3d38.429324863439504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1425628742386" frameborder="0" style="border:0"></iframe>
 			</div>
 			<div class="contact-form">
 				<div class="col-md-4 contact-form-left">

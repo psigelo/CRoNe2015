@@ -5,9 +5,8 @@
 <div class="banner">
 	<div class="container">
 		<div class="banner-title"> 
-			<h4>¿Qué es CRONE?</h4>
-			<p>CRONE es un lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-			   Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
+			<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del 21 al 23 de Octubre, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
 		</div>
 	</div>
 </div>
@@ -18,7 +17,7 @@
 		<h3>Expositores</h3>
 		<div class="expo-grids">
 			<div class="expo-grids-info expo-top">
-				<a href="#"><img src="images/expo-jens-kober.jpg" alt=""/></a>
+				<a href="details.php?name=jens-kober" target="_blank"><img src="images/expo-jens-kober.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Jens Kober</h5>
 				</div>
@@ -27,7 +26,7 @@
 				</div>
 			</div>
 			<div class="expo-grids-info">
-				<a href="#"><img src="images/expo-unknown.jpg" alt=""/></a>
+				<a href="#expo"><img src="images/expo-unknown.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Por confirmar</h5>
 				</div>
@@ -38,7 +37,7 @@
 		</div>	
 		<div class="expo-grids">
 			<div class="expo-grids-info expo-top">
-				<a href="#"><img src="images/expo-unknown.jpg" alt=""/></a>
+				<a href="#expo"><img src="images/expo-unknown.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Por confirmar</h5>
 				</div>
@@ -47,7 +46,7 @@
 				</div>
 			</div>
 			<div class="expo-grids-info">
-				<a href="#"><img src="images/expo-unknown.jpg" alt=""/></a>
+				<a href="#expo"><img src="images/expo-unknown.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Por confirmar</h5>
 				</div>
@@ -58,7 +57,7 @@
 		</div>		
 		<div class="expo-grids">
 			<div class="expo-grids-info expo-top">
-				<a href="#"><img src="images/expo-unknown.jpg" alt=""/></a>
+				<a href="#expo"><img src="images/expo-unknown.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Por confirmar</h5>
 				</div>
@@ -67,7 +66,7 @@
 				</div>
 			</div>
 			<div class="expo-grids-info">
-				<a href="#"><img src="images/expo-unknown.jpg" alt=""/></a>
+				<a href="#expo"><img src="images/expo-unknown.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Por confirmar</h5>
 				</div>
@@ -78,7 +77,7 @@
 		</div>	
 		<div class="expo-grids">
 			<div class="expo-grids-info expo-top">
-				<a href="#"><img src="images/expo-unknown.jpg" alt=""/></a>
+				<a href="#expo"><img src="images/expo-unknown.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Por confirmar</h5>
 				</div>
@@ -87,7 +86,7 @@
 				</div>
 			</div>
 			<div class="expo-grids-info">
-				<a href="#"><img src="images/expo-unknown.jpg" alt=""/></a>
+				<a href="#expo"><img src="images/expo-unknown.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Por confirmar</h5>
 				</div>
@@ -105,7 +104,7 @@
 	<div class="container">
 		<h3>Llamado a Posters</h3>
 		<div class="poster-grids">
-			<p>Estamos trabajando para usted.</p>
+			<p>Estamos trabajando para usted</p>
 		</div>
 	</div>
 </div>
@@ -120,45 +119,89 @@
 				<h4>Día uno</h4>
 			</div>
 			<div class="activity-body">
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>11.30 - 12.10</h5>
-					<h3>Charla 1</h3>
-					<p>Charla 1</p>
+					<h3>Charla #1</h3>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>12.15 - 13.00</h5>
-					<h3>Charla 2</h3>
-					<p>Charla 2</p>
+					<h3>Charla #2</h3>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>13.00 - 14.00</h5>
 					<h3>Almuerzo</h3>
-					<!-- <p></p> -->
 				</div>
 				<div class="activity-body-item">
 					<h5>14.00 - 14.45</h5>
-					<h3>Charla 3</h3>
-					<p>Charla 3</p>
+					<h3>Aprendizaje de habilidades motrices en Robótica</h3>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-jens-kober.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Jens Kober</h4>
+							<h5>Delft Center for Systems and Control. TU Delft, The Netherlands.</h5>
+						</div>						
+					</div>				
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>15.00 - 15.40</h5>
 					<h3>Taller : Parte A</h3>
-					<p>Taller : Parte A</p>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>15.40 - 16.10</h5>
 					<h3>Coffee break &amp;</br>Muestra Proyectos CR</h3>
-					<p>Muestra Proyectos CR</p>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>16.10 - 17.40</h5>
 					<h3>Taller : Parte B</h3>
-					<p>Taller : Parte B</p>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>20.00</h5>
 					<h3>Cena Inauguración</h3>
-					<!-- <p></p> -->
 				</div>				
 			</div>
 		</div>
@@ -168,30 +211,57 @@
 				<h4>Día dos</h4>
 			</div>
 			<div class="activity-body">
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>11.30 - 12.10</h5>
-					<h3>Charla 1</h3>
-					<p>Charla 1</p>
+					<h3>Charla #1</h3>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>12.15 - 13.00</h5>
-					<h3>Charla 2</h3>
-					<p>Charla 2</p>
+					<h3>Charla #2</h3>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>13.00 - 14.00</h5>
 					<h3>Almuerzo</h3>
-					<!-- <p></p> -->
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>14.00 - 15.40</h5>
 					<h3>Taller</h3>
-					<p>Taller</p>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>15.40 - 17.40</h5>
 					<h3>Visita CINV</h3>
-					<p>Visita CINV</p>
 				</div>
 			</div>
 		</div>
@@ -201,35 +271,53 @@
 				<h4>Día tres</h4>
 			</div>
 			<div class="activity-body">
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>11.30 - 12.10</h5>
-					<h3>Charla 1</h3>
-					<p>Charla 1</p>
+					<h3>Charla #1</h3>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>12.15 - 13.00</h5>
-					<h3>Charla 2</h3>
-					<p>Charla 2</p>
+					<h3>Charla #2</h3>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>13.00 - 14.00</h5>
 					<h3>Almuerzo</h3>
-					<!-- <p></p> -->
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>14.00 - 15.40</h5>
 					<h3>Presentación de Posters</h3>
-					<p>Presentación de Posters</p>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>15.40 - 16.10</h5>
-					<h3>Ceremonia clausura</h3>
-					<!-- <p></p> -->
+					<h3>Ceremonia de Clausura</h3>
 				</div>
+				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>16.10 - 17.40</h5>
-					<h3>Pasea de Cierre</h3>
-					<!-- <p></p> -->
+					<h3>Paseo de Cierre</h3>
 				</div>
 			</div>
 		</div>
