@@ -14,8 +14,13 @@ var photos =
 $(
 	function() 
 	{
+		// Se comienza con una imagen y un texto:
+		$("#bannerImg1").attr( "src", photos[ 0 ].image );
+		$("#textoBanner").html(photos[ 0 ].firstline);
+
 		var interval;
-		/*// Backwards navigation
+		/*
+		// Backwards navigation
 		$("#back").click(
 			function() {
 				stopAnimation();
@@ -53,8 +58,8 @@ $(
 					slideshowSpeed
 				);
 			}
-		);*/
-		
+		);
+		*/
 		
 		var activeContainer = 1;	
 		var currentImg = 0;
@@ -124,9 +129,6 @@ $(
 			clearInterval(interval);
 		};
 		
-		// We should statically set the first image
-		
-		navigate("next");
 		
 		// Start playing the animation
 		interval = setInterval(
