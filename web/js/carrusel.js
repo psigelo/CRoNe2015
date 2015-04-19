@@ -85,25 +85,12 @@ $(
 					currentImg = photos.length;
 				}
 			}
-			
-			// Check which container we need to use
-			var currentContainer = activeContainer;
-			
-			if(activeContainer == 1)
-			{
-				activeContainer = 2;
-			} 
-			
-			else
-			{
-				activeContainer = 1;
-			}
-			
-			showImage( photos[ currentImg - 1 ], currentContainer, activeContainer);
+					
+			showImage( photos[ currentImg - 1 ]);
 		};
 		
 		var currentZindex = -1;
-		var showImage = function(photoObject, currentContainer, activeContainer) 
+		var showImage = function(photoObject) 
 		{
 			animating = true;
 			
@@ -111,15 +98,22 @@ $(
 			currentZindex--;
 			
 			// Set the background image of the new active container
-			$("#bannerImg" + activeContainer).css(
+			$("#bannerImg1").css(
 			{
 				"z-index" : currentZindex
 			});
-			$("#bannerImg" + activeContainer).attr( "src", photoObject.image );
-			$("#bannerImg" + currentContainer).fadeOut(400, function(){$("#bannerImg" + activeContainer).fadeIn(400);$("#textoBanner").fadeOut(1000, function(){$("#textoBanner").fadeIn(1000);$("#textoBanner").html(photoObject.firstline);} );} );
+			$("#bannerImg1").attr( "src", photoObject.image );
+			$("#bannerImg1").fadeOut(400, 
+				function()
+				{
+					$("#bannerImg1" ).fadeIn(400);
+					$("#textoBanner").fadeOut(1000, 
+						function(){
+							$("#textoBanner").fadeIn(1000);
+							$("#textoBanner").html(photoObject.firstline);
+						});
+				});
 			// Set the new header text
-
-			
 		};
 		
 		var stopAnimation = function() 

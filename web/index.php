@@ -4,8 +4,7 @@
 <!--banner-->
 <div class="banner">
 	<figure >
-		<img id="bannerImg1" >
-		<img id="bannerImg2">
+		<img id="bannerImg1">
 	</figure>
 	
 	<div class="container">
