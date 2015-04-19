@@ -25,6 +25,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- js -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/modernizr.custom.js"></script>
+
 	<!-- //js -->	
 	<!-- start-smoth-scrolling-->
 	<script type="text/javascript" src="js/move-top.js"></script>
@@ -45,6 +46,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 	</script>
 	<!--//end-smoth-scrolling-->
+	<!-- Carrusel: aqui es donde se realiza el cambio de imagen de la imagen principal del home -->
+	<script src="js/carrusel.js"></script>
+	<!-- End Carrusel -->
 </head>
 <body>
 

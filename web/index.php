@@ -3,11 +3,14 @@
 
 <!--banner-->
 <div class="banner">
+	<figure >
+		<img src="./images/MarioSalgado.jpg" id="bannerImg1" >
+		<img id="bannerImg2">
+	</figure>
+	
 	<div class="container">
-		<div class="banner-title"> 
-			<h4>¿Qué es CRONE?</h4>
-			<p>CRONE es un lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-			   Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<div class="banner-title" id="textoBanner"> 
+			
 		</div>
 	</div>
 </div>
