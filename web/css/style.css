@@ -136,6 +136,12 @@ span.menu {
     text-justify: distribute-all-lines;
 }
 .banner-bottom-org,
+.banner-bottom-pat {
+	width: 25%;
+	padding: 0 20px;
+	float: left;
+	text-align: center;
+}
 .banner-bottom-aus {
 	width: 50%;
 	padding: 0 20px;
@@ -143,10 +149,11 @@ span.menu {
 }
 .banner-bottom h5 {
 	text-align: center;
-	color: rgba(247,247,247,0.5);
+	color: #eaeaea;
 	padding: 20px 0;
-	border-bottom: 1px solid rgba(247,247,247,0.1); 
-	font-size: 18px;
+	border-bottom: 1px solid rgba(247,247,247,0.3); 
+	font-size: 19px;
+	font-weight: 500;
 }
 .banner-bottom-grids {
 	/*max-width: 500px;
@@ -322,8 +329,8 @@ span.menu {
 	position: relative;
 }
 .activity-body-item-description-img {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	overflow: hidden;
 	border-radius: 50%;
 	border: 5px solid rgba(33,33,33,0.2);
@@ -337,13 +344,13 @@ span.menu {
 .activity-body-item-description-img img {
     margin-top: -20%;
     padding: 0;
-    min-width: 150px;
-    min-height: 150px;
+    min-width: 100px;
+    min-height: 100px;
     margin-left: -5px; /* <- Ugly but necessary fix */
 }
 .activity-body-item-description-info {
 	text-align: center;
-	padding-top: 150px;
+	padding-top: 100px;
 }
 .activity-body-item-description-info h4 {
 	font-size: 20px;
@@ -353,8 +360,6 @@ span.menu {
 .activity-body-item-description-info h5 {
 	color: #888877;
 }
-
-
 /*--details--*/
 .expo-details {
 	padding: 8em 0;
@@ -385,9 +390,10 @@ span.menu {
 }
 .expo-details-img {
 	width: 30%;
-	position: absolute;
+/*	position: absolute;
 	top: 0;
-	right: 0;
+	right: 0;*/
+	float: left;
 }
 .expo-details h4 {
 	color: #333333;
@@ -807,6 +813,14 @@ table tr:hover td {
 		text-align: center;
 		width: 100%;
 	}
+	/*--banner-bottom--*/
+	.banner-bottom-org,
+	.banner-bottom-pat {
+		width: 50%;
+	}
+	.banner-bottom-aus {
+		width: 100%;
+	}
 	/*--expo--*/
 	.caption h5 {
 		font-size: 14px;
@@ -924,6 +938,7 @@ table tr:hover td {
 	    overflow: hidden;
 	    border-radius: 50%;
 	    border: 5px solid rgba(33,33,33,0.2);
+	    margin-top: 5em;
 	}
 	.expo-details-img img {
 	    margin-top: -20%;
@@ -966,10 +981,10 @@ table tr:hover td {
 		height: 90px;
 	}
 	/*--banner-bottom--*/
-	.banner-bottom-org,
+	/*.banner-bottom-org,
 	.banner-bottom-aus {
 		width: 100%;
-	}
+	}*/
 	/*--expo--*/
 	.expo{
 		padding: 3em 0;
@@ -983,6 +998,8 @@ table tr:hover td {
 	}
 	/*--details--*/
 	.expo-details-img {
+		position: absolute;
+		top: 0;
 	    margin: 0 auto;
 		left: 0;
 		right: 0;
@@ -1112,6 +1129,12 @@ table tr:hover td {
 	}
 	.banner-title h4 {
 		font-size: 22px;
+	}
+	/*--banner-bottom--*/
+	/*--banner-bottom--*/
+	.banner-bottom-pat,
+	.banner-bottom-org {
+		width: 100%;
 	}
 	/*--expo--*/
 	.expo {

@@ -2,19 +2,26 @@
 	<div class="banner-bottom">
 		<div class="container">
 			<div class="banner-bottom-org">
-				<h5>Organizan</h5>
-				<div class="banner-bottom-grids">
-					<img src="images/org-utfsm.png" alt=""/>
-				</div>
+				<h5>Organiza</h5>
 				<div class="banner-bottom-grids">
 					<img src="images/org-cr.png" alt=""/>
 				</div>
-				<span class="stretch"></span>
+				<!-- <span class="stretch"></span> -->
+			</div>
+			<div class="banner-bottom-pat">
+				<h5>Patrocina</h5>
+				<div class="banner-bottom-grids">
+					<img src="images/pat-utfsm.png" alt=""/>
+				</div>
+				<!-- <span class="stretch"></span> -->
 			</div>
 			<div class="banner-bottom-aus">
 				<h5>Auspician</h5>
 				<div class="banner-bottom-grids">
 					<img src="images/aus-feutfsm.png" alt=""/>
+				</div>
+				<div class="banner-bottom-grids">
+					<img src="images/aus-sotaltim.png" alt=""/>
 				</div>
 				<span class="stretch"></span>
 			</div>
