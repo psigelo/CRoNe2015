@@ -1,23 +1,24 @@
 	<!--banner-bottom-->
 	<div class="banner-bottom">
 		<div class="container">
-			<div class="banner-bottom-grids">
-				<img src="images/patro-utfsm.png" alt=""/>
+			<div class="banner-bottom-org">
+				<h5>Organizan</h5>
+				<div class="banner-bottom-grids">
+					<img src="images/org-utfsm.png" alt=""/>
+				</div>
+				<div class="banner-bottom-grids">
+					<img src="images/org-cr.png" alt=""/>
+				</div>
+				<span class="stretch"></span>
 			</div>
-			<div class="banner-bottom-grids">
-				<img src="images/patro-feutfsm.png" alt=""/>
+			<div class="banner-bottom-aus">
+				<h5>Auspician</h5>
+				<div class="banner-bottom-grids">
+					<img src="images/aus-feutfsm.png" alt=""/>
+				</div>
+				<span class="stretch"></span>
 			</div>
-<!-- 			<div class="banner-bottom-grids">
-				<img src="images/aus02.png" alt=""/>
-			</div>
-			<div class="banner-bottom-grids">
-				<img src="images/aus03.png" alt=""/>
-			</div>
-			<div class="banner-bottom-grids">
-				<img src="images/aus04.png" alt=""/>
-			</div> -->
-			<span class="stretch"></span>
-			<!-- <div class="clearfix"></div> -->
+			<div class="clearfix"></div>
 		</div>
 	</div>	
 	<!--//banner-bottom-->
@@ -56,10 +57,19 @@
 						<li><a href="#">INSCRIPCIÓN</a></li>
 						<li><a href="#header" class="scroll">CONTACTO</a></li>
 
+						<?php } elseif ((strcmp($current_page, "expo-details") == 0)) { ?>
+						
+						<li><a href="index.php">INICIO </a></li>
+						<li><a href="index.php#expo">EXPOSITORES</a></li> 
+						<li><a href="index.php#poster">POSTERS</a></li> 
+						<li><a href="index.php#activity">ACTIVIDADES</a></li>
+						<li><a href="#">INSCRIPCIÓN</a></li>
+						<li><a href="contact.php">CONTACTO</a></li>
+
 						<?php } ?>
 					</ul>
 				</div>
-				<div class="footer-grids-info">
+				<div class="footer-grids-info hide">
 					<h5>¡Suscríbete!</h5>
 					<p>Suscríbete y obtén información acerca de las distintas actividades.</p>
 					<form>
