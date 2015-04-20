@@ -23,7 +23,7 @@
 				</div>
 				<div class="col-md-8 contact-form-right">
 					<h4>FORMULARIO DE CONTACTO</h4>
-					<form>
+					<form action="MAILTO:contacto@crone2015.org" mehtod="GET" enctype="text/plain">
 						<input type="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}" required="">
 						<input type="email" value="Correo electrónico" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Correo electrónico';}" required="">
 						<input type="text" value="Teléfono" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Teléfono';}" required="">
