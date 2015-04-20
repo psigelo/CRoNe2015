@@ -40,7 +40,7 @@
 						<li>Valparaíso, Chile</li>
 						<li>Oficina A 526</li>
 						<li>+56 32 2654551</li>
-						<li><a href="#">correo@correo.com</a></li>
+						<li><a href="#">contacto@crone2015.org</a></li>
 					</ul>
 				</div>
 				<div class="footer-grids-info">
