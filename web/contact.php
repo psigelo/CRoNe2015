@@ -19,7 +19,7 @@
 					<p>Oficina A 526</p>
 					<p>Teléfono: +56 32 2654551</p>
 					<!-- <p>FAX: +1 800 889 9898</p> -->
-					<a href="mailto:correo@correo.com">correo@correo.com</a>
+					<a href="mailto:contacto@crone2015.org">contacto@crone2015.org</a>
 				</div>
 				<div class="col-md-8 contact-form-right">
 					<h4>FORMULARIO DE CONTACTO</h4>
