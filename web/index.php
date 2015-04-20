@@ -265,7 +265,14 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>15.40 - 17.40</h5>
-					<h3>Visita CINV</h3>
+					<h3>Visita CINV (Por confirmar)</h3>
+
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
 				</div>
 			</div>
 		</div>
