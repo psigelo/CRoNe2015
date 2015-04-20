@@ -40,7 +40,7 @@
 						<li>Valparaíso, Chile</li>
 						<li>Oficina A 526</li>
 						<li>+56 32 2654551</li>
-						<li><a href="#">correo@correo.com</a></li>
+						<li><a href="mailto:contacto@crone2015.org">contacto@crone2015.com</a></li>
 					</ul>
 				</div>
 				<div class="footer-grids-info">
@@ -67,9 +67,8 @@
 						<?php } elseif ((strcmp($current_page, "expo-details") == 0)) { ?>
 						
 						<li><a href="index.php">INICIO </a></li>
-						<li><a href="index.php#expo">EXPOSITORES</a></li> 
-						<li><a href="index.php#poster">POSTERS</a></li> 
-						<li><a href="index.php#activity">ACTIVIDADES</a></li>
+						<li><a href="#bio">BIOGRAFÍA</a></li> 
+						<li><a href="#talk">CHARLA</a></li> 
 						<li><a href="#">INSCRIPCIÓN</a></li>
 						<li><a href="contact.php">CONTACTO</a></li>
 
