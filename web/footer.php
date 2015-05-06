@@ -11,7 +11,7 @@
 			<div class="banner-bottom-pat">
 				<h5>Patrocina</h5>
 				<div class="banner-bottom-grids">
-					<img src="images/pat-utfsm.png" alt=""/>
+					<img src="images/pat-utfsm-color.png" alt=""/>
 				</div>
 				<!-- <span class="stretch"></span> -->
 			</div>
@@ -86,9 +86,9 @@
 				</div>
 				<div class="clearfix"></div>
 				<div class="social-media">
-					<a href="#" class="sb no-border light-gray facebook">Facebook</a>
-					<a href="#" class="sb no-border light-gray twitter">Twitter</a>
-					<a href="#" class="sb no-border light-gray vimeo">Facebook</a>
+					<a href="#" class="sb facebook">Facebook</a>
+					<a href="#" class="sb twitter">Twitter</a>
+					<a href="#" class="sb vimeo">Facebook</a>
 				</div>
 			</div>	
 			<div class="copy-right">
