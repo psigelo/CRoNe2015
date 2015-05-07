@@ -86,9 +86,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<?php } elseif ((strcmp($current_page, "contact") == 0)) { ?>
 					
 					<li><a href="index.php">INICIO </a></li>
-					<!-- <li><a href="index.php#expo">EXPOSITORES</a></li> 
+					<li><a href="index.php#expo">EXPOSITORES</a></li> 
 					<li><a href="index.php#poster">POSTERS</a></li> 
-					<li><a href="index.php#activity">ACTIVIDADES</a></li> -->
+					<li><a href="index.php#activity">ACTIVIDADES</a></li> 
 					<li><a href="#">INSCRIPCIÓN</a></li>
 					<li><a href="#header" class="scroll">CONTACTO</a></li>
 
