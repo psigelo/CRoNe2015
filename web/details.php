@@ -7,7 +7,7 @@
 <div class="expo-details">
 	<div class="container">
 
-		<?php if (strcmp($name, "jens-kober") == 0) { /* Temporary implementation*/ ?>
+		<?php if (strcmp($name, "jens-kober") == 0) { ?>
 
 			<div class="expo-details-grid" id="bio">
 				<h3>Jens Kober</h3>
@@ -23,7 +23,7 @@
 			</div>
 			<div class="expo-details-grid" id="talk">
 				<h3>Aprendizaje de Habilidades Motrices en Robótica</h3>
-				<h5>Charla N°3 : 21 de Octubre 14.00 - 14.45</h5>
+				<h5>21 de Octubre 14.00 - 14.45</h5>
 				<div class="expo-details-talk"> 	
 					<p>La adquisición y auto-mejora de novedosas habilidades motrices está entre los problemas más importantes en robótica. El aprendizaje por refuerzos y aprendizaje por imitación son dos diferentes pero complementarios enfoques en el aprendizaje de máquinas, comúnmente usados para aprender habilidades motrices.</p>
 					<p>El aprendizaje por refuerzos intenta maximizar una recompensa y en este contexto se usa para realizar mejoras. Se presenta un marco teórico para diferentes enfoques de búsqueda de políticas, y se discutirán específicas propiedades deseables para algoritmos de aprendizaje reforzado aplicado a robótica. Los algoritmos resultantes se usan para aprender nuevas habilidades motrices y adaptarlas de acuerdo a estímulos externos.</p>
@@ -31,11 +31,67 @@
 				</div>
 			</div>
 
-		<?php } else { /* Temporary implementation*/ ?>
+		<?php } elseif (strcmp($name, "ivan-dimov") == 0) { ?>
+
+			<div class="expo-details-grid" id="bio">
+				<h3>Ivan Dimov</h3>
+				<h5>Instituto de Células Madre y Medicina Regenerativa, Universidad de Stanford, CA, EE.UU.</h5>	
+				<div class="expo-details-info"> 					
+					<p>
+						Dr. Ivan Dimov es actualmente Instructor Visitante y Sieble Fellow en el Instituto de Células Madre 
+						y Medicina  Regenerativa de la Universidad de Stanford, CA, EE.UU.
+					</p>
+					<p>
+						Él es también Gerente científico y co-fundador de la  empresa de alta tecnología Diassess Inc. que 
+						está creando el primer test rápido de ADN en el mundo para  diagnosticar enfermedades infecciosas 
+						en cuestión de minutos en cualquier parte del mundo. También fue profesor  de investigación en 
+						Bioingeniería en la Universidad de California en Berkeley y profesor asistente en Ingeniería  
+						Biomédica en el Departamento de Ingeniería Biomédica de la Universidad de Valparaíso.
+					</p>
+					<p>
+						Dr. Dimov obtuvo el  título de Ing. Civil  Electrónica y Magíster en Ciencias de la Ingeniería Electrónica 
+						de la Universidad Técnica  Federico Santa María (UTFSM). Luego completo sus estudios doctorales en 
+						biofísica aplicada en el Instituto de  Diagnostico Biomédico (BDI) de Dublin City University en Irlanda. 
+						Él es co-fundador del Centro de Robótica de la  UTFSM y el Centro de Tecnología Hospitalaria (CTH) de la 
+						Universidad de Valparaíso. Adicionalmente, él ha co- fundado varias empresas tecnológicas, incluyendo 
+						Bio-automatización y BlobCode Ltda. Ambas empresas se basan  en nuevas tecnologías desarrolladas en el 
+						Centro de Robótica, UTFSM y la Universidad de Valparaíso.
+					</p>
+					<p>
+						Su  investigación actual esta focalizada en las áreas de micro-sistemas de análisis total (µTAS), 
+						micro-fluídica y micro- dispositivos para ensayos basados en células. Dr. Dimov es autor de más de 30 
+						publicaciones técnicas y 10 patentes  de invención internacionales.
+					</p>
+				</div>
+				<div class="expo-details-img"> 
+					<img class ="img-thumbnail" src="images/expo-ivan-dimov-2.jpg" alt=""/>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="expo-details-grid" id="talk">
+				<h3>Robótica para Terapia Celular</h3>
+				<h5><!-- Por confirmar --></h5>
+				<div class="expo-details-talk"> 	
+					<p>
+						La constante miniaturización tecnológica que ha inspirado la ley de Moore y propulsado la revolución 
+						informática ha creado la base para revolucionar las ciencias de la vida y el cuidado de la salud humana. 
+						Conceptualizada en los ’90 y basada en las herramientas de miniaturización de la industria de los circuitos 
+						integrados, la microfluídica  promete reducir los volúmenes de reacciones, acelerar la cinética de 
+						reacciones bioquímicas, integrar protocolos completos en un solo dispositivo y paralelizar masivamente 
+						los análisis.
+					</p>
+					<p>
+						En esta presentación explicare como la microfluidica se está combinando con la robótica para resolver un 
+						de los grandes problemas en la terapia celular, la purificación celular. 
+					</p>
+				</div>
+			</div>
+
+		<?php } else { ?>
 
 			<div class="error">!</br>Lo sentimos, el nombre que usted busca no se encuentra dentro de nuestra base de datos.</div>
 
-		<?php } /* Temporary implementation*/ ?>
+		<?php } ?>
 	</div>
 </div>
 <!--//expo-details-->
