@@ -54,7 +54,8 @@
 					<h5>Jens Kober</h5>
 				</div>
 				<div class="caption caption-bottom">
-					<h5>Delft Center for Systems and Control</br>TU Delft, The Netherlands</h5>
+					<h5>Centro de Delft de Sistemas y Control, </br>
+						Universidad Tecnológica de Delft, Países Bajos</h5>
 				</div>
 			</div>
 			<div class="expo-grids-info">
