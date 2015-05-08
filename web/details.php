@@ -11,7 +11,7 @@
 
 			<div class="expo-details-grid" id="bio">
 				<h3>Jens Kober</h3>
-				<h5>Delft Center for Systems and Control. TU Delft, The Netherlands.</h5>	
+				<h5>Centro de Delft de Sistemas y Control, Universidad Tecnológica de Delft, Países Bajos</h5>	
 				<div class="expo-details-info"> 
  					<p>Jens Kober es profesor asistente en el Centro de Sistemas y Control, en la Universidad Tecnológica Delft, Holanda. Trabajó como investigador postdoctoral en conjunto con el CoR-Lab, Universidad Bielefeld en Alemania y el Instituto de Investigación Europeo Honda, en Offenbach, Alemania. El 2012 se graduó de su Doctorado (PhD) en Ingeniería en la Universidad Tecnológica Darmstadt. Fue galardonado por su investigación de doctorado, con el premio anual Georges Giralt, por la mejor Tesis de Doctorado en Robótica, en todo Europa.</p>
  					<p>Desde el 2007 al 2012 trabajó con Jan Peters como estudiante de Magíster y luego como estudiante de Doctorado en el Robot Learning Lab, Departamento Bernhard Schölkopf, Instituto Max-Planck para Sistemas Inteligentes (inicialmente parte del MPI para Cibernética Biológica). Antes de esto, estudió en la Universidad de Stuttgart, Alemania y en la Ecole Centrale Paris, Francia. Ha realizado estadías de investigación en el Centro Avanzado de Investigación en Telecomunicaciones (ATR), Japón  y en Disney Research Pittsburgh, USA. Sus intereses de investigación incluyen robótica, aprendizaje de máquinas y control.</p>

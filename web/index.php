@@ -54,7 +54,8 @@
 					<h5>Jens Kober</h5>
 				</div>
 				<div class="caption caption-bottom">
-					<h5>Delft Center for Systems and Control</br>TU Delft, The Netherlands</h5>
+					<h5>Centro de Delft de Sistemas y Control, </br>
+						Universidad Tecnológica de Delft, Países Bajos</h5>
 				</div>
 			</div>
 			<div class="expo-grids-info">
@@ -69,7 +70,7 @@
 		</div>	
 		<div class="expo-grids">
 			<div class="expo-grids-info expo-top">
-				<a href="details.php?name=ivan-dimov"><img src="images/expo-ivan-dimov-2.jpg" alt=""/></a>
+				<a href="details.php?name=ivan-dimov" target="_blank"><img src="images/expo-ivan-dimov-2.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Ivan Dimov</h5>
 				</div>
@@ -193,7 +194,8 @@
 						</div>
 						<div class="activity-body-item-description-info"> 
 							<h4>Jens Kober</h4>
-							<h5>Delft Center for Systems and Control. TU Delft, The Netherlands.</h5>
+							<h5>Centro de Delft de Sistemas y Control, </br>
+						Universidad Tecnológica de Delft, Países Bajos</h5>
 						</div>						
 					</div>				
 				</div>
@@ -267,7 +269,8 @@
 						</div>
 						<div class="activity-body-item-description-info"> 
 							<h4>Ivan Dimov</h4>
-							<h5>Instituto de Células Madre y Medicina Regenerativa, Universidad de Stanford, CA, EE.UU.</h5>
+							<h5>Instituto de Células Madre y Medicina Regenerativa, </br>
+								Universidad de Stanford, CA, EE.UU.</h5>
 						</div>						
 					</div>
 				</div>
