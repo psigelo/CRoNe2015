@@ -3,7 +3,7 @@
 		<h3>Expositores</h3>
 		<div class="expo-grids">
 			<div class="expo-grids-info expo-top">
-				<a href="details.php?name=jens-kober" target="_blank"><img src="images/expo-jens-kober.jpg" alt=""/></a>
+				<a href="details.php?name=jens-kober" ><img src="images/expo-jens-kober.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Jens Kober</h5>
 				</div>
@@ -24,7 +24,7 @@
 		</div>	
 		<div class="expo-grids">
 			<div class="expo-grids-info expo-top">
-				<a href="details.php?name=ivan-dimov" target="_blank"><img src="images/expo-ivan-dimov-2.jpg" alt=""/></a>
+				<a href="details.php?name=ivan-dimov" ><img src="images/expo-ivan-dimov-2.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Ivan Dimov</h5>
 				</div>
