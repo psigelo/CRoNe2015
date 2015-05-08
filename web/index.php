@@ -194,7 +194,8 @@
 						</div>
 						<div class="activity-body-item-description-info"> 
 							<h4>Jens Kober</h4>
-							<h5>Delft Center for Systems and Control. TU Delft, The Netherlands.</h5>
+							<h5>Centro de Delft de Sistemas y Control, </br>
+						Universidad Tecnológica de Delft, Países Bajos</h5>
 						</div>						
 					</div>				
 				</div>
@@ -268,7 +269,8 @@
 						</div>
 						<div class="activity-body-item-description-info"> 
 							<h4>Ivan Dimov</h4>
-							<h5>Instituto de Células Madre y Medicina Regenerativa, Universidad de Stanford, CA, EE.UU.</h5>
+							<h5>Instituto de Células Madre y Medicina Regenerativa, </br>
+								Universidad de Stanford, CA, EE.UU.</h5>
 						</div>						
 					</div>
 				</div>
