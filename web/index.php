@@ -3,7 +3,7 @@
 
 <!--banner-->
 <div class="banner">
-	<figure >
+<!-- 	<figure >
 		<img id="bannerImg1">
 	</figure>
 	
@@ -12,11 +12,41 @@
 		<div class="banner-title" id="textoBanner"> 
 		
 		</div>
-	</div>
+	</div> -->
+
+
+	<!-- <div class="container"> -->
+		
+		<div id="owl-demo" class="owl-carousel owl-theme">
+			<div class="item">
+				<img src="images/banner.jpg" alt="Crabot">
+				<div class="banner-title"> 
+					<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
+					<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b>21 al 23 de Octubre</b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/banner.jpg" alt="Crabot">
+				<div class="banner-title"> 
+					<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
+					<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b>21 al 23 de Octubre</b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/banner.jpg" alt="Crabot">
+				<div class="banner-title"> 
+					<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
+					<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b>21 al 23 de Octubre</b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
+				</div>
+			</div>
+		</div>
+	<!-- </div> -->
 </div>
 <!--//banner-->
 <!--expo-->
+
 <?php include_once('expositores.php'); ?>
+
 <!--//expo-->
 <!--posters-->
 <div class="poster" id="poster">
@@ -80,7 +110,8 @@
 						</div>
 						<div class="activity-body-item-description-info"> 
 							<h4>Jens Kober</h4>
-							<h5>Delft Center for Systems and Control. TU Delft, The Netherlands.</h5>
+							<h5>Centro de Delft de Sistemas y Control, </br>
+						Universidad Tecnológica de Delft, Países Bajos</h5>
 						</div>						
 					</div>				
 				</div>
@@ -147,14 +178,15 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>12.15 - 13.00</h5>
-					<h3>Charla #2</h3>
+					<h3>Robótica para Terapia Celular</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-img"> 
-							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+							<img class ="img-thumbnail" src="images/expo-ivan-dimov-2.jpg" alt=""/>
 						</div>
 						<div class="activity-body-item-description-info"> 
-							<h4>Por confirmar</h4>
-							<h5>...</h5>
+							<h4>Ivan Dimov</h4>
+							<h5>Instituto de Células Madre y Medicina Regenerativa, </br>
+								Universidad de Stanford, CA, EE.UU.</h5>
 						</div>						
 					</div>
 				</div>
