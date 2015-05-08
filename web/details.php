@@ -96,4 +96,5 @@
 </div>
 <!--//expo-details-->
 
+<?php include_once('expositores.php'); ?>
 <?php include_once('footer.php'); ?>
