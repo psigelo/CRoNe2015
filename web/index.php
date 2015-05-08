@@ -70,7 +70,7 @@
 		</div>	
 		<div class="expo-grids">
 			<div class="expo-grids-info expo-top">
-				<a href="details.php?name=ivan-dimov"><img src="images/expo-ivan-dimov-2.jpg" alt=""/></a>
+				<a href="details.php?name=ivan-dimov" target="_blank"><img src="images/expo-ivan-dimov-2.jpg" alt=""/></a>
 				<div class="caption caption-top">
 					<h5>Ivan Dimov</h5>
 				</div>
