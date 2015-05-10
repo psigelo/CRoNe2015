@@ -1,0 +1,88 @@
+<speaker>
+	<name>Ivan Dimov</name>
+	<img>./images/expo-ivan-dimov.jpg</img>
+	
+	<es>
+		<institution> 
+			Instituto de Células Madre y Medicina Regenerativa, Universidad de Stanford, CA, EE.UU.
+		</institution>
+
+		<information>
+			<p>
+				Dr. Ivan Dimov es actualmente Instructor Visitante y Sieble Fellow en el Instituto de Células Madre 
+				y Medicina  Regenerativa de la Universidad de Stanford, CA, EE.UU.
+			</p>
+			<p>
+				Él es también Gerente científico y co-fundador de la  empresa de alta tecnología Diassess Inc. que 
+				está creando el primer test rápido de ADN en el mundo para  diagnosticar enfermedades infecciosas 
+				en cuestión de minutos en cualquier parte del mundo. También fue profesor  de investigación en 
+				Bioingeniería en la Universidad de California en Berkeley y profesor asistente en Ingeniería  
+				Biomédica en el Departamento de Ingeniería Biomédica de la Universidad de Valparaíso.
+			</p>
+			<p>
+				Dr. Dimov obtuvo el  título de Ing. Civil  Electrónica y Magíster en Ciencias de la Ingeniería Electrónica 
+				de la Universidad Técnica  Federico Santa María (UTFSM). Luego completo sus estudios doctorales en 
+				biofísica aplicada en el Instituto de  Diagnostico Biomédico (BDI) de Dublin City University en Irlanda. 
+				Él es co-fundador del Centro de Robótica de la  UTFSM y el Centro de Tecnología Hospitalaria (CTH) de la 
+				Universidad de Valparaíso. Adicionalmente, él ha co- fundado varias empresas tecnológicas, incluyendo 
+				Bio-automatización y BlobCode Ltda. Ambas empresas se basan  en nuevas tecnologías desarrolladas en el 
+				Centro de Robótica, UTFSM y la Universidad de Valparaíso.
+			</p>
+			<p>
+				Su  investigación actual esta focalizada en las áreas de micro-sistemas de análisis total (µTAS), 
+				micro-fluídica y micro- dispositivos para ensayos basados en células. Dr. Dimov es autor de más de 30 
+				publicaciones técnicas y 10 patentes  de invención internacionales.
+			</p>
+		</information>
+
+		<expositionDate> 
+			-
+		</expositionDate>
+
+		<titleTalk>
+			Robótica para Terapia Celular
+		</titleTalk>
+
+		<abstractTalk>
+			<p>
+				La constante miniaturización tecnológica que ha inspirado la ley de Moore y propulsado la revolución 
+				informática ha creado la base para revolucionar las ciencias de la vida y el cuidado de la salud humana. 
+				Conceptualizada en los ’90 y basada en las herramientas de miniaturización de la industria de los circuitos 
+				integrados, la microfluídica  promete reducir los volúmenes de reacciones, acelerar la cinética de 
+				reacciones bioquímicas, integrar protocolos completos en un solo dispositivo y paralelizar masivamente 
+				los análisis.
+			</p>
+			<p>
+				En esta presentación explicare como la microfluidica se está combinando con la robótica para resolver un 
+				de los grandes problemas en la terapia celular, la purificación celular. 
+			</p>
+		</abstractTalk>
+
+	</es>
+
+
+	<en>
+		
+		
+
+		<institution> 
+			uno
+		</institution>
+
+		<information>
+			dos
+		</information>
+
+		<expositionDate> 
+			21 de Oct 14.00 - 14.45 
+		</expositionDate>
+
+		<titleTalk>
+			tres
+		</titleTalk>
+
+		<abstractTalk>
+			cuatro
+		</abstractTalk>
+	</en>
+</speaker>

@@ -44,8 +44,14 @@
 </div>
 <!--//banner-->
 <!--expo-->
-<?php include_once('expositores.php'); ?>
-
+<div class="expo" id="expo"></div>
+<?php
+	echo "
+	<script>
+		createSpeakersGrid();
+	</script>
+	"
+?>
 
 <!--//expo-->
 <!--posters-->

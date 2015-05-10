@@ -1,0 +1,54 @@
+<speaker>
+	<name>Jens Kober</name>
+	<img>./images/expo-jens-kober.jpg</img>
+	
+	<es>
+		<institution> 
+			Centro de Delft de Sistemas y Control, Universidad Tecnológica de Delft, Países Bajos
+		</institution>
+
+		<information>
+			<p>Jens Kober es profesor asistente en el Centro de Sistemas y Control, en la Universidad Tecnológica Delft, Holanda. Trabajó como investigador postdoctoral en conjunto con el CoR-Lab, Universidad Bielefeld en Alemania y el Instituto de Investigación Europeo Honda, en Offenbach, Alemania. El 2012 se graduó de su Doctorado (PhD) en Ingeniería en la Universidad Tecnológica Darmstadt. Fue galardonado por su investigación de doctorado, con el premio anual Georges Giralt, por la mejor Tesis de Doctorado en Robótica, en todo Europa.</p>
+
+ 			<p>Desde el 2007 al 2012 trabajó con Jan Peters como estudiante de Magíster y luego como estudiante de Doctorado en el Robot Learning Lab, Departamento Bernhard Schölkopf, Instituto Max-Planck para Sistemas Inteligentes (inicialmente parte del MPI para Cibernética Biológica). Antes de esto, estudió en la Universidad de Stuttgart, Alemania y en la Ecole Centrale Paris, Francia. Ha realizado estadías de investigación en el Centro Avanzado de Investigación en Telecomunicaciones (ATR), Japón  y en Disney Research Pittsburgh, USA. Sus intereses de investigación incluyen robótica, aprendizaje de máquinas y control.</p>
+		</information>
+
+		<expositionDate> 
+			21 de Octubre 14.00 - 14.45 
+		</expositionDate>
+
+		<titleTalk>
+			Aprendizaje de Habilidades Motrices en Robótica
+		</titleTalk>
+
+		<abstractTalk>
+			<p>La adquisición y auto-mejora de novedosas habilidades motrices está entre los problemas más importantes en robótica. El aprendizaje por refuerzos y aprendizaje por imitación son dos diferentes pero complementarios enfoques en el aprendizaje de máquinas, comúnmente usados para aprender habilidades motrices.</p>
+			<p>El aprendizaje por refuerzos intenta maximizar una recompensa y en este contexto se usa para realizar mejoras. Se presenta un marco teórico para diferentes enfoques de búsqueda de políticas, y se discutirán específicas propiedades deseables para algoritmos de aprendizaje reforzado aplicado a robótica. Los algoritmos resultantes se usan para aprender nuevas habilidades motrices y adaptarlas de acuerdo a estímulos externos.</p>
+    		<p>El aprendizaje por imitación intenta imitar demostraciones humanas. De forma que el robot es capaz de generalizar los movimientos observados a través de prmación extraída a partir de propiedades estadísticas. Esta charla presenta los primeros pasos hacia el aprendizaje por imitación de habilidades con interacción de fuerza, es decir, habilidades donde la fuerza aplicada por el robot en cierto entorno juega un rol crucial, impactando también en las siguientes sub-habilidades.</p>
+		</abstractTalk>
+
+	</es>
+
+
+	<en>
+		<institution> 
+			uno
+		</institution>
+
+		<information>
+			dos
+		</information>
+
+		<expositionDate> 
+			21 de Oct 14.00 - 14.45 
+		</expositionDate>
+
+		<titleTalk>
+			tres
+		</titleTalk>
+
+		<abstractTalk>
+			cuatro
+		</abstractTalk>
+	</en>
+</speaker>

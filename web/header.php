@@ -63,6 +63,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 	</script>
 	<!--//end-smoth-scrolling-->
+	<script type="text/javascript" src="js/speakers.js"></script>	
+
 </head>
 <body>
 
