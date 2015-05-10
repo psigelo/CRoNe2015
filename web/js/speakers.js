@@ -57,7 +57,7 @@ function createSpeakersGrid(){
 		var div_3 = document.createElement('div');
 		div_3.setAttribute('class','expo-grids-info expo-top');
 		var a_1 = document.createElement('a');
-		a_1.setAttribute('href','?name=' + speakerText+ '&language=es');
+		a_1.setAttribute('href','details.php?name=' + speakerText+ '&language=es');
 		var img_1 = document.createElement('img');
 
 		$(img_1).attr('src', $(spikerXML.getElementsByTagName("img")[0]).text() );
