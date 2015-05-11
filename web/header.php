@@ -13,6 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href="css/social-buttons.css" rel="stylesheet">
 	<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet">
 	<link href="css/owl-carousel/owl.theme.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 
 	<!--web-font-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
