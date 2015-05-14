@@ -1,0 +1,54 @@
+<speaker>
+	<name>Manuel Olivares</name>
+	<img>./images/expo-manuel-olivares.jpg</img>
+	
+	<es>
+		<institution> 
+			Departamento de Electrónica, Universidad Técnica Federico Santa María, Chile
+		</institution>
+
+		<information>
+			<p>Dr. Manuel Olivares es profesor del Departamento de Electrónica, de la Universidad Técnica Federico Santa María, Chile. Recibió el título de Ingeniero Civil Electrónico de esta misma casa de estudios, y se graduó como Doctor Ingeniero Industrial en la Universidad Politécnica de Valencia, España.</p>
+
+			<p>Dr. Olivares ha participado en más de 30 proyectos de investigación y desarrollo, es autor de múltiples publicaciones técnicas, y presentaciones a nivel internacional. Su última estadía de investigación se realizó en el Advanced Mechatronics Lab. de la Universidad de Texas en Austin, 2013. El académico colabora además, con el Centro Multidisciplinario de Innovación y Transferencia Tecnológica CASIM: Centro de Automatización y Supervisión para la Industria Minera.</p>
+
+ 			<p>Sus intereses de investigación incluyen control adaptivo, sistemas de control con aprendizaje, modelado y control con sistemas difusos, y robótica industrial.</p>
+		</information>
+
+		<expositionDate> 
+			Por confirmar 
+		</expositionDate>
+
+		<titleTalk>
+			Por confirmar
+		</titleTalk>
+
+		<abstractTalk>
+			<p>Pronto.</p>
+		</abstractTalk>
+
+	</es>
+
+
+	<en>
+		<institution> 
+			uno
+		</institution>
+
+		<information>
+			dos
+		</information>
+
+		<expositionDate> 
+			21 de Oct 14.00 - 14.45 
+		</expositionDate>
+
+		<titleTalk>
+			tres
+		</titleTalk>
+
+		<abstractTalk>
+			cuatro
+		</abstractTalk>
+	</en>
+</speaker>

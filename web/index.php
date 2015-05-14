@@ -187,7 +187,7 @@
 					<h3>Robótica para Terapia Celular</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-img"> 
-							<img class ="img-thumbnail" src="images/expo-ivan-dimov-2.jpg" alt=""/>
+							<img class ="img-thumbnail" src="images/expo-ivan-dimov.jpg" alt=""/>
 						</div>
 						<div class="activity-body-item-description-info"> 
 							<h4>Ivan Dimov</h4>
