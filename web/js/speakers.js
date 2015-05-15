@@ -163,8 +163,9 @@ function createSpeakersCarrousel(){
 		a_1.appendChild(img_1);
 		div_5.appendChild(h5_2);
 		div_4.appendChild(h5_1);
+		a_1.appendChild(div_4);
+		a_1.appendChild(div_5);
 		div_3.appendChild(a_1);
-		div_3.appendChild(div_4);
 		div_3.appendChild(div_5);
 		div_2.appendChild(div_3);
 		raiz.appendChild(div_2);
@@ -177,8 +178,6 @@ function createSpeakersCarrousel(){
 		div_2.setAttribute('class','item');
 		var div_3 = document.createElement('div');
 		div_3.setAttribute('class','expo-grids-info expo-top');
-		var a_1 = document.createElement('a');
-		a_1.setAttribute('href','#');
 		var img_1 = document.createElement('img');
 
 		$(img_1).attr('src', 'images/expo-unknown.jpg' );
@@ -197,10 +196,10 @@ function createSpeakersCarrousel(){
 		var h5_2 = document.createElement('h5');
 		$(h5_2).html( '-' );
 
-		a_1.appendChild(img_1);
+		
 		div_5.appendChild(h5_2);
 		div_4.appendChild(h5_1);
-		div_3.appendChild(a_1);
+		div_3.appendChild(img_1);
 		div_3.appendChild(div_4);
 		div_3.appendChild(div_5);
 		div_2.appendChild(div_3);
