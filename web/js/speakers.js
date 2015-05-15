@@ -6,19 +6,19 @@ function loadXMLDoc(filename)
 	}
 	else // code for IE5 and IE6
 	{
-		xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		xhttp=new ActiveXObject('Microsoft.XMLHTTP');
 	}
-	xhttp.open("GET",filename,false);
+	xhttp.open('GET',filename,false);
 	xhttp.send();
 	return xhttp.responseXML;
 } 
 
 
 function createSpekerInformation(speaker, language){
-	var speakerXML = loadXMLDoc("./speakers/"+ speaker + ".xml");
+	var speakerXML = loadXMLDoc('./speakers/'+ speaker + '.xml');
 	var languageXML = speakerXML.getElementsByTagName(language)[0];
 
-	var img = $(speakerXML.getElementsByTagName("img")[0]);
+	var img = $(speakerXML.getElementsByTagName('img')[0]);
 	var name = $(speakerXML.getElementsByTagName('name')[0]);
 	var institution = $(languageXML.getElementsByTagName('institution')[0]);
 	var information = $(languageXML.getElementsByTagName('information')[0]);
@@ -26,31 +26,31 @@ function createSpekerInformation(speaker, language){
 	var titleTalk = $(languageXML.getElementsByTagName('titleTalk')[0]);
 	var abstractTalk = $(languageXML.getElementsByTagName('abstractTalk')[0]);
 
-	$(document.getElementById("bio-name")).html( name.html() );
-	$(document.getElementById("bio-institution")).html( institution.html() );
-	$(document.getElementById("bio-information")).html( information.html() );
-	$(document.getElementById("talk-title")).html( titleTalk.html() );
-	$(document.getElementById("talk-date")).html( expositionDate.html() );
-	$(document.getElementById("talk-information")).html( abstractTalk.html() );
-	$(document.getElementById("bio-image")).attr('src',img.text());
+	$(document.getElementById('bio-name')).html( name.html() );
+	$(document.getElementById('bio-institution')).html( institution.html() );
+	$(document.getElementById('bio-information')).html( information.html() );
+	$(document.getElementById('talk-title')).html( titleTalk.html() );
+	$(document.getElementById('talk-date')).html( expositionDate.html() );
+	$(document.getElementById('talk-information')).html( abstractTalk.html() );
+	$(document.getElementById('bio-image')).attr('src',img.text());
 }
 
 
 function createSpeakersGrid(){
-	var language = "es";
-	var speakerIndexXML = loadXMLDoc("./speakers/index.xml");
+	var language = 'es';
+	var speakerIndexXML = loadXMLDoc('./speakers/index.xml');
 
-	var grid = document.getElementById("expo");
+	var grid = document.getElementById('expo');
 	var div_1 = document.createElement('div');
 	var title = document.createElement('h3');
 	div_1.setAttribute('class','container');
-	$(title).html("Expositores");
+	$(title).html('Expositores');
 	div_1.appendChild(title);
 
-		for (var i = 0; i < speakerIndexXML.getElementsByTagName("speaker").length; i++) 
+		for (var i = 0; i < speakerIndexXML.getElementsByTagName('speaker').length; i++) 
 		{
-			var speakerText = $(speakerIndexXML.getElementsByTagName("speaker")[i]).html();
-			var spikerXML = loadXMLDoc("./speakers/"+speakerText+".xml");
+			var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).html();
+			var spikerXML = loadXMLDoc('./speakers/'+speakerText+'.xml');
 			var languageXML = spikerXML.getElementsByTagName(language)[0];
 			var div_2 = document.createElement('div');
 			div_2.setAttribute('class','expo-grids');
@@ -60,20 +60,20 @@ function createSpeakersGrid(){
 			a_1.setAttribute('href','details.php?name=' + speakerText+ '&language='+language);
 			var img_1 = document.createElement('img');
 
-			$(img_1).attr('src', $(spikerXML.getElementsByTagName("img")[0]).text() );
+			$(img_1).attr('src', $(spikerXML.getElementsByTagName('img')[0]).text() );
 
 			var div_4 = document.createElement('div');
 			div_4.setAttribute('class','caption caption-top');
 
 			var h5_1 = document.createElement('h5');
-			$(h5_1).html( $(spikerXML.getElementsByTagName("name")[0]).text() );
+			$(h5_1).html( $(spikerXML.getElementsByTagName('name')[0]).text() );
 
 			var div_5 = document.createElement('div');
 			div_5.setAttribute('class','caption caption-bottom');
 
 
 			var h5_2 = document.createElement('h5');
-			$(h5_2).html( $(languageXML.getElementsByTagName("institution")[0]).text() );
+			$(h5_2).html( $(languageXML.getElementsByTagName('institution')[0]).text() );
 
 			a_1.appendChild(img_1);
 			div_5.appendChild(h5_2);
@@ -85,7 +85,7 @@ function createSpeakersGrid(){
 			div_1.appendChild(div_2);
 		};
 
-	for (var i = 0; i < 8-speakerIndexXML.getElementsByTagName("speaker").length; i++) 
+	for (var i = 0; i < 8-speakerIndexXML.getElementsByTagName('speaker').length; i++) 
 	{
 
 			var div_2 = document.createElement('div');
@@ -96,20 +96,20 @@ function createSpeakersGrid(){
 			a_1.setAttribute('href','#');
 			var img_1 = document.createElement('img');
 
-			$(img_1).attr('src', "images/expo-unknown.jpg" );
+			$(img_1).attr('src', 'images/expo-unknown.jpg' );
 
 			var div_4 = document.createElement('div');
 			div_4.setAttribute('class','caption caption-top');
 
 			var h5_1 = document.createElement('h5');
-			$(h5_1).html( "Por confirmar" );
+			$(h5_1).html( 'Por confirmar' );
 
 			var div_5 = document.createElement('div');
 			div_5.setAttribute('class','caption caption-bottom');
 
 
 			var h5_2 = document.createElement('h5');
-			$(h5_2).html( "-" );
+			$(h5_2).html( '-' );
 
 			a_1.appendChild(img_1);
 			div_5.appendChild(h5_2);
@@ -129,16 +129,16 @@ function createSpeakersGrid(){
 
 
 function createSpeakersCarrousel(){
-	var language = "es";
-	var speakerIndexXML = loadXMLDoc("./speakers/index.xml");
-	var raiz = document.getElementById("owl-speaker");
+	var language = 'es';
+	var speakerIndexXML = loadXMLDoc('./speakers/index.xml');
+	var raiz = document.getElementById('owl-speaker');
 	var title = document.getElementById('expositores_title');
-	$(title).html("Expositores");
+	$(title).html('Expositores');
 
-	for (var i = 0; i < speakerIndexXML.getElementsByTagName("speaker").length; i++) 
+	for (var i = 0; i < speakerIndexXML.getElementsByTagName('speaker').length; i++) 
 	{
-		var speakerText = $(speakerIndexXML.getElementsByTagName("speaker")[i]).html();
-		var spikerXML = loadXMLDoc("./speakers/"+speakerText+".xml");
+		var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).html();
+		var spikerXML = loadXMLDoc('./speakers/'+speakerText+'.xml');
 		var languageXML = spikerXML.getElementsByTagName(language)[0];
 		var div_2 = document.createElement('div');
 		div_2.setAttribute('class','item');
@@ -147,19 +147,19 @@ function createSpeakersCarrousel(){
 		var a_1 = document.createElement('a');
 		a_1.setAttribute('href','details.php?name=' + speakerText+ '&language='+language);
 		var img_1 = document.createElement('img');
-		$(img_1).attr('src', $(spikerXML.getElementsByTagName("img")[0]).text() );
-		$(img_1).attr('height', "90%" );
-		$(img_1).attr('width', "90%" );
+		$(img_1).attr('src', $(spikerXML.getElementsByTagName('img')[0]).text() );
+		$(img_1).attr('height', '90%' );
+		$(img_1).attr('width', '90%' );
 		var div_4 = document.createElement('div');
 		div_4.setAttribute('class','caption caption-top');
 		var h5_1 = document.createElement('h5');
-		$(h5_1).html( $(spikerXML.getElementsByTagName("name")[0]).text() );
+		$(h5_1).html( $(spikerXML.getElementsByTagName('name')[0]).text() );
 
 		var div_5 = document.createElement('div');
 		div_5.setAttribute('class','caption caption-bottom');
 
 		var h5_2 = document.createElement('h5');
-		$(h5_2).html( $(languageXML.getElementsByTagName("institution")[0]).text() );
+		$(h5_2).html( $(languageXML.getElementsByTagName('institution')[0]).text() );
 		a_1.appendChild(img_1);
 		div_5.appendChild(h5_2);
 		div_4.appendChild(h5_1);
@@ -170,7 +170,7 @@ function createSpeakersCarrousel(){
 		raiz.appendChild(div_2);
 	};
 
-	for (var i = 0; i < 8-speakerIndexXML.getElementsByTagName("speaker").length; i++) 
+	for (var i = 0; i < 8-speakerIndexXML.getElementsByTagName('speaker').length; i++) 
 	{
 
 		var div_2 = document.createElement('div');
@@ -181,21 +181,21 @@ function createSpeakersCarrousel(){
 		a_1.setAttribute('href','#');
 		var img_1 = document.createElement('img');
 
-		$(img_1).attr('src', "images/expo-unknown.jpg" );
-		$(img_1).attr('height', "90%" );
-		$(img_1).attr('width', "90%" );
+		$(img_1).attr('src', 'images/expo-unknown.jpg' );
+		$(img_1).attr('height', '90%' );
+		$(img_1).attr('width', '90%' );
 		var div_4 = document.createElement('div');
 		div_4.setAttribute('class','caption caption-top');
 
 		var h5_1 = document.createElement('h5');
-		$(h5_1).html( "Por confirmar" );
+		$(h5_1).html( 'Por confirmar' );
 
 		var div_5 = document.createElement('div');
 		div_5.setAttribute('class','caption caption-bottom');
 
 
 		var h5_2 = document.createElement('h5');
-		$(h5_2).html( "-" );
+		$(h5_2).html( '-' );
 
 		a_1.appendChild(img_1);
 		div_5.appendChild(h5_2);
