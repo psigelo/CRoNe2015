@@ -11,7 +11,7 @@ function loadXMLDoc(filename)
 	xhttp.open('GET',filename,false);
 	xhttp.send();
 	return xhttp.responseXML;
-} 
+}
 
 
 function createSpekerInformation(speaker, language){
@@ -78,9 +78,9 @@ function createSpeakersGrid(){
 			a_1.appendChild(img_1);
 			div_5.appendChild(h5_2);
 			div_4.appendChild(h5_1);
+			a_1.appendChild(div_4);
+			a_1.appendChild(div_5);
 			div_3.appendChild(a_1);
-			div_3.appendChild(div_4);
-			div_3.appendChild(div_5);
 			div_2.appendChild(div_3);
 			div_1.appendChild(div_2);
 		};

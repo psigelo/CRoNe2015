@@ -64,45 +64,49 @@
 </div> -->
 
 
-<?php include_once('footer.php'); ?>
+
 
 <?php
 	echo "
-	<script>
-		createSpekerInformation('$name', '$language');
-		createSpeakersCarrousel();
-	</script>
+	
 		
-	"
-?>
+	<script>
+		
+	
 
-<script>
   $(document).ready(function() {
- 
-  var owl = $("#owl-speaker");
+ 	createSpekerInformation('$name', '$language');
+  createSpeakersCarrousel();
+  var owl = $('#owl-speaker');
  
   owl.owlCarousel({
       items : 6, //10 items above 1000px browser width
-      itemsDesktop : [1000,4], //5 items between 1000px and 901px
-      itemsDesktopSmall : [900,3], // betweem 900px and 601px
+      itemsDesktop : [1000,6], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,5], // betweem 900px and 601px
       itemsTablet: [600,2], //2 items between 600 and 0
       itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
   });
  
  /* // Custom Navigation Events
-  $(".next").click(function(){
+  $('.next').click(function(){
     owl.trigger('owl.next');
   })
-  $(".prev").click(function(){
+  $('.prev').click(function(){
     owl.trigger('owl.prev');
   })
-  $(".play").click(function(){
+  $('.play').click(function(){
     owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
   })
-  $(".stop").click(function(){
+  $('.stop').click(function(){
     owl.trigger('owl.stop');
   })
 */
   owl.trigger('owl.play',2500);
+  
 });
 </script>
+
+";
+?>
+
+<?php include_once('footer.php'); ?>
