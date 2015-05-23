@@ -242,6 +242,37 @@ span.menu {
 .poster-img img {
 	width: 100%;
 }
+.posterf-title{
+	position:absolute;
+	width: 26%;
+	top: 7%;
+	right: 7%;
+	padding: 30px;
+	background-color: rgba(0,43,54,0.8);
+    /*background-color:rgba(0,0,0,0.8);
+    -webkit-border-radius:.5em;
+    border-radius:.5em;
+    -webkit-box-shadow:0 0 10px #000;
+    box-shadow:0 0 10px #000;*/
+    
+}
+.posterf-title h4{
+	margin: 0 0 1em;
+	font-size: 25px;
+	font-weight: 400;
+	color:#e5e5e7;
+	font-weight: 600;
+	text-shadow: 1px 1px 3px black;
+}
+.posterf-title p{
+	margin: 0;
+	font-size: 15px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	color:#f3f6ed;
+	text-shadow: 0 0 2px black;
+}
 /*--activity--*/
 .activity {
 	padding: 8em 0;
