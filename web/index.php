@@ -39,10 +39,9 @@
 <div class="poster" id="poster">
 	<div class="container">
 		<h3>Llamado a Posters</h3>
-		<div class="poster-grids">
-			<img src="images/banner-posters-square.png" alt=""/>
-		</div>
+		<div class="poster-grids"></div>
 	</div>
+	<img class="poster-img" src="images/banner-posters-square.png" alt=""/>
 </div>
 <!--//posters-->
 <!--activity-->

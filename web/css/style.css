@@ -221,10 +221,10 @@ span.menu {
 	margin: 0 0 1em 14px;
 }
 .poster-grids {
-	/*background-color: #e5e8ee;*/
-	margin: 50px 0;
-	/*border-radius: 3px;*/
-	border-top: 5px solid #e5e5e7;
+	/*background-color: #e5e8ee;
+	padding: 50px 0;
+	/*border-radius: 3px;
+	border-top: 5px solid #e5e5e7;*/
 }
 .poster-grids p {
 	text-align: center;
@@ -232,11 +232,12 @@ span.menu {
 	font-weight: 500;
 	color: #073642;
 }
-.poster-grids img {
+.poster-img {
 	width: 100%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    border-top: 5px solid #e5e5e7;
 }
 /*--activity--*/
 .activity {
