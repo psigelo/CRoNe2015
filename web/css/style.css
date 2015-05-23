@@ -224,6 +224,7 @@ span.menu {
 	/*background-color: #e5e8ee;*/
 	padding: 50px 0;
 	border-radius: 3px;
+	border-top: 5px solid #e5e5e7;
 }
 .poster-grids p {
 	text-align: center;
