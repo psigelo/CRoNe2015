@@ -3,20 +3,7 @@
 
 <!--banner-->
 <div class="banner">
-<!-- 	<figure >
-		<img id="bannerImg1">
-	</figure>
-	
-	<div class="container">
-
-		<div class="banner-title" id="textoBanner"> 
-		
-		</div>
-	</div> -->
-
-
 	<!-- <div class="container"> -->
-		
 		<div id="owl-demo" class="owl-carousel owl-theme">
 			<div class="item">
 				<img src="images/banner.jpg" alt="Crabot">
@@ -53,7 +40,7 @@
 	<div class="container">
 		<h3>Llamado a Posters</h3>
 		<div class="poster-grids">
-			<p>Estamos trabajando para usted</p>
+			<img src="images/banner-posters-square.png" alt=""/>
 		</div>
 	</div>
 </div>
