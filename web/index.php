@@ -41,7 +41,13 @@
 		<h3>Llamado a Posters</h3>
 		<div class="poster-grids"></div>
 	</div>
-	<img class="poster-img" src="images/banner-posters-square.png" alt=""/>
+	<div class="poster-img">
+		<img src="images/banner-posters-square.png" alt=""/>
+		<div class="banner-title"> 
+			<h4>¡Ven y presenta tu trabajo!</h4>
+			<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>07 de Agosto</b></p>
+		</div>
+	</div>
 </div>
 <!--//posters-->
 <!--activity-->
