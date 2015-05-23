@@ -242,7 +242,7 @@ span.menu {
 .poster-img img {
 	width: 100%;
 }
-.posterf-title{
+.poster-title{
 	position:absolute;
 	width: 26%;
 	top: 7%;
@@ -256,7 +256,7 @@ span.menu {
     box-shadow:0 0 10px #000;*/
     
 }
-.posterf-title h4{
+.poster-title h4{
 	margin: 0 0 1em;
 	font-size: 25px;
 	font-weight: 400;
@@ -264,7 +264,7 @@ span.menu {
 	font-weight: 600;
 	text-shadow: 1px 1px 3px black;
 }
-.posterf-title p{
+.poster-title p{
 	margin: 0;
 	font-size: 15px;
 	font-weight: 100;
