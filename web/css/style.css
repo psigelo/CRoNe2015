@@ -233,11 +233,39 @@ span.menu {
 	color: #073642;
 }
 .poster-img {
-	width: 100%;
-	display: block;
+/*	display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     border-top: 5px solid #e5e5e7;
+    position: relative;
+}
+.poster-img img {
+	width: 100%;
+}
+.poster-title {
+	position:absolute;
+	width: 35%;
+	top: 7%;
+	right: 7%;
+	padding: 30px;
+	background-color: rgba(0,43,54,0.8);    
+}
+.poster-title h4 {
+	margin: 0 0 1em;
+	font-size: 28px;
+	font-weight: 400;
+	color:#e5e5e7;
+	font-weight: 600;
+	text-shadow: 1px 1px 3px black;
+}
+.poster-title p {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	color:#f3f6ed;
+	text-shadow: 0 0 2px black;
 }
 /*--activity--*/
 .activity {
