@@ -40,7 +40,7 @@
 
 
 	<h2>Temas de interés</h2>
-	<p>Los temas de interés incluyen, pero no se limitan a:</p>
+	<p>Los temas de interés incluyen, pero <b>no se limitan</b> a:</p>
 	<ul>
 	<li>Aprendizaje de máquinas</li>
 	<li>Robótica Cognitiva</li>
@@ -57,9 +57,9 @@
 	
 	<h2>Fechas Importantes</h2>
 	<ul>
-		<li>Envío de resumen extendido: 07 de agosto</li>
-		<li>Notificación de resultados: 28 de agosto</li>
-		<li>Exposición: 23 de octubre</li>
+		<li><b>Envío de resumen extendido</b>: 07 de agosto</li>
+		<li><b>Notificación de resultados</b>: 28 de agosto</li>
+		<li><b>Exposición</b>: 23 de octubre</li>
 	</ul>
 
 
