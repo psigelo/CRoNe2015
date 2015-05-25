@@ -6,7 +6,7 @@
 	<!-- <div class="container"> -->
 		<div id="owl-demo" class="owl-carousel owl-theme">
 			<div class="item">
-				<img src="images/banner.jpg" alt="Crabot">
+				<img src="images/banner2.jpg" alt="Crabot">
 				<div class="banner-title"> 
 					<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
 					<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b>21 al 23 de Octubre</b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>

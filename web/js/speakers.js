@@ -59,7 +59,6 @@ function createSpeakersGrid(){
 			var a_1 = document.createElement('a');
 			a_1.setAttribute('href','details.php?name=' + speakerText+ '&language='+language);
 			var img_1 = document.createElement('img');
-
 			$(img_1).attr('src', $(spikerXML.getElementsByTagName('img')[0]).text() );
 
 			var div_4 = document.createElement('div');
