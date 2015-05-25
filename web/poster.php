@@ -33,8 +33,8 @@
 
 	<h2>Procedimiento</h2>
 	<ul>
-		<li>Envía un resumen extendido de tu trabajo de investigación o desarrollo, a poster@crone2015.org hasta el 07 de Agosto</li>
-		<li> El 28 de Agosto recibirás una notificación con la decisión de aceptación de tu trabajo </li>
+		<li>Envía un resumen extendido de tu trabajo de investigación o desarrollo, a <b>poster@crone2015.org</b> hasta el <b>07 de Agosto</b></li>
+		<li> El <b>28 de Agosto</b> recibirás una notificación con la decisión de aceptación de tu trabajo </li>
 		<li>Trae tu póster impreso al evento, según las guías que se te indicarán en el correo de aceptación previamente enviado</li>
 	</ul>
 
