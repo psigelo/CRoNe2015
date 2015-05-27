@@ -6,24 +6,17 @@
 	<!-- <div class="container"> -->
 		<div id="owl-demo" class="owl-carousel owl-theme">
 			<div class="item">
-				<img src="images/banner.jpg" alt="Crabot">
-				<div class="banner-title"> 
+				<img src="images/banner-crabot.jpg" alt="Crabot">
+				<div class="banner-title" id="banner-crabot"> 
 					<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
 					<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b>21 al 23 de Octubre</b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
 				</div>
 			</div>
 			<div class="item">
-				<img src="images/banner.jpg" alt="Crabot">
-				<div class="banner-title"> 
-					<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
-					<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b>21 al 23 de Octubre</b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/banner.jpg" alt="Crabot">
-				<div class="banner-title"> 
-					<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
-					<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b>21 al 23 de Octubre</b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
+				<img src="images/banner-poster.png" alt="Posters">
+				<div class="banner-title" id="banner-poster"> 
+					<h4>Se inicia llamado a pósters</h4>
+					<p>Envía tu resumen extendido a <b>poster@crone2015.org</b></br>Plazo hasta el <b>07 de Agosto</b></br></br>Para mayor información visite la sección <a href="poster.php">Posters</a></p>
 				</div>
 			</div>
 		</div>
@@ -43,7 +36,7 @@
 	</div>
 	<div class="poster-img">
 	 	<a href="poster.php">
-			<img src="images/banner-posters-square.png" alt=""/>
+			<img src="images/banner-poster-square.png" alt=""/>
 		
 			<div class="poster-title"> 
 				<h4>¡Ven y presenta tu trabajo!</h4>

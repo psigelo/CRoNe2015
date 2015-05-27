@@ -121,21 +121,29 @@ span.menu {
 	height:660px;
 	position:relative;
 }*/
-.banner-title{
-	position:absolute;
+#banner-crabot {
 	width: 26%;
 	top: 7%;
-	right: 7%;
-	padding: 30px;
-	background-color: rgba(0,43,54,0.4);
-    /*background-color:rgba(0,0,0,0.8);
-    -webkit-border-radius:.5em;
-    border-radius:.5em;
-    -webkit-box-shadow:0 0 10px #000;
-    box-shadow:0 0 10px #000;*/
-    
+	right: 7%;		
+	background-color: rgba(0,43,54,0.4); 
 }
-.banner-title h4{
+#banner-poster {
+	width: 35%;
+	top: 20%;
+	right: 7%;		
+	background-color: rgba(0,43,54,0.6); 
+}
+.banner-title {
+	position: absolute;
+	padding: 30px;    
+}
+.banner-title a {
+	color: #9af1f8;    
+}
+.banner-title a:hover {
+	color: #2aa198;    
+}
+.banner-title h4 {
 	margin: 0 0 1em;
 	font-size: 25px;
 	font-weight: 400;
@@ -143,7 +151,7 @@ span.menu {
 	font-weight: 600;
 	text-shadow: 1px 1px 3px black;
 }
-.banner-title p{
+.banner-title p {
 	margin: 0;
 	font-size: 15px;
 	font-weight: 100;
