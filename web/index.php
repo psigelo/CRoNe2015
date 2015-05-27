@@ -51,6 +51,11 @@
 			</div>
 		</a>
 	</div>
+	<div class="poster-button">
+		<a href="poster.php">
+			<button type="button">Ver Más información</button> 
+		</a>
+	</div>
 </div>
 <!--//posters-->
 <!--activity-->
