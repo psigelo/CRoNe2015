@@ -77,24 +77,6 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>12.15 - 13.00</h5>
-					<h3>Charla #2</h3>
-					<div class="activity-body-item-description">
-						<div class="activity-body-item-description-img"> 
-							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
-						</div>
-						<div class="activity-body-item-description-info"> 
-							<h4>Por confirmar</h4>
-							<h5>...</h5>
-						</div>						
-					</div>
-				</div>
-				<!-- ########################### -->
-				<div class="activity-body-item">
-					<h5>13.00 - 14.00</h5>
-					<h3>Almuerzo</h3>
-				</div>
-				<div class="activity-body-item">
-					<h5>14.00 - 14.45</h5>
 					<h3>Aprendizaje de habilidades motrices en Robótica</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-img"> 
@@ -104,6 +86,25 @@
 							<h4>Jens Kober</h4>
 							<h5>Centro de Delft de Sistemas y Control, </br>
 						Universidad Tecnológica de Delft, Países Bajos</h5>
+						</div>						
+					</div>
+				</div>
+				<!-- ########################### -->
+				<div class="activity-body-item">
+					<h5>13.00 - 14.00</h5>
+					<h3>Almuerzo</h3>
+				</div>
+				<!-- ########################### -->
+				<div class="activity-body-item">
+					<h5>14.00 - 14.45</h5>
+					<h3>Charla #3</h3>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
 						</div>						
 					</div>				
 				</div>
@@ -124,7 +125,7 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>15.40 - 16.10</h5>
-					<h3>Coffee break &amp;</br>Muestra Proyectos CR</h3>
+					<h3>Coffee break &amp;</br>Muestra Proyectos Centro de Robótica</h3>
 				</div>
 				<!-- ########################### -->
 				<div class="activity-body-item">
@@ -189,8 +190,22 @@
 				</div>
 				<!-- ########################### -->
 				<div class="activity-body-item">
-					<h5>14.00 - 15.40</h5>
-					<h3>Taller</h3>
+					<h5>14.00 - 14.45</h5>
+					<h3>Charla #3</h3>
+					<div class="activity-body-item-description">
+						<div class="activity-body-item-description-img"> 
+							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+						</div>
+						<div class="activity-body-item-description-info"> 
+							<h4>Por confirmar</h4>
+							<h5>...</h5>
+						</div>						
+					</div>
+				</div>
+				<!-- ########################### -->
+				<div class="activity-body-item">
+					<h5>14.50 - 15.35</h5>
+					<h3>Charla #4</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-img"> 
 							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
@@ -204,12 +219,11 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>15.40 - 17.40</h5>
-					<h3>Visita CINV (Por confirmar)</h3>
-
+					<h3>Visita CINV</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-info"> 
-							<h4>Por confirmar</h4>
-							<h5>...</h5>
+							<h4>Visita Centro Interdisciplinario de Neurociencia de Valparaíso</h4>
+							<!-- <h5></h5> -->
 						</div>						
 					</div>
 				</div>
@@ -256,17 +270,17 @@
 				</div>
 				<!-- ########################### -->
 				<div class="activity-body-item">
-					<h5>14.00 - 15.40</h5>
+					<h5>14.00 - 16.20</h5>
 					<h3>Presentación de Posters</h3>
 				</div>
 				<!-- ########################### -->
 				<div class="activity-body-item">
-					<h5>15.40 - 16.10</h5>
+					<h5>16.30 - 17.00</h5>
 					<h3>Ceremonia de Clausura</h3>
 				</div>
 				<!-- ########################### -->
 				<div class="activity-body-item">
-					<h5>16.10 - 17.40</h5>
+					<h5>17.00 - 18.00</h5>
 					<h3>Paseo de Cierre</h3>
 				</div>
 			</div>
