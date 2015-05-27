@@ -159,7 +159,7 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>11.30 - 12.10</h5>
-					<h3>Charla #1</h3>
+					<h3>Charla #4</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-img"> 
 							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
@@ -193,7 +193,7 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>14.00 - 14.45</h5>
-					<h3>Charla #3</h3>
+					<h3>Charla #6</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-img"> 
 							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
@@ -207,7 +207,7 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>14.50 - 15.35</h5>
-					<h3>Charla #4</h3>
+					<h3>Charla #7</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-img"> 
 							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
@@ -240,7 +240,7 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>11.30 - 12.10</h5>
-					<h3>Charla #1</h3>
+					<h3>Charla #8</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-img"> 
 							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
@@ -254,7 +254,7 @@
 				<!-- ########################### -->
 				<div class="activity-body-item">
 					<h5>12.15 - 13.00</h5>
-					<h3>Charla #2</h3>
+					<h3>Charla #9</h3>
 					<div class="activity-body-item-description">
 						<div class="activity-body-item-description-img"> 
 							<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
