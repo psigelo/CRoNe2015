@@ -105,13 +105,16 @@ span.menu {
 	text-align: center;
 	padding-top: 5em;
 }
+.social-media a {
+	outline: none;
+}
 /*--banner--*/
 #owl-demo .item img{
     display: block;
     width: 100%;
     height: auto;
 }
-.banner{
+.banner {
 	width:100%;
 	height:670px;
 	position:relative;
