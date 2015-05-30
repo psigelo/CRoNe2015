@@ -86,9 +86,9 @@
 				</div>
 				<div class="clearfix"></div>
 				<div class="social-media">
-					<a href="https://www.facebook.com/Escueladeinvierno" class="sb facebook">Facebook</a>
-					<!-- <a href="#" class="sb twitter">Twitter</a>
-					<a href="#" class="sb vimeo">Facebook</a> -->
+					<a href="https://www.facebook.com/Escueladeinvierno" target="_blank" class="sb facebook">Facebook</a>
+					<a href="#" target="_blank" class="sb twitter">Twitter</a>
+					<a href="#" target="_blank" class="sb vimeo">Facebook</a>
 				</div>
 			</div>	
 			<div class="copy-right">
