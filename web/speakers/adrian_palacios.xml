@@ -1,0 +1,50 @@
+<speaker>
+	<name>Adrian Palacios</name>
+	<img>./images/expo-adrian-palacios.jpg</img>
+	
+	<es>
+		<institution> 
+			Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de Valparaíso
+		</institution>
+
+		<information>
+			<!-- TODO -->
+		</information>
+
+		<expositionDate> 
+			<!-- TODO -->
+		</expositionDate>
+
+		<titleTalk>
+			<!-- TODO -->
+		</titleTalk>
+
+		<abstractTalk>
+			<!-- TODO -->
+		</abstractTalk>
+
+	</es>
+
+
+	<en>
+		<institution> 
+			<!-- TODO -->
+		</institution>
+
+		<information>
+			<!-- TODO -->
+		</information>
+
+		<expositionDate> 
+			<!-- TODO -->
+		</expositionDate>
+
+		<titleTalk>
+			<!-- TODO -->
+		</titleTalk>
+
+		<abstractTalk>
+			<!-- TODO -->
+		</abstractTalk>
+	</en>
+</speaker>

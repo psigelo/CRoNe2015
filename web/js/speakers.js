@@ -47,42 +47,42 @@ function createSpeakersGrid(){
 	$(title).html('Expositores');
 	div_1.appendChild(title);
 
-		for (var i = 0; i < speakerIndexXML.getElementsByTagName('speaker').length; i++) 
-		{
-			var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).html();
-			var spikerXML = loadXMLDoc('./speakers/'+speakerText+'.xml');
-			var languageXML = spikerXML.getElementsByTagName(language)[0];
-			var div_2 = document.createElement('div');
-			div_2.setAttribute('class','expo-grids');
-			var div_3 = document.createElement('div');
-			div_3.setAttribute('class','expo-grids-info expo-top');
-			var a_1 = document.createElement('a');
-			a_1.setAttribute('href','details.php?name=' + speakerText+ '&language='+language);
-			var img_1 = document.createElement('img');
-			$(img_1).attr('src', $(spikerXML.getElementsByTagName('img')[0]).text() );
+	for (var i = 0; i < speakerIndexXML.getElementsByTagName('speaker').length; i++) 
+	{
+		var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).html();
+		var spikerXML = loadXMLDoc('./speakers/'+speakerText+'.xml');
+		var languageXML = spikerXML.getElementsByTagName(language)[0];
+		var div_2 = document.createElement('div');
+		div_2.setAttribute('class','expo-grids');
+		var div_3 = document.createElement('div');
+		div_3.setAttribute('class','expo-grids-info expo-top');
+		var a_1 = document.createElement('a');
+		a_1.setAttribute('href','details.php?name=' + speakerText+ '&language='+language);
+		var img_1 = document.createElement('img');
+		$(img_1).attr('src', $(spikerXML.getElementsByTagName('img')[0]).text() );
 
-			var div_4 = document.createElement('div');
-			div_4.setAttribute('class','caption caption-top');
+		var div_4 = document.createElement('div');
+		div_4.setAttribute('class','caption caption-top');
 
-			var h5_1 = document.createElement('h5');
-			$(h5_1).html( $(spikerXML.getElementsByTagName('name')[0]).text() );
+		var h5_1 = document.createElement('h5');
+		$(h5_1).html( $(spikerXML.getElementsByTagName('name')[0]).text() );
 
-			var div_5 = document.createElement('div');
-			div_5.setAttribute('class','caption caption-bottom');
+		var div_5 = document.createElement('div');
+		div_5.setAttribute('class','caption caption-bottom');
 
 
-			var h5_2 = document.createElement('h5');
-			$(h5_2).html( $(languageXML.getElementsByTagName('institution')[0]).text() );
+		var h5_2 = document.createElement('h5');
+		$(h5_2).html( $(languageXML.getElementsByTagName('institution')[0]).text() );
 
-			a_1.appendChild(img_1);
-			div_5.appendChild(h5_2);
-			div_4.appendChild(h5_1);
-			a_1.appendChild(div_4);
-			a_1.appendChild(div_5);
-			div_3.appendChild(a_1);
-			div_2.appendChild(div_3);
-			div_1.appendChild(div_2);
-		};
+		a_1.appendChild(img_1);
+		div_5.appendChild(h5_2);
+		div_4.appendChild(h5_1);
+		a_1.appendChild(div_4);
+		a_1.appendChild(div_5);
+		div_3.appendChild(a_1);
+		div_2.appendChild(div_3);
+		div_1.appendChild(div_2);
+	};
 
 	for (var i = 0; i < 8-speakerIndexXML.getElementsByTagName('speaker').length; i++) 
 	{

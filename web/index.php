@@ -25,8 +25,6 @@
 <!--//banner-->
 <!--expo-->
 <div class="expo" id="expo"></div>
-
-
 <!--//expo-->
 <!--posters-->
 <div class="poster" id="poster" >
