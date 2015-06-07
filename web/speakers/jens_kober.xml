@@ -14,7 +14,7 @@
 		</information>
 
 		<expositionDate> 
-			21 de Octubre 14.00 - 14.45 
+			21 de Octubre, 12.15 - 13.00 
 		</expositionDate>
 
 		<titleTalk>
@@ -32,23 +32,29 @@
 
 	<en>
 		<institution> 
-			uno
+			Delft Center for Systems and Control, TU Delft, The Netherlands
 		</institution>
 
 		<information>
-			dos
+			<p>Jens Kober is an assistant professor at the Delft Center for Systems and Control, TU Delft, The Netherlands. He worked as a postdoctoral scholar jointly at the CoR-Lab, Bielefeld University, Germany and at the Honda Research Institute Europe, Offenbach, Germany. He graduated in 2012 with a PhD Degree in Engineering from TU Darmstadt. For his research he received the annually awarded Georges Giralt PhD Award for the best PhD thesis in robotics in Europe.</p>
+ 
+			<p>From 2007-2012 he was working with Jan Peters as a masters student and subsequently as a PhD student at the Robot Learning Lab, Department Bernhard Schölkopf, Max-Planck Institute for Intelligent Systems (formerly part of the MPI for Biological Cybernetics). Before doing so, he studied at the University of Stuttgart, Germany and at the Ecole Centrale Paris, France. He has been a visiting research student at the Advanced Telecommunication Research (ATR) Center, Japan and an intern at Disney Research Pittsburgh, USA. His research interests include robotics, machine learning, and control.</p>
 		</information>
 
 		<expositionDate> 
-			21 de Oct 14.00 - 14.45 
+			October 21, 12.15 - 13.00 
 		</expositionDate>
 
 		<titleTalk>
-			tres
+			Motor Skill Learning in Robotics
 		</titleTalk>
 
 		<abstractTalk>
-			cuatro
+			<p>The acquisition and self-improvement of novel motor skills is among the most important problems in robotics. Reinforcement learning and imitation learning are two different but complimentary machine learning approaches commonly used for learning motor skills.</p>
+ 
+			<p>Reinforcement learning attempts to maximize a reward and is used for self-improvement in this context. A general framework for policy search approaches is presented. Desirable properties specific to reinforcement learning algorithms applied to robotics are discussed. The resulting algorithms are used to learn new motor skills and to adapt them according to external stimuli.</p>
+ 
+			<p>Imitation learning approaches attempt to mimic human demonstrations. Statistical properties information extracted from these demonstrations enable the robot to generalize the seen movements. This talk presents first steps towards imitation learning of force-interaction skills, i.e., skills where the force applied by the robot on its environment plays a crucial role, and sequencing of sub-skills.</p>
 		</abstractTalk>
 	</en>
 </speaker>

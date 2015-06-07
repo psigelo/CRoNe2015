@@ -4,7 +4,7 @@
 	
 	<es>
 		<institution> 
-			Instituto de Células Madre y Medicina Regenerativa, Universidad de Stanford, CA, EE.UU.
+			Instituto de Células Madre y Medicina Regenerativa, Universidad de Stanford, CA, EE.UU
 		</institution>
 
 		<information>
@@ -36,7 +36,7 @@
 		</information>
 
 		<expositionDate> 
-			-
+			22 de Octubre, 12.15 - 13.00 
 		</expositionDate>
 
 		<titleTalk>
@@ -66,23 +66,40 @@
 		
 
 		<institution> 
-			uno
+			Institute for Stem Cell Biology and Regenerative Medicine, Stanford University, CA, USA
 		</institution>
 
 		<information>
-			dos
+			<p>
+				Ivan Dimov, Ph.D., is a visiting instructor and Sieble Fellow at the Institute for Stem Cell Biology and Regenerative Medicine at Stanford University, CA, USA.
+			</p>
+			<p>
+				He is also Chief Science Officer and co-founder of high technology enterprise called Diasses Inc., which is creating the first DNA fast test on the world for diagnosis of infectious diseases, just in minutes at any place of the world. He was a research professor on Bioengineering at the University of California at Berkeley and assistant professor of biomedical engineering at the Universidad de Valparaíso.
+			</p>
+			<p>
+				Dr. Dimov is an Electronics Engineer and received the degree of Master of Science on Electronics Engineering, both at Universidad Técnica Federico Santa Maria (UTFSM). Then, he completed his Ph.D. on applied biophysics at the Biomedical Diagnostics Institute (BDI) at Dublin City University, Ireland.
+He is the co-founder of Centro de Robótica (Robotics Center) at UTFSM and Centro de Tecnología Hospitalaria (Hospital Technology Center) at Universidad de Valparaíso. Also, he has co-founded several technological enterprises, including bio-automation and BlobCode. Both of these enterprises are based on new technologies developed at Centro de Robótica, UTFSM and Universidad de Valparaíso.
+			</p>
+			<p>
+				His current research is focused on micro total analysis system (µTAS), micro-fluidics and micro-devices for cell-based assay. Dr. Dimov is author of more than 30 technical publications and 10 international invention patents.
+			</p>
 		</information>
 
 		<expositionDate> 
-			21 de Oct 14.00 - 14.45 
+			October 22, 12.15 - 13.00 
 		</expositionDate>
 
 		<titleTalk>
-			tres
+			Robotics on Cell Therapy
 		</titleTalk>
 
 		<abstractTalk>
-			cuatro
+			<p>
+				The constant technological miniaturization inspired by Moore's law and pushed further by computational revolution, has created the basis for stir up the sciences of life and human health-care. Micro-fluidics, conceived on the 90's and based on tools of miniaturization of integrated circuits industry, promises to diminish the reactions volume, accelerate kinetics of biochemical reactions, integrate whole protocols on a single device and make a massive parallelization of analysis.
+			</p>
+			<p>
+				This talk will explain how micro-fluidics is being combined with robotics in order to solve one of the biggest problems on cell therapy, cell purification. 
+			</p>
 		</abstractTalk>
 	</en>
 </speaker>

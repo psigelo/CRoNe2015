@@ -1,5 +1,5 @@
 <speaker>
-	<name>Manuel Olivares</name>
+	<name>Adrián Palacios</name>
 	<img>./images/expo-manuel-olivares.jpg</img>
 	
 	<es>
@@ -16,7 +16,7 @@
 		</information>
 
 		<expositionDate> 
-			Por confirmar 
+			21 de Octubre, 14.00 - 14.45
 		</expositionDate>
 
 		<titleTalk>
@@ -32,23 +32,28 @@
 
 	<en>
 		<institution> 
-			uno
+			Electronics Department, Universidad Técnica Federico Santa María, Chile
 		</institution>
 
 		<information>
-			dos
+			<p> Manuel Olivares, Dr. Eng., is a professor at the Electronics Department, UTFSM, Chile. He is an Electronics Engineer from this same institution, and graduated as a Doctor on Industrial Engineering from the Universidad Politécnica de Valencia, Spain.</p>
+
+			<p>Dr. Olivares has participated on over 30 development and research projects, author of several technical publications, and talks around the world. His last research stay was at the Advanced Mechatronics Lab., University of Texas at Austin, 2013. The academic has also collaborated with the Multidisciplinary Center of Innovation and Technological Transfer CASIM: Centro de Automatización y Supervisión para la Industria Minera (Supervision and Automation Center for the Mining Industry).</p>
+
+ 			<p>His research interests include adaptive control, learning control systems, modeling and control of fuzzy systems and industrial robotics.</p>
+
 		</information>
 
 		<expositionDate> 
-			21 de Oct 14.00 - 14.45 
+			October 21, 14.00 - 14.45 
 		</expositionDate>
 
 		<titleTalk>
-			tres
+			To be announced
 		</titleTalk>
 
 		<abstractTalk>
-			cuatro
+			Soon
 		</abstractTalk>
 	</en>
 </speaker>
