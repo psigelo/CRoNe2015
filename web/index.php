@@ -14,7 +14,7 @@
 			<img src="images/banner-crabot.jpg" alt="Crabot">
 			<div class="banner-title" id="banner-crabot"> 
 				<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
-				<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b>21 al 23 de Octubre</b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
+				<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b><i>21 al 23 de Octubre</i></b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
 			</div>
 		</div>
 		<div class="item">
@@ -22,15 +22,15 @@
 
 			<div class="banner-title" id="banner-poster"> 
 				<h4>Se inicia llamado a pósters</h4>
-				<p>Envía tu resumen extendido a <b>poster@crone2015.org</b></br>Plazo hasta el <b>07 de Agosto</b></br></br>Para mayor información visite la sección <a href="poster.php">Posters</a></p>
+				<p>Envía tu resumen extendido a <b>poster@crone2015.org</b></br>Plazo hasta el <b><i>07 de Agosto</i></b></br></br>Para mayor información visite la sección <a href="poster.php">Posters</a></p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="images/banner-inscriptions-dates.png" alt="Inscripciones">
+			<img src="images/banner-utfsm-inscriptions.png" alt="Inscripciones">
 
 			<div class="banner-title" id="banner-inscriptions"> 
-				<h4>¡Iscríbete CSM!</h4>
-				<p>Levanta la raja pelua e inscribe tu proyecto hasta el día de la coyoma</br></br>¡¡Podrás participar por el sorteo de un espectacular IPhone 4G!! (kjakja querían los qls xd)</p>
+				<h4>¡Iscríbete!</h4>
+				<p>¡Las inscripciones ya están abiertas!</br></br>Desde el <b><i>20 de Julio</i></b> hasta el <b><i>11 de Septiembre</i></b></p>
 			</div>
 		</div>
 	</div>
