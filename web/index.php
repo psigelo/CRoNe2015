@@ -25,6 +25,14 @@
 				<p>Envía tu resumen extendido a <b>poster@crone2015.org</b></br>Plazo hasta el <b>07 de Agosto</b></br></br>Para mayor información visite la sección <a href="poster.php">Posters</a></p>
 			</div>
 		</div>
+		<div class="item">
+			<img src="images/banner-inscriptions-dates.png" alt="Inscripciones">
+
+			<div class="banner-title" id="banner-inscriptions"> 
+				<h4>¡Iscríbete CSM!</h4>
+				<p>Levanta la raja pelua e inscribe tu proyecto hasta el día de la coyoma</br></br>¡¡Podrás participar por el sorteo de un espectacular IPhone 4G!! (kjakja querían los qls xd)</p>
+			</div>
+		</div>
 	</div>
 </div>
 <!--//banner-->

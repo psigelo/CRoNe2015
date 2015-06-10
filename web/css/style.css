@@ -136,6 +136,12 @@ span.menu {
 	right: 7%;		
 	background-color: rgba(0,43,54,0.6); 
 }
+#banner-inscriptions {
+	width: 35%;
+	top: 10%;
+	right: 5%;		
+	background-color: rgba(0,43,54,0.6); 
+}
 .banner-title {
 	position: absolute;
 	padding: 30px;    
