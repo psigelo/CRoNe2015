@@ -29,8 +29,8 @@
 			<img src="images/banner-utfsm-inscriptions.png" alt="Inscripciones">
 
 			<div class="banner-title" id="banner-inscriptions"> 
-				<h4>¡Iscríbete!</h4>
-				<p>¡Las inscripciones ya están abiertas!</br></br>Desde el <b><i>20 de Julio</i></b> hasta el <b><i>11 de Septiembre</i></b></p>
+				<h4>¡Inscripción Temprana!</h4>
+				<p>Mantente actualizado sobre las fechas de inscripción.</br></br> Inscripción temprana: <b><i>13 de Julio</i></b> al <b><i>11 de Septiembre</i></b></p>
 			</div>
 		</div>
 	</div>
