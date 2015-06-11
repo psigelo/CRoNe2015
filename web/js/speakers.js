@@ -91,136 +91,37 @@ function createSpeakersGrid(language){
 	for (var i = 0; i < 8-speakerIndexXML.getElementsByTagName('speaker').length; i++) 
 	{
 
-			var div_2 = document.createElement('div');
-			div_2.setAttribute('class','expo-grids');
-			var div_3 = document.createElement('div');
-			div_3.setAttribute('class','expo-grids-info expo-top');
-			var a_1 = document.createElement('a');
-			a_1.setAttribute('href','#');
-			var img_1 = document.createElement('img');
-
-			$(img_1).attr('src', 'images/expo-unknown.jpg' );
-
-			var div_4 = document.createElement('div');
-			div_4.setAttribute('class','caption caption-top');
-
-			var h5_1 = document.createElement('h5');
-			$(h5_1).html( 'Por confirmar' );
-
-			var div_5 = document.createElement('div');
-			div_5.setAttribute('class','caption caption-bottom');
-
-
-			var h5_2 = document.createElement('h5');
-			$(h5_2).html( '-' );
-
-			a_1.appendChild(img_1);
-			div_5.appendChild(h5_2);
-			div_4.appendChild(h5_1);
-			div_3.appendChild(a_1);
-			div_3.appendChild(div_4);
-			div_3.appendChild(div_5);
-			div_2.appendChild(div_3);
-			div_1.appendChild(div_2);
-	};
-	
-	grid.appendChild(div_1);
-	var div_6 = document.createElement('div');
-	div_6.setAttribute('class','clearfix');
-	grid.appendChild(div_6);
-}
-
-
-
-function createBanner(language){
-	var speakerIndexXML = loadXMLDoc('./speakers/index.xml');
-
-	var grid = document.getElementById('expo');
-	var div_1 = document.createElement('div');
-	var title = document.createElement('h3');
-
-	div_1.setAttribute('class','container');
-	if(language == "es") 
-	{
-		$(title).html('Expositores');
-	}
-	else 
-	{
-		$(title).html('Speakers');
-	}
-	div_1.appendChild(title);
-
-	for (var i = 0; i < speakerIndexXML.getElementsByTagName('speaker').length; i++) 
-	{
-		var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).html();
-		var spikerXML = loadXMLDoc('./speakers/'+speakerText+'.xml');
-		var languageXML = spikerXML.getElementsByTagName(language)[0];
 		var div_2 = document.createElement('div');
 		div_2.setAttribute('class','expo-grids');
 		var div_3 = document.createElement('div');
 		div_3.setAttribute('class','expo-grids-info expo-top');
 		var a_1 = document.createElement('a');
-		a_1.setAttribute('href','details.php?name=' + speakerText+ '&language='+language);
+		a_1.setAttribute('href','#');
 		var img_1 = document.createElement('img');
-		$(img_1).attr('src', $(spikerXML.getElementsByTagName('img')[0]).text() );
+
+		$(img_1).attr('src', 'images/expo-unknown.jpg' );
 
 		var div_4 = document.createElement('div');
 		div_4.setAttribute('class','caption caption-top');
 
 		var h5_1 = document.createElement('h5');
-		$(h5_1).html( $(spikerXML.getElementsByTagName('name')[0]).text() );
+		$(h5_1).html( 'Por confirmar' );
 
 		var div_5 = document.createElement('div');
 		div_5.setAttribute('class','caption caption-bottom');
 
 
 		var h5_2 = document.createElement('h5');
-		$(h5_2).html( $(languageXML.getElementsByTagName('institution')[0]).text() );
+		$(h5_2).html( '-' );
 
 		a_1.appendChild(img_1);
 		div_5.appendChild(h5_2);
 		div_4.appendChild(h5_1);
-		a_1.appendChild(div_4);
-		a_1.appendChild(div_5);
 		div_3.appendChild(a_1);
+		div_3.appendChild(div_4);
+		div_3.appendChild(div_5);
 		div_2.appendChild(div_3);
 		div_1.appendChild(div_2);
-	};
-
-	for (var i = 0; i < 8-speakerIndexXML.getElementsByTagName('speaker').length; i++) 
-	{
-
-			var div_2 = document.createElement('div');
-			div_2.setAttribute('class','expo-grids');
-			var div_3 = document.createElement('div');
-			div_3.setAttribute('class','expo-grids-info expo-top');
-			var a_1 = document.createElement('a');
-			a_1.setAttribute('href','#');
-			var img_1 = document.createElement('img');
-
-			$(img_1).attr('src', 'images/expo-unknown.jpg' );
-
-			var div_4 = document.createElement('div');
-			div_4.setAttribute('class','caption caption-top');
-
-			var h5_1 = document.createElement('h5');
-			$(h5_1).html( 'Por confirmar' );
-
-			var div_5 = document.createElement('div');
-			div_5.setAttribute('class','caption caption-bottom');
-
-
-			var h5_2 = document.createElement('h5');
-			$(h5_2).html( '-' );
-
-			a_1.appendChild(img_1);
-			div_5.appendChild(h5_2);
-			div_4.appendChild(h5_1);
-			div_3.appendChild(a_1);
-			div_3.appendChild(div_4);
-			div_3.appendChild(div_5);
-			div_2.appendChild(div_3);
-			div_1.appendChild(div_2);
 	};
 	
 	grid.appendChild(div_1);
@@ -228,6 +129,105 @@ function createBanner(language){
 	div_6.setAttribute('class','clearfix');
 	grid.appendChild(div_6);
 }
+
+
+
+// function createBanner(language){
+// 	var speakerIndexXML = loadXMLDoc('./speakers/index.xml');
+
+// 	var grid = document.getElementById('expo');
+// 	var div_1 = document.createElement('div');
+// 	var title = document.createElement('h3');
+
+// 	div_1.setAttribute('class','container');
+// 	if(language == "es") 
+// 	{
+// 		$(title).html('Expositores');
+// 	}
+// 	else 
+// 	{
+// 		$(title).html('Speakers');
+// 	}
+// 	div_1.appendChild(title);
+
+	// for (var i = 0; i < speakerIndexXML.getElementsByTagName('speaker').length; i++) 
+	// {
+	// 	var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).html();
+	// 	var spikerXML = loadXMLDoc('./speakers/'+speakerText+'.xml');
+	// 	var languageXML = spikerXML.getElementsByTagName(language)[0];
+	// 	var div_2 = document.createElement('div');
+	// 	div_2.setAttribute('class','expo-grids');
+	// 	var div_3 = document.createElement('div');
+	// 	div_3.setAttribute('class','expo-grids-info expo-top');
+	// 	var a_1 = document.createElement('a');
+	// 	a_1.setAttribute('href','details.php?name=' + speakerText+ '&language='+language);
+	// 	var img_1 = document.createElement('img');
+	// 	$(img_1).attr('src', $(spikerXML.getElementsByTagName('img')[0]).text() );
+
+	// 	var div_4 = document.createElement('div');
+	// 	div_4.setAttribute('class','caption caption-top');
+
+	// 	var h5_1 = document.createElement('h5');
+	// 	$(h5_1).html( $(spikerXML.getElementsByTagName('name')[0]).text() );
+
+	// 	var div_5 = document.createElement('div');
+	// 	div_5.setAttribute('class','caption caption-bottom');
+
+
+	// 	var h5_2 = document.createElement('h5');
+	// 	$(h5_2).html( $(languageXML.getElementsByTagName('institution')[0]).text() );
+
+	// 	a_1.appendChild(img_1);
+	// 	div_5.appendChild(h5_2);
+	// 	div_4.appendChild(h5_1);
+	// 	a_1.appendChild(div_4);
+	// 	a_1.appendChild(div_5);
+	// 	div_3.appendChild(a_1);
+	// 	div_2.appendChild(div_3);
+	// 	div_1.appendChild(div_2);
+	// };
+
+	// for (var i = 0; i < 8-speakerIndexXML.getElementsByTagName('speaker').length; i++) 
+	// {
+
+	// 		var div_2 = document.createElement('div');
+	// 		div_2.setAttribute('class','expo-grids');
+	// 		var div_3 = document.createElement('div');
+	// 		div_3.setAttribute('class','expo-grids-info expo-top');
+	// 		var a_1 = document.createElement('a');
+	// 		a_1.setAttribute('href','#');
+	// 		var img_1 = document.createElement('img');
+
+	// 		$(img_1).attr('src', 'images/expo-unknown.jpg' );
+
+	// 		var div_4 = document.createElement('div');
+	// 		div_4.setAttribute('class','caption caption-top');
+
+	// 		var h5_1 = document.createElement('h5');
+	// 		$(h5_1).html( 'Por confirmar' );
+
+	// 		var div_5 = document.createElement('div');
+	// 		div_5.setAttribute('class','caption caption-bottom');
+
+
+	// 		var h5_2 = document.createElement('h5');
+	// 		$(h5_2).html( '-' );
+
+	// 		a_1.appendChild(img_1);
+	// 		div_5.appendChild(h5_2);
+	// 		div_4.appendChild(h5_1);
+	// 		div_3.appendChild(a_1);
+	// 		div_3.appendChild(div_4);
+	// 		div_3.appendChild(div_5);
+	// 		div_2.appendChild(div_3);
+	// 		div_1.appendChild(div_2);
+	// };
+	
+// 	grid.appendChild(div_1);
+// 	var div_6 = document.createElement('div');
+// 	div_6.setAttribute('class','clearfix');
+// 	grid.appendChild(div_6);
+// }
 
 function createSpeakersCarrousel(){
 	var language = 'es';
