@@ -1,0 +1,50 @@
+<speaker>
+	<name>Sylvain Martel</name>
+	<img>./images/expo-sylvain-martel.jpg</img>
+	
+	<es>
+		<institution> 
+			Laboratorio de Nanorobótica, Escuela Politécnica de Montreal, Canadá
+		</institution>
+
+		<information>
+			<!-- <p></p> -->
+		</information>
+
+		<expositionDate> 
+			<!-- pendiente -->
+		</expositionDate>
+
+		<titleTalk>
+			<!-- pendiente -->
+		</titleTalk>
+
+		<abstractTalk>
+			<!-- <p></p> -->
+		</abstractTalk>
+
+	</es>
+
+
+	<en>
+		<institution> 
+			<!-- Laboratorio de Nanorobótica, Escuela Politécnica de Montreal, Canadá -->
+		</institution>
+
+		<information>
+			<!-- <p></p> -->
+		</information>
+
+		<expositionDate> 
+			<!-- pendiente -->
+		</expositionDate>
+
+		<titleTalk>
+			<!-- pendiente -->
+		</titleTalk>
+
+		<abstractTalk>
+			<!-- <p></p> -->
+		</abstractTalk>
+	</en>
+</speaker>
