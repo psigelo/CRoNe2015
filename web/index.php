@@ -2,15 +2,13 @@
 	$language = !empty($_GET['language']) && is_string($_GET['language']) ? htmlspecialchars($_GET['language']) : 'es'; 
 	$current_page="index";
 	include_once('header.php'); 
-
-
 ?>
 
 
 <!--banner-->
 <div class="banner">
 	<div id="owl-demo" class="owl-carousel owl-theme">
-		<div class="item">
+		<!-- <div class="item">
 			<img src="images/banner-crabot.jpg" alt="Crabot">
 			<div class="banner-title" id="banner-crabot"> 
 				<h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
@@ -32,7 +30,7 @@
 				<h4>¡Inscripción Temprana!</h4>
 				<p>Mantente actualizado sobre las fechas de inscripción.</br></br> Inscripción temprana: <b><i>13 de Julio</i></b> al <b><i>11 de Septiembre</i></b></p>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>
 <!--//banner-->
@@ -314,12 +312,20 @@
 	</div>
 </div>	
 <!--//activity-->
+
+
+
+
+
+
 <?php
 	echo "
 	<script>
+		createBanner(\"$language\");
+
 		$(document).ready(function() {
 	   		createSpeakersGrid(\"$language\");
-	   		createBanner(\"$language\");
+			
 		});
 	</script>
 	"

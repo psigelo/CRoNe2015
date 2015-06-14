@@ -120,12 +120,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					";
 					} elseif ((strcmp($current_page, "expo-details") == 0)) { 
 					echo "
-					<li><a href=\"index.php\">$inicio </a></li>
+					<li><a href=\"index.php?language=$language\">$inicio </a></li>
 					<li><a href=\"#bio\" class=\"scroll\">$biografia</a></li> 
 					<li><a href=\"#talk\" class=\"scroll\">$charla</a></li> 
 					<!-- <li><a href=\"index.php?language=$language#activity\">$actividades</a></li> -->
 					<li><a href=\"#\">$inscripcion</a></li>
-					<li><a href=\"contact.php\">$contacto</a></li>
+					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
 					";
 					} ?> 
 				</ul>

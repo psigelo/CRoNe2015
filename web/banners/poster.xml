@@ -1,0 +1,6 @@
+<banner>
+	<img>./images/banner-poster.png</img>
+	<id>banner-poster</id>
+	<es><h4>Se inicia llamado a pósters</h4>			<p>Envía tu resumen extendido a <b>poster@crone2015.org</b><br />Plazo hasta el <b><i>07 de Agosto</i></b><br />				<br />Para mayor información visite la sección <a href="poster.php">Posters</a></p>	</es>
+	<en><p>Call for poster presentation has started<br /><br /> Send your extended abstract to <b>poster@crone2015.org</b><br />   Deadline: <b><i>August 7</i></b><br /> Further details on Posters section</p></en>
+</banner>

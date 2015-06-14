@@ -1,31 +1,36 @@
 	<!--banner-bottom-->
 	<div class="banner-bottom">
 		<div class="container">
-			<div class="banner-bottom-org">
-				<h5>Organiza</h5>
-				<div class="banner-bottom-grids">
-					<img src="images/org-cr.png" alt=""/>
+		<?php
+				
+			echo "
+			<div class=\"banner-bottom-org\">
+				<h5>".(($language=='es') ? 'Organiza': 'Organize')."</h5>
+				<div class=\"banner-bottom-grids\">
+					<img src=\"images/org-cr.png\" alt=\"\"/>
 				</div>
-				<!-- <span class="stretch"></span> -->
+				<!-- <span class=\"stretch\"></span> -->
 			</div>
-			<div class="banner-bottom-pat">
-				<h5>Patrocina</h5>
-				<div class="banner-bottom-grids">
-					<img src="images/pat-utfsm-color.png" alt=""/>
+			<div class=\"banner-bottom-pat\">
+				<h5>".(($language=='es') ? 'Patrocina': 'Support')."</h5>
+				<div class=\"banner-bottom-grids\">
+					<img src=\"images/pat-utfsm-color.png\" alt=\"\"/>
 				</div>
-				<!-- <span class="stretch"></span> -->
+				<!-- <span class=\"stretch\"></span> -->
 			</div>
-			<div class="banner-bottom-aus">
-				<h5>Auspician</h5>
-				<div class="banner-bottom-grids">
-					<img src="images/aus-feutfsm.png" alt=""/>
+			<div class=\"banner-bottom-aus\">
+				<h5>".(($language=='es') ? 'Auspicia': 'Sponsor')."</h5>
+				<div class=\"banner-bottom-grids\">
+					<img src=\"images/aus-feutfsm.png\" alt=\"\"/>
 				</div>
-				<div class="banner-bottom-grids">
-					<img src="images/aus-sotaltim.png" alt=""/>
+				<div class=\"banner-bottom-grids\">
+					<img src=\"images/aus-sotaltim.png\" alt=\"\"/>
 				</div>
-				<span class="stretch"></span>
+				<span class=\"stretch\"></span>
 			</div>
-			<div class="clearfix"></div>
+			<div class=\"clearfix\"></div>
+			";
+		?>
 		</div>
 	</div>	
 	<!--//banner-bottom-->
@@ -34,45 +39,74 @@
 		<div class="container">
 			<div class="footer-grids">
 				<div class="footer-grids-info">
+				<?php
+				if($language =='es'){
+					echo "
 					<h5>Contáctenos</h5>
 					<ul>
 						<li>Avenida España 1680</li>
 						<li>Valparaíso, Chile</li>
 						<li>Oficina A 526</li>
 						<li>+56 32 2654551</li>
-						<li><a href="mailto:contacto@crone2015.org">contacto@crone2015.org</a></li>
+						<li><a href=\"mailto:contacto@crone2015.org\">contacto@crone2015.org</a></li>
 					</ul>
+					";
+				} else{
+					echo "
+					<h5>Contact us</h5>
+					<ul>
+						<li>Street: Avenida España 1680</li>
+						<li>City: Valparaíso, Chile</li>
+						<li>Office: A 526</li>
+						<li>Phone: +56 32 2654551</li>
+						<li>Email:<a href=\"mailto:contacto@crone2015.org\">contacto@crone2015.org</a></li>
+					</ul>
+					";
+				}
+					?>
+				
 				</div>
 				<div class="footer-grids-info">
-					<h5>Navegación</h5>
-					<ul>
-						<?php if (strcmp($current_page, "index") == 0) { ?>
-
-						<li><a href="#header" class="scroll">INICIO </a></li>
-						<li><a href="#expo" class="scroll">EXPOSITORES</a></li> 
-						<li><a href="#poster" class="scroll">POSTERS</a></li> 
-						<li><a href="#activity" class="scroll">ACTIVIDADES</a></li>
-						<li><a href="#">INSCRIPCIÓN</a></li>
-						<li><a href="contact.php">CONTACTO</a></li>
-
-						<?php } elseif ((strcmp($current_page, "contact") == 0)) { ?>
-						
-						<li><a href="index.php">INICIO </a></li>
-						<li><a href="index.php#expo">EXPOSITORES</a></li> 
-						<li><a href="index.php#poster">POSTERS</a></li> 
-						<li><a href="index.php#activity">ACTIVIDADES</a></li>
-						<li><a href="#">INSCRIPCIÓN</a></li>
-						<li><a href="#header" class="scroll">CONTACTO</a></li>
-
-						<?php } elseif ((strcmp($current_page, "expo-details") == 0)) { ?>
-						
-						<li><a href="index.php">INICIO </a></li>
-						<li><a href="#bio">BIOGRAFÍA</a></li> 
-						<li><a href="#talk">CHARLA</a></li> 
-						<li><a href="#">INSCRIPCIÓN</a></li>
-						<li><a href="contact.php">CONTACTO</a></li>
-
-						<?php } ?>
+				<?php 
+					echo "<h5>".(($language=='es') ? 'Navegación': 'Nav')."</h5>
+					<ul>";
+						if (strcmp($current_page, "index") == 0) {
+					echo "
+					<li><a href=\"#header\" class=\"scroll\">$inicio </a></li>
+					<li><a href=\"#expo\" class=\"scroll\">$expositores</a></li> 
+					<li><a href=\"poster.php?language=$language\" >$poster</a></li> 
+					<li><a href=\"#activity\" class=\"scroll\">$actividades</a></li>
+					<li><a href=\"#\">$inscripcion</a></li>
+					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
+					";
+					 } elseif ((strcmp($current_page, "contact") == 0)) { 
+					echo "
+					<li><a href=\"index.php?language=$language\">$inicio </a></li>
+					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
+					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
+					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
+					<li><a href=\"#\">$inscripcion</a></li>
+					<li><a href=\"#header\" class=\"scroll\">$contacto</a></li>
+					";
+					} elseif ((strcmp($current_page, "poster") == 0)) { 
+					echo "
+					<li><a href=\"index.php?language=$language\">$inicio </a></li>
+					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
+					<li><a href=\"#\">$poster</a></li> 
+					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
+					<li><a href=\"#\">$inscripcion</a></li>
+					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
+					";
+					} elseif ((strcmp($current_page, "expo-details") == 0)) { 
+					echo "
+					<li><a href=\"index.php\">$inicio </a></li>
+					<li><a href=\"#bio\" class=\"scroll\">$biografia</a></li> 
+					<li><a href=\"#talk\" class=\"scroll\">$charla</a></li> 
+					<!-- <li><a href=\"index.php?language=$language#activity\">$actividades</a></li> -->
+					<li><a href=\"#\">$inscripcion</a></li>
+					<li><a href=\"contact.php\">$contacto</a></li>
+					";
+					} ?> 
 					</ul>
 				</div>
 				<div class="footer-grids-info hide">
@@ -87,8 +121,6 @@
 				<div class="clearfix"></div>
 				<div class="social-media">
 					<a href="https://www.facebook.com/Escueladeinvierno" target="_blank" class="sb facebook">Facebook</a>
-					<a href="#" target="_blank" class="sb twitter">Twitter</a>
-					<a href="#" target="_blank" class="sb vimeo">Facebook</a>
 				</div>
 			</div>	
 			<div class="copy-right">

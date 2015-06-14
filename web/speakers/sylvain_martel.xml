@@ -8,19 +8,27 @@
 		</institution>
 
 		<information>
-			<!-- <p></p> -->
+			<p>Prof. Sylvain Martel, Fellow de la Academia Canadiense de Ingeniería, y Fellow IEEE, preside el Comité Técnico de la IEEE en Micro-Nanorobótica y Automatización, y es Director del Laboratorio de Nanorobótica en la Escuela Politécnica de Montreal, en el campus de la Universidad de Montreal, Canada.</p>
+
+			<p> Ha recibido muchos reconocimientos mayormente en investigación interdisciplinaria, y nominado a presidir la organización de excelencia de investigación en Nanorobótica Médica. Ha desarrollado múltiples tecnologías biomédicas, incluyendo plataformas para cirugía remota y systemas de mapeo cardiacos en la Universidad McGill, y nuevos tipos de implantes cerebrales para decodificar actividad neuronal en la corteza motriz en MIT. Dentro de otros logros, el grupo de investigación de Dr. Martel ha sido reconocido por la primera demostración de navegación controlada de un objeto inalámbrico en el vaso sanguíneo de un animal vivo.</p>
+
+			<p>Actualmente, Prof. Martel lidera un equipo interdisciplinario involucrado en el desarrollo de agentes terapeuticos navegables y plataformas de intervención para terapia del cáncer. Esta investigación se basa en un nuevo paradigma en administración de medicamentos comenzada por Prof. Martel, y siendo conocida como objetivos directos donde la terapeutica es llevada a la red vascular hacia tumores sólidos usando las rutas fisiológicas más directas. Tal enfoque dirigiendo a un significante aumento del indice terapeutico ha aparecido en múltiples medios alrededor del mundo, como The Globe and Mail, MIT Technology Review, New Scientist, The Economist, BBC, Newsweek, etc.</p>
 		</information>
 
 		<expositionDate> 
-			<!-- pendiente -->
+			23 de Octubre, 12.15 - 13.00
 		</expositionDate>
 
 		<titleTalk>
-			<!-- pendiente -->
+			Combatiendo el cáncer usando enjambres de nanorobots
 		</titleTalk>
 
 		<abstractTalk>
-			<!-- <p></p> -->
+			<p>La implementación de nanorobots artificiales en la medicina aún está lejos de lo que la tecnología actual nos permite, pero la naturaleza nos ha provisto de nanorobots naturales que tienen la capacidad de estos nanorobots del futuro. Específicamente, se mostrará como decenas de millones de bacterias MC-1 pueden ser empleadas de forma simultánea para imitar enjambres de tales nanorobots artificiales del futuro, con un nivel de capacidad equivalente cuando operan en un entorno artificial controlado por computador, permitiendo la explotación de su comportamiento migratorio magnetico aerotáctico.</p>
+
+			<p>Nuestros resultados experimentales conducidos en modelos animales, sugieren que explotando la capacidad sensorial y de actuación-navegación de estos nanorobots naturales puede conducir a un ataque más efectivo, y al primer método de transporte no sistemático de moléculas medicinales a regiones profundas, como la zona hipóxica que alcanza máximo beneficio terapéutico. Además de mostrar como tal tecnología puede ser usada como una poderosa herramienta de diagnóstico, la charla continuará con algunos novedosos y complementarios métodos de navegación y transporte de agentes terapéuticos en la red vascular, usando escáneres MRI adaptados a actuar como plataformas de administración de medicamentos, y como la integración de componentes a nano-escala en estos agentes robóticos pueden permitir la explotación de fenómenos físicos que pueden ser usados para integrar funcionalidades y capacidades como apertura local de la barrera hematoencefálica.</p>
+
+			<p>La charla concluirá con algunas directrices sobre futuros prospectos, incluyendo pero no limitando a la explotación de comportamientos de enjambres para incrementar la eficacia del combate, y modificación genética de los agentes para tareas particulares y entornos fisiológicos.</p>
 		</abstractTalk>
 
 	</es>
@@ -28,23 +36,32 @@
 
 	<en>
 		<institution> 
-			<!-- Laboratorio de Nanorobótica, Escuela Politécnica de Montreal, Canadá -->
+			NanoRobotics Laboratory, Polytechnique Montréal, Canada
 		</institution>
 
 		<information>
-			<!-- <p></p> -->
+			<p>Prof. Sylvain Martel, Fellow of the Canadian Academy of Engineering as well as IEEE Fellow, is Chair of the IEEE Technical Committee on Micro- Nanorobotics and Automation, and Director of the NanoRobotics Laboratory at Polytechnique Montréal, Campus of the University of Montréal, Canada.</p>
+
+			<p> He received many awards mostly in interdisciplinary research and he is a recipient of a Tier 1 Canada Research Chair in Medical Nanorobotics. He developed several biomedical technologies including platforms for remote surgeries and cardiac mapping systems when at McGill University, and new types of brain implants for decoding neuronal activities in the motor cortex when at MIT. Among other achievements, Dr. Martel’s research group is also credited for the first demonstration of the controlled navigation of an untethered object in the blood vessel of a living animal.</p>
+
+			<p>Presently, Prof. Martel is leading an interdisciplinary team involved in the development of navigable therapeutic agents and interventional platforms for cancer therapy. This research is based on a new paradigm in drug delivery pioneered by Prof. Martel and being known as direct targeting where therapeutics are navigated in the vascular network towards solid tumors using the most direct physiological routes. Such approach leading to a significant increase of the therapeutic index has been featured in several media around the world such as The Globe and Mail, MIT Technology Review, New Scientist, The Economist, BBC, Newsweek, etc.</p>
+
 		</information>
 
 		<expositionDate> 
-			<!-- pendiente -->
+			October 23, 12.15 - 13.00 
 		</expositionDate>
 
 		<titleTalk>
-			<!-- pendiente -->
+			Fighting cancer using swarms of nanorobots capable of transiting beyond the blood-brain barrier
 		</titleTalk>
 
 		<abstractTalk>
-			<!-- <p></p> -->
+			<p>The implementation of medical artificial nanorobots are still far beyond present technological feasibility. But nature has already provided natural nanorobots that have the capability of these envisioned nanorobots of the future. More specifically, it will be shown how tens of millions of MC-1 bacteria can be harnessed simultaneously to mimic swarms of such futuristic artificial nanorobots with an equivalent capability level when operating in a computer-controlled artificial environment enabling the exploitation of their magneto-aerotactic migration behavior. </p>
+
+			<p>Our experimental results conducted in animal models suggest that exploiting the actuation-navigation-sensory capability of these natural nanorobots can lead to more effective targeting and to the first method of non-systemic transports of drug molecules to deeply located tumor regions such as the hypoxic zones to achieve maximum therapeutic outcomes. Besides showing how such a technology can also be used as a powerful diagnostic tool, the talk will continue with some novel complementary methods of navigation and transport of therapeutic agents in the vascular network using clinical MRI scanners being adapted to act as drug delivery platforms, and how the integration of nanoscale components in such robotic navigable agents allowing the exploitation of physical phenomena occurring at the nanoscale can be used to embed functionalities and capabilities such as locally opening the blood-brain barrier.</p>
+
+			<p>The talk will conclude with some thoughts about future prospects including but not limited to the exploitation of swarm behaviors to increase targeting efficacy further, and genetically modified agents suited for particular tasks and physiological environments.</p>
 		</abstractTalk>
 	</en>
 </speaker>

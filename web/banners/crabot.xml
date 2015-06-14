@@ -1,0 +1,10 @@
+<banner>
+	<img>./images/banner-crabot.jpg</img>
+	<id>banner-crabot</id>
+	<es><h4>1<sup>er</sup> Congreso de Robótica y Neurociencia</h4>
+				<p>CRoNe es un punto de encuentro para estudiantes de pregrado y postgrado, junto con algunos de los expertos mundiales en Robótica y Neurociencia. Este evento tomará lugar del <b><i>21 al 23 de Octubre</i></b>, en la UTFSM. Revisa esta web para mantenerte actualizado acerca de nuestros expositores invitados.</p>
+	</es>
+	<en><h4>1<sup>st</sup> Congress on Robotics and Neuroscience</h4><p>
+   CRoNe is a meeting spot for both graduate and undergraduate students, along with some of the world experts on Robotics and Neuroscience.
+   This event will be held from  <b><i>October 21 to 23</i></b>, at UTFSM (Chile). Check this website and keep updated about our invited speakers.</p></en>
+</banner>
