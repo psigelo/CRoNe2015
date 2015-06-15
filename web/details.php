@@ -32,40 +32,9 @@
 	<h3 id="expositores_title"> </h3>
 </div>
 <div id="owl-speaker" class="owl-carousel owl-theme">
- <!--  <div class="item"> <a href="details.php?name=jens_kober&language=es" > <img src="images/expo-jens-kober.jpg" width="90%" height="90%" /> </a></div>
 
-
-  <div class="item">
-  					
-						<div class="expo-grids-info expo-top" >
-							<a href="details.php?name=jens_kober&language=es"><img src="images/expo-jens-kober.jpg"  width="90%" height="90%" alt=""/></a>
-							<div class="caption caption-top">
-								<h5>Jens Kober</h5>
-							</div>
-							<div class="caption caption-bottom">
-								<h5>Delft Center for Systems and Control</br>TU Delft, The Netherlands</h5>
-							</div>
-						</div>
-					
-  </div>
-  <div class="item"><h1>3</h1></div>
-  <div class="item"><h1>4</h1></div>
-  <div class="item"><h1>5</h1></div>
-  <div class="item"><h1>6</h1></div>
-  <div class="item"><h1>7</h1></div>
-  <div class="item"><h1>8</h1></div> -->
 </div>
  
-<!-- <div class="customNavigation">
-  <a class="btn prev">Previous</a>
-  <a class="btn next">Next</a>
-  <a class="btn play">Autoplay</a>
-  <a class="btn stop">Stop</a>
-</div> -->
-
-
-
-
 <?php
 	echo "
 	
@@ -76,7 +45,7 @@
 
   $(document).ready(function() {
  	createSpekerInformation('$name', '$language');
-  createSpeakersCarrousel();
+  createSpeakersCarrousel('$language');
   var owl = $('#owl-speaker');
  
   owl.owlCarousel({
