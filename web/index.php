@@ -50,19 +50,17 @@
 			<img src="images/banner-poster-square.png" alt=""/>
 		
 			<div class="poster-title"> 
-				<?php 
-				if($language=="es"){
-					echo"
-					<h4>¡Ven y presenta tu trabajo!</h4>
-					<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>07 de Agosto</b></p>";
-				}
-				else{
-					echo"
-					<h4>-------------------------------</h4>
-					<p>........................ </br></br> -------------------------------------- <b>poster@crone2015.org</b> </br></br> :::::::::::: <b>07 de Agosto</b></p>";
-				}
+				<?php if($language=="es"){ ?>
 				
-				?>
+					<h4>¡Ven y presenta tu trabajo!</h4>
+					<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>07 de Agosto</b></p>
+				
+				<?php }	else { ?>
+				
+					<h4>Come and present your work!</h4>
+					<p>Exhibit your investigation or development work in robotics and/or neuroscience, a committee of experts will give you an excellent feedback. </br></br> Send us your extended resume to <b>poster@crone2015.org</b> </br></br> Submission deadline <b>August 07</b></p>
+				
+				<?php } ?>
 			</div>
 		</a>
 	</div>
@@ -75,26 +73,26 @@
 <!--//posters-->
 
 <!--activity-->
-<?php	if($language=="en"){		?>
+<?php if($language=="en"){ ?>
 		<div class="activity" id="activity">
 			<div class="container">
 				<h3>Program</h3>
 				<div class="activity-grids">
 					<div class="activity-header">
 						<h2> October 21</h2>
-						<h4> First day </h4>
+						<h4> Day one </h4>
 					</div>
 					<div class="activity-body">
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
-							<h3>Speak #1</h3>
+							<h3>Talk #1</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Soon</h4>
+									<h4>Attendance to be confirmed</h4>
 									<h5>...</h5>
 								</div>						
 							</div>
@@ -102,32 +100,32 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>12.15 - 13.00</h5>
-							<h3>Aprendizaje de habilidades motrices en Robótica</h3>
+							<h3>Motor Skill Learning in Robotics</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-jens-kober.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
 									<h4>Jens Kober</h4>
-									<h5>Centro de Delft de Sistemas y Control, </br>
-								Universidad Tecnológica de Delft, Países Bajos</h5>
+									<h5>Delft Center for Systems and Control,</br>
+									TU Delft, The Netherlands</h5>
 								</div>						
 							</div>
 						</div>
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>13.00 - 14.00</h5>
-							<h3>Almuerzo</h3>
+							<h3>Lunch</h3>
 						</div>
 						<div class="activity-body-item">
 							<h5>14.00 - 14.45</h5>
-							<h3>Charla #3</h3>
+							<h3>Talk #3</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
+									<h4>Attendance to be confirmed</h4>
 									<h5>...</h5>
 								</div>						
 							</div>				
@@ -135,13 +133,13 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>15.00 - 15.40</h5>
-							<h3>Taller : Parte A</h3>
+							<h3>Workshop : Part A</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
+									<h4>Attendance to be confirmed</h4>
 									<h5>...</h5>
 								</div>						
 							</div>
@@ -149,18 +147,18 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>15.40 - 16.10</h5>
-							<h3>Coffee break &amp;</br>Muestra Proyectos Centro de Robótica</h3>
+							<h3>Coffee break &amp;</br>Centro de Robótica's projects exhibition</h3>
 						</div>
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>16.10 - 17.40</h5>
-							<h3>Taller : Parte B</h3>
+							<h3>Workshop : Part B</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
+									<h4>Attendance to be confirmed</h4>
 									<h5>...</h5>
 								</div>						
 							</div>
@@ -168,26 +166,26 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>20.00</h5>
-							<h3>Cena Inauguración</h3>
+							<h3>Inauguration Supper</h3>
 						</div>				
 					</div>
 				</div>
 				<div class="activity-grids">
 					<div class="activity-header">
-						<h2>22 de Octubre</h2>
-						<h4>Día dos</h4>
+						<h2>October 22</h2>
+						<h4>Day two</h4>
 					</div>
 					<div class="activity-body">
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
-							<h3>Charla #4</h3>
+							<h3>Talk #4</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
+									<h4>Attendance to be confirmed</h4>
 									<h5>...</h5>
 								</div>						
 							</div>
@@ -195,33 +193,33 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>12.15 - 13.00</h5>
-							<h3>Robótica para Terapia Celular</h3>
+							<h3>Robotics on Cell Therapy</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-ivan-dimov.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
 									<h4>Ivan Dimov</h4>
-									<h5>Instituto de Células Madre y Medicina Regenerativa, </br>
-										Universidad de Stanford, CA, EE.UU.</h5>
+									<h5>Institute for Stem Cell Biology and Regenerative Medicine,</br>
+										Stanford University, CA, USA</h5>
 								</div>						
 							</div>
 						</div>
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>13.00 - 14.00</h5>
-							<h3>Almuerzo</h3>
+							<h3>Lunch</h3>
 						</div>
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>14.00 - 14.45</h5>
-							<h3>Charla #6</h3>
+							<h3>Talk #6</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
+									<h4>Attendance to be confirmed</h4>
 									<h5>...</h5>
 								</div>						
 							</div>
@@ -229,13 +227,13 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>14.50 - 15.35</h5>
-							<h3>Charla #7</h3>
+							<h3>Talk #7</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
+									<h4>Attendance to be confirmed</h4>
 									<h5>...</h5>
 								</div>						
 							</div>
@@ -243,7 +241,7 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>15.40 - 17.40</h5>
-							<h3>Visita CINV</h3>
+							<h3>CINV visit</h3>
 							<!-- <div class="activity-body-item-description">
 								<div class="activity-body-item-description-info"> 
 									<h4>Visita Centro Interdisciplinario de Neurociencia de Valparaíso</h4>
@@ -255,20 +253,20 @@
 				</div>
 				<div class="activity-grids activity-grids-last">
 					<div class="activity-header">
-						<h2>23 de Octubre</h2>
-						<h4>Día tres</h4>
+						<h2>October 23</h2>
+						<h4>Day three</h4>
 					</div>
 					<div class="activity-body">
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
-							<h3>Charla #8</h3>
+							<h3>Talk #8</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
+									<h4>Attendance to be confirmed</h4>
 									<h5>...</h5>
 								</div>						
 							</div>
@@ -276,13 +274,13 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>12.15 - 13.00</h5>
-							<h3>Charla #9</h3>
+							<h3>Talk #9</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
+									<h4>Attendance to be confirmed</h4>
 									<h5>...</h5>
 								</div>						
 							</div>
@@ -290,22 +288,22 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>13.00 - 14.00</h5>
-							<h3>Almuerzo</h3>
+							<h3>Lunch</h3>
 						</div>
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>14.00 - 16.20</h5>
-							<h3>Presentación de Posters</h3>
+							<h3>Posters Presentation</h3>
 						</div>
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>16.30 - 17.00</h5>
-							<h3>Ceremonia de Clausura</h3>
+							<h3>Closing Ceremony</h3>
 						</div>
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>17.00 - 18.00</h5>
-							<h3>Paseo de Cierre</h3>
+							<h3>Closing Stroll</h3>
 						</div>
 					</div>
 				</div>
