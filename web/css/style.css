@@ -100,6 +100,20 @@ span.menu {
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
 }
+.top-lang {
+	text-align: right;
+}
+.top-lang img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);   /*For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    transition: all 0.5s ease 0s;
+}
+.top-lang img:hover { 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
 /*--social--*/
 .social-media {
 	text-align: center;
@@ -928,6 +942,13 @@ table tr:hover td {
 		text-align: center;
 		width: 100%;
 	}
+	/*--poster--*/
+	.poster-title h4 {
+		font-size: 20px;
+	}
+	.poster-title p {
+		font-size: 15px;
+	}
 	/*--banner-bottom--*/
 	.banner-bottom-org,
 	.banner-bottom-pat {
@@ -1045,6 +1066,17 @@ table tr:hover td {
 	}
 	.top-nav ul li a::after {
 		top: 100%;
+	}
+	.top-lang {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	/*--poster--*/
+	.poster-title h4 {
+		font-size: 18px;
+	}
+	.poster-title p {
+		font-size: 12px;
 	}
 	/*--details--*/
 	.expo-details-img {
