@@ -942,6 +942,9 @@ table tr:hover td {
 		text-align: center;
 		width: 100%;
 	}
+	#banner-crabot {
+		width: 50%;
+	}
 	/*--poster--*/
 	.poster-title h4 {
 		font-size: 20px;
@@ -1112,6 +1115,20 @@ table tr:hover td {
 		font-size: 15px;
 	}
 }
+/* 800px and below --------------------- */
+@media(max-width:800px){
+	#banner-crabot {
+		width: 70%;
+		background-color: rgba(0,43,54,0.6); 
+	}
+	#banner-poster {
+		width: 50%;
+		top: 10%; 
+	}
+	#banner-inscriptions {
+		width: 50%;
+	}
+}
 /* 768px and below --------------------- */
 @media(max-width:768px){
 	/*--banner--*/
@@ -1202,8 +1219,27 @@ table tr:hover td {
 	.banner-title {
 		top: 29%;
 	}
+	.banner-title h4 {
+		font-size: 20px;
+	}
 	.banner-title p {
 		height: 85px;
+		font-size: 15px;
+	}
+	#banner-crabot {
+		width: 86%;
+		top: 7%;
+		right: 7%;		
+	}
+	#banner-poster {
+		width: 86%;
+		top: 7%;
+		right: 7%;		
+	}
+	#banner-inscriptions {
+		width: 86%;
+		top: 7%;
+		right: 7%;		
 	}
 	/*--expo--*/
 	.caption h5 {
@@ -1251,6 +1287,15 @@ table tr:hover td {
 	.expo-details div.error {
 		font-size: 20px;
 		padding: 2em;
+	}
+}
+/* 560px and below --------------------- */
+@media(max-width: 560px){
+	.banner-title h4 {
+		font-size: 15px;
+	}
+	.banner-title p {
+		font-size: 13px;
 	}
 }
 /* 480px and below --------------------- */
