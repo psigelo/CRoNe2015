@@ -166,7 +166,7 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>20.00</h5>
-							<h3>Inauguration Supper</h3>
+							<h3>Inauguration Dinner</h3>
 						</div>				
 					</div>
 				</div>
