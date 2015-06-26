@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <?php 
 	$language = !empty($_GET['language']) && is_string($_GET['language']) ? htmlspecialchars($_GET['language']) : 'es'; 
 	$inicio = ($language=='es') ? 'INICIO': 'HOME';
-	$expositores= ($language=='es') ? 'EXPOSITORES': 'SPEKEARS';
+	$expositores= ($language=='es') ? 'EXPOSITORES': 'SPEAKERS';
 	$poster= ($language=='es') ? 'POSTER': 'POSTER';
 	$actividades=($language=='es') ? 'ACTIVIDADES': 'PROGRAM';
 	$contacto =($language=='es') ? 'CONTACTO': 'CONTACT';
@@ -91,43 +91,43 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="top-nav">
 				<span class="menu"><img src="images/menu-icon.png" alt=""/></span>
 				<ul class="nav1">
-					<?php if (strcmp($current_page, "index") == 0) { ?>
-
-						<li><a href=\"#header\" class=\"scroll\"><?php echo $inicio; ?> </a></li>
-						<li><a href=\"#expo\" class=\"scroll\"><?php echo $expositores; ?></a></li> 
-						<li><a href=\"poster.php?language=$language\" ><?php echo $poster; ?></a></li> 
-						<li><a href=\"#activity\" class=\"scroll\"><?php echo $actividades; ?></a></li>
-						<li><a href=\"#\"><?php echo $inscripcion; ?></a></li>
-						<li><a href=\"contact.php?language=$language\"><?php echo $contacto; ?></a></li>
-					
-					<?php } elseif ((strcmp($current_page, "contact") == 0)) { ?>
-
-						<li><a href=\"index.php?language=$language\"><?php echo $inicio; ?> </a></li>
-						<li><a href=\"index.php?language=$language#expo\"><?php echo $expositores; ?></a></li> 
-						<li><a href=\"poster.php?language=$language\"><?php echo $poster; ?></a></li> 
-						<li><a href=\"index.php?language=$language#activity\"><?php echo $actividades; ?></a></li> 
-						<li><a href=\"#\"><?php echo $inscripcion; ?></a></li>
-						<li><a href=\"#header\" class=\"scroll\"><?php echo $contacto; ?></a></li>
-
-					<?php } elseif ((strcmp($current_page, "poster") == 0)) { ?>
-					
-						<li><a href=\"index.php?language=$language\"><?php echo $inicio; ?> </a></li>
-						<li><a href=\"index.php?language=$language#expo\"><?php echo $expositores; ?></a></li> 
-						<li><a href=\"#\"><?php echo $poster; ?></a></li> 
-						<li><a href=\"index.php?language=$language#activity\"><?php echo $actividades; ?></a></li> 
-						<li><a href=\"#\"><?php echo $inscripcion; ?></a></li>
-						<li><a href=\"contact.php?language=$language\"><?php echo $contacto; ?></a></li>
-			
-					<?php } elseif ((strcmp($current_page, "expo-details") == 0)) { ?>
-					
-						<li><a href=\"index.php?language=$language\"><?php echo $inicio; ?> </a></li>
-						<li><a href=\"#bio\" class=\"scroll\"><?php echo $biografia; ?></a></li> 
-						<li><a href=\"#talk\" class=\"scroll\"><?php echo $charla; ?></a></li> 
-						<!-- <li><a href=\"index.php?language=$language#activity\"><?php echo $actividades; ?></a></li> -->
-						<li><a href=\"#\"><?php echo $inscripcion; ?></a></li>
-						<li><a href=\"contact.php?language=$language\"><?php echo $contacto; ?></a></li>
-						
-					<?php } ?> 
+					<?php if (strcmp($current_page, "index") == 0) {
+					echo "
+					<li><a href=\"#header\" class=\"scroll\">$inicio </a></li>
+					<li><a href=\"#expo\" class=\"scroll\">$expositores</a></li> 
+					<li><a href=\"poster.php?language=$language\" >$poster</a></li> 
+					<li><a href=\"#activity\" class=\"scroll\">$actividades</a></li>
+					<li><a href=\"#\">$inscripcion</a></li>
+					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
+					";
+					 } elseif ((strcmp($current_page, "contact") == 0)) { 
+					echo "
+					<li><a href=\"index.php?language=$language\">$inicio </a></li>
+					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
+					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
+					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
+					<li><a href=\"#\">$inscripcion</a></li>
+					<li><a href=\"#header\" class=\"scroll\">$contacto</a></li>
+					";
+					} elseif ((strcmp($current_page, "poster") == 0)) { 
+					echo "
+					<li><a href=\"index.php?language=$language\">$inicio </a></li>
+					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
+					<li><a href=\"#\">$poster</a></li> 
+					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
+					<li><a href=\"#\">$inscripcion</a></li>
+					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
+					";
+					} elseif ((strcmp($current_page, "expo-details") == 0)) { 
+					echo "
+					<li><a href=\"index.php?language=$language\">$inicio </a></li>
+					<li><a href=\"#bio\" class=\"scroll\">$biografia</a></li> 
+					<li><a href=\"#talk\" class=\"scroll\">$charla</a></li> 
+					<!-- <li><a href=\"index.php?language=$language#activity\">$actividades</a></li> -->
+					<li><a href=\"#\">$inscripcion</a></li>
+					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
+					";
+					} ?> 
 				</ul>
 				<!-- script-for-menu -->
 				 <script>
