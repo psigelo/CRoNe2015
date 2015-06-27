@@ -19,7 +19,7 @@
 	<p>Se recibirá resumen extendido con las siguientes características</p>
 	<ul>
 		  <li>Escrito en inglés.</li>
-		  <li>Máximo 3 páginas.</li>
+		  <li>Máximo 3 páginas, a doble columna, 12pt.</li>
 		  <li>Las siguientes secciones deben ir:
 		  	<ul>
 			  <li>Introducción</li>
@@ -49,7 +49,6 @@
 	<li>Aplicaciones de visión computacional</li>
 	<li>Inteligencia artificial en robótica</li>
 	<li>Redes neuronales en robótica</li>
-	<li>Robótica cognitiva</li>
 	<li>Robótica de enjambre</li>
 	<li>Sistemas teleoperados</li>
 	</ul>

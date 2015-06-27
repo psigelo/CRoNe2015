@@ -10,7 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	$inicio = ($language=='es') ? 'INICIO': 'HOME';
 	$expositores= ($language=='es') ? 'EXPOSITORES': 'SPEAKERS';
 	$poster= ($language=='es') ? 'POSTER': 'POSTER';
-	$actividades=($language=='es') ? 'ACTIVIDADES': 'PROGRAM';
+	$actividades=($language=='es') ? 'ACTIVIDADES': 'ACTIVITIES';
 	$contacto =($language=='es') ? 'CONTACTO': 'CONTACT';
 	$biografia =($language=='es') ? 'BIOGRAFÍA': 'BIOGRAPHY';
 	$charla  =($language=='es') ? 'CHARLA': 'TALK';

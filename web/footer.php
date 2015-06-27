@@ -16,6 +16,9 @@
 				<div class=\"banner-bottom-grids\">
 					<img src=\"images/pat-utfsm-color.png\" alt=\"\"/>
 				</div>
+				<div class=\"banner-bottom-grids\">
+					<img src=\"images/Informatica.jpeg\" alt=\"\"/>
+				</div>
 				<!-- <span class=\"stretch\"></span> -->
 			</div>
 			<div class=\"banner-bottom-aus\">
@@ -25,6 +28,9 @@
 				</div>
 				<div class=\"banner-bottom-grids\">
 					<img src=\"images/aus-sotaltim.png\" alt=\"\"/>
+				</div>
+				<div class=\"banner-bottom-grids\">
+					<img src=\"images/Aexa.png\" alt=\"\"/>
 				</div>
 				<span class=\"stretch\"></span>
 			</div>
