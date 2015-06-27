@@ -1,10 +1,16 @@
 <?php $current_page="poster"; include_once('header.php'); ?>
+
+<?php if($language=='es'){ ?> 
+
 <!--posters-->
 <div class="poster-img" >
 	<img src="images/banner-posters-square.png" alt=""/>
 	<div class="poster-title"> 
-		<h4>¡Ven y presenta tu trabajo!</h4>
-		<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>07 de Agosto</b></p>
+				
+					<h4>¡Ven y presenta tu trabajo!</h4>
+					<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>07 de Agosto</b></p>
+				
+				
 	</div>
 </div>
 <!--//posters-->
@@ -69,5 +75,85 @@
 <br \>
 <br \>
 <br \>
+
+
+
+<?php } else { ?>
+
+
+
+<!--posters-->
+<div class="poster-img" >
+	<img src="images/banner-posters-square.png" alt=""/>
+	<div class="poster-title"> 
+		<h4>Come and present your work!</h4>
+					<p>Exhibit your investigation or development work in robotics and/or neuroscience, a committee of experts will give you an excellent feedback. </br></br> Send us your extended resume to <b>poster@crone2015.org</b> </br></br> Submission deadline <b>August 07</b></p>";
+	</div>
+</div>
+<!--//posters-->
+<br \>
+<div class="posterDetailConteiner">
+	<h1> Posters </h1>
+	<p><b>CRoNe 2015</b> has planned to benefit your own development or research work, by providing you with useful insights from a world-class speakers committee. At this posters presentation, not only speakers and other attendees will see your work, there will be a lot of people because of the open university event being held at this same week.  </p>
+
+	
+	<h2> Extended abstract </h2>
+
+	<p>Submitted extended abstracts must be</p>
+	<ul>
+		  <li>written in english.</li>
+		  <li>3 pages (double column) of maximum length 12 pt</li>
+		  <li>Sections must include:
+		  	<ul>
+			  <li>Introduction</li>
+			  <li>Methods</li>
+			  <li>Results</li>
+			  <li>Discussion</li>
+			  <li>Conclusions</li>
+			</ul>
+		</li>
+	</ul>
+
+	<h2>Procedure</h2>
+	<ul>
+		<li>Submit an extended abstract about your development or research work, to poster@crone2015.org before August 7</b></li>
+		<li> On <b>August 28</b> you will receive an acceptance notification for your work </li>
+		<li> <b>Come with your printed poster</b> to the event, following guidelines included on the previous acceptance notification</li>
+	</ul>
+
+
+	<h2>Topics of interest</h2>
+	<p>Topics interest include, <b>but are not limited</b> to:</p>
+	<ul>
+	<li>Artificial intelligence on robotics</li>
+	<li>Cognitive robotics</li>
+	<li>Computational vision applications</li>
+	<li> Control applications</li>
+	<li>Machine learning applications</li>
+	<li>Neural networks on robotics</li>
+	<li>Swarm robotics</li>
+	<li>Robótica de enjambre</li>
+	<li>Teleoperated systems</li>
+	</ul>
+	
+	
+	<h2>Important Dates</h2>
+	<ul>
+		<li><b>Extended abstract submission</b>: August 7</li>
+		<li><b>Decision notification</b>: August 28</li>
+		<li><b>Oral poster presentation</b>: October 23</li>
+	</ul>
+
+
+</div>
+<br \>
+<br \>
+<br \>
+<br \>
+<br \>
+<br \>
+
+<?php } ?>
+
 
 <?php include_once('footer.php'); ?>

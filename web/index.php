@@ -65,7 +65,7 @@
 		</a>
 	</div>
 	<div class="poster-button">
-		<a href="poster.php">
+		<a <?php echo"href=poster.php?language=$language" ?> >
 			<button type="button"><?php if ($language=="es") {echo "Ver Más información";}else{echo "See more information";} ?> </button> 
 		</a>
 	</div>
