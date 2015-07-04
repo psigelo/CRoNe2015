@@ -17,7 +17,7 @@
 					<img src=\"images/pat-utfsm-color.png\" alt=\"\"/>
 				</div>
 				<div class=\"banner-bottom-grids\">
-					<img src=\"images/Informatica.jpeg\" alt=\"\"/>
+					<img src=\"images/logo_DI_UTFSM.jpg\" alt=\"\"/>
 				</div>
 				<!-- <span class=\"stretch\"></span> -->
 			</div>
@@ -32,7 +32,10 @@
 				<div class=\"banner-bottom-grids\">
 					<img src=\"images/Aexa.png\" alt=\"\"/>
 				</div>
-				<span class=\"stretch\"></span>
+				<div class=\"banner-bottom-grids\">
+					<img src=\"images/mercurio.png\" alt=\"\"/>
+				</div>
+				<span class=\"stretch\" heigth=\"10px\"></span>
 			</div>
 			<div class=\"clearfix\"></div>
 			";
