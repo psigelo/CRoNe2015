@@ -17,7 +17,7 @@
 					<img src=\"images/pat-utfsm-color.png\" alt=\"\"/>
 				</div>
 				<div class=\"banner-bottom-grids\">
-					<img src=\"images/logo_DI_UTFSM.jpg\" alt=\"\"/>
+					<img src=\"images/logo_DI_UTFSM.png\" alt=\"\"/>
 				</div>
 				<!-- <span class=\"stretch\"></span> -->
 			</div>
