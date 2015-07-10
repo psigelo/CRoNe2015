@@ -145,16 +145,16 @@ else
     
     /*** connect to database ***/
     /*** mysql hostname ***/
-    $mysql_hostname = 'localhost';
+    $mysql_hostname = 'mysql.crone2015.org';
 
     /*** mysql username ***/
     $mysql_username = 'crone';
 
     /*** mysql password ***/
-    $mysql_password = 'crone2015';
+    $mysql_password = 'cr0n32015';
 
     /*** database name ***/
-    $mysql_dbname = 'crone';
+    $mysql_dbname = 'bd_crone';
 
     try
     {
