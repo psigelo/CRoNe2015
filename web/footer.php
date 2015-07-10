@@ -1,48 +1,43 @@
 	<!--banner-bottom-->
 	<div class="banner-bottom">
 		<div class="container">
-		<?php
-				
-			echo "
-			<div class=\"banner-bottom-org\">
-				<h5>".(($language=='es') ? 'Organiza': 'Organize')."</h5>
-				<div class=\"banner-bottom-grids\">
-					<img src=\"images/org-cr.png\" alt=\"\"/>
+			<div class="banner-bottom-org">
+				<h5><?php echo (($language=='es') ? 'Organiza': 'Organize'); ?></h5>
+				<div class="banner-bottom-grids">
+					<a href="http://centroderobotica.cl/" target="_blank"><img src="images/org-cr.png" alt=""/></a>
 				</div>
-				<!-- <span class=\"stretch\"></span> -->
+				<!-- <span class="stretch"></span> -->
 			</div>
-			<div class=\"banner-bottom-pat\">
-				<h5>".(($language=='es') ? 'Patrocina': 'Support')."</h5>
-				<div class=\"banner-bottom-grids\">
-					<img src=\"images/pat-utfsm-color.png\" alt=\"\"/>
+			<div class="banner-bottom-pat">
+				<h5><?php echo (($language=='es') ? 'Patrocina': 'Support'); ?></h5>
+				<div class="banner-bottom-grids">
+					<a href="http://www.utfsm.cl/" target="_blank"><img src="images/pat-utfsm-color.png" alt=""/></a>
 				</div>
-				<div class=\"banner-bottom-grids\">
-					<img src=\"images/logo_DI_UTFSM.png\" alt=\"\"/>
+				<div class="banner-bottom-grids">
+					<a href="http://www.inf.utfsm.cl/" target="_blank"><img src="images/pat-di-utfsm.png" alt=""/></a>
 				</div>
-				<div class=\"banner-bottom-grids\">
-					<img src=\"images/pat-robotshop.jpg\" alt=\"\"/>
-				</div>
-				<!-- <span class=\"stretch\"></span> -->
+				<!-- <span class="stretch"></span> -->
 			</div>
-			<div class=\"banner-bottom-aus\">
-				<h5>".(($language=='es') ? 'Auspicia': 'Sponsor')."</h5>
-				<div class=\"banner-bottom-grids\">
-					<img src=\"images/aus-feutfsm.png\" alt=\"\"/>
+			<div class="banner-bottom-aus">
+				<h5><?php echo (($language=='es') ? 'Auspicia': 'Sponsor'); ?></h5>
+				<div class="banner-bottom-grids">
+					<a href="http://feutfsm.cl/" target="_blank"><img src="images/aus-feutfsm.png" alt=""/></a>
 				</div>
-				<div class=\"banner-bottom-grids\">
-					<img src=\"images/aus-sotaltim.png\" alt=\"\"/>
+				<div class="banner-bottom-grids">
+					<a href="http://www.sotaltim.cl/" target="_blank"><img src="images/aus-sotaltim.png" alt=""/></a>
 				</div>
-				<div class=\"banner-bottom-grids\">
-					<img src=\"images/Aexa.png\" alt=\"\"/>
+				<div class="banner-bottom-grids">
+					<a href="http://www.exalumnos.usm.cl/" target="_blank"><img src="images/aus-aexa.png" alt=""/></a>
 				</div>
-				<div class=\"banner-bottom-grids\">
-					<img src=\"images/mercurio.png\" alt=\"\"/>
+				<div class="banner-bottom-grids">
+					<a href="http://www.mercuriovalpo.cl/" target="_blank"><img src="images/aus-mercurio.png" alt=""/></a>
 				</div>
-				<span class=\"stretch\" heigth=\"10px\"></span>
+				<div class="banner-bottom-grids">
+					<a href="http://www.robotshop.com/" target="_blank"><img src="images/aus-robotshop.jpg" alt=""/></a>
+				</div>
+				<span class="stretch" heigth="10px"></span>
 			</div>
-			<div class=\"clearfix\"></div>
-			";
-		?>
+			<div class="clearfix"></div>
 		</div>
 	</div>	
 	<!--//banner-bottom-->
