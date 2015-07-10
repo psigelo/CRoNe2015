@@ -22,6 +22,15 @@ body {
 .posterDetailConteiner h2 {
 	color:#3366FF;
 }
+.hide {
+    display:none;
+}
+/*--inscription--*/
+.inscription {
+	text-align: center;
+	padding: 70px 0;
+	/*color: #CC5500;*/
+}
 /*--header--*/
 .header {
 	/*background: #f3f6ed;*/
@@ -120,6 +129,60 @@ span.menu {
 	padding-top: 5em;
 }
 .social-media a {
+	outline: none;
+}
+/*--inscription--*/
+.inscriptions {
+	padding: 8em 0;
+}
+.inscriptions h3 {
+	color: #002b36;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0 0 1em 14px;
+}
+.inscriptions-grids {
+	padding: 30px 15px;
+}
+.inscriptions label {
+	font-size: 20px;
+	padding: 10px 0;
+}
+.inscriptions input[type="text"],
+.inscriptions input[type="email"],
+.inscriptions input[type="number"],
+.inscriptions textarea {
+	display: inline-block;
+	background: none;
+	border: 1px solid #000;
+	box-shadow: 1px 1px rgb(139, 135, 135);
+	width: 100%;
+	margin: 0 0 1em 0;
+	outline: none;
+	font-size: 16px;
+	color: #5b5b5b;
+	font-weight: 500;
+	font-family: opensans;
+	padding: 10px 15px 10px 15px;
+}
+.inscriptions input[type="submit"]{
+	background: #268bd2;
+	border:1px solid #2aa198; /* rgba(131, 181, 223, 0.49); */
+	padding: .4em 0;
+	width: 21%;
+	margin-top: 2em;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+	box-shadow: 1px 1px rgb(139, 135, 135);
+	outline: none;
+}
+.inscriptions input[type="submit"]:hover{
+	color: #fff;
+	background: #cb4b16;
+	border-color: #b58900;
+	transition: .5s all;
 	outline: none;
 }
 /*--banner--*/
