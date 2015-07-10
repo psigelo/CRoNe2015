@@ -1,7 +1,6 @@
+<?php header('Location: http://www.crone2015.org/CRoNe2015/web/'); die(); ?>
 
-<?php header('Location: http://www.crone2015.org/CRoNe2015/web/'); die(); 
-
-$current_page="inscriptions"; include_once('header.php'); ?>
+<?php $current_page="inscriptions"; include_once('header.php'); ?>
 
 <?php 
 	$name = !empty($_GET['name']) && is_string($_GET['name']) ? htmlspecialchars($_GET['name']) : 'none'; 
