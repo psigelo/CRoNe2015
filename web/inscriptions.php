@@ -1,4 +1,5 @@
-<?php header('Location: http://www.crone2015.org/CRoNe2015/web/'); die(); ?>
+<?php //header('Location: http://www.crone2015.org/CRoNe2015/web/'); die(); 
+?>
 
 <?php $current_page="inscriptions"; include_once('header.php'); ?>
 
@@ -96,36 +97,36 @@
 	    var student = document.getElementById("student_section");
 	    var profesoinal = document.getElementById("profesional_section");
 
-	    // var student_career = document.getElementById("ins_career").required;
-	    // var student_admission_year = document.getElementById("ins_admission_year").required;
+	    var student_career = document.getElementById("ins_career");
+	    var student_admission_year = document.getElementById("ins_admission_year");
 
-	    // var profesoinal_last_grade = document.getElementById("ins_last_grade").required;
-	    // var profesoinal_graduation_year = document.getElementById("ins_graduation_year").required;
-	    // var profesoinal_last_institution = document.getElementById("ins_last_institution").required;
+	    var profesoinal_last_grade = document.getElementById("ins_last_grade");
+	    var profesoinal_graduation_year = document.getElementById("ins_graduation_year");
+	    var profesoinal_last_institution = document.getElementById("ins_last_institution");
 
 	    if(elm.id == 'rdoStudent')
 	    {
 	        student.classList.remove('hide');
 	        profesoinal.classList.add('hide');
 	        
-		    // student_career = true;
-		    // student_admission_year = true;
+		    student_career.required = true;
+		    student_admission_year.required = true;
 
-		    // profesoinal_last_grade = false;
-		    // profesoinal_graduation_year = false;
-		    // profesoinal_last_institution = false;
+		    profesoinal_last_grade.required = false;
+		    profesoinal_graduation_year.required = false;
+		    profesoinal_last_institution.required = false;
 	    }
 	    else
 	    {
 	        student.classList.add('hide');
 	        profesoinal.classList.remove('hide');
 
-		    // student_career = false;
-		    // student_admission_year = false;
+		    student_career.required = false;
+		    student_admission_year.required = false;
 
-		    // profesoinal_last_grade = true;
-		    // profesoinal_graduation_year = true;
-		    // profesoinal_last_institution = true;
+		    profesoinal_last_grade.required = true;
+		    profesoinal_graduation_year.required = true;
+		    profesoinal_last_institution.required = true;
 	    }
 	}
 
@@ -133,9 +134,12 @@
 	{
 		document.getElementById("profesional_section").classList.add('hide');
 
-	    // document.getElementById("ins_last_grade").required = false;
-	    // document.getElementById("ins_graduation_year").required = false;
-	    // document.getElementById("ins_last_institution").required = false;
+	    document.getElementById("ins_career").required = true;
+	    document.getElementById("ins_admission_year").required = true;
+
+	    document.getElementById("ins_last_grade").required = false;
+	    document.getElementById("ins_graduation_year").required = false;
+	    document.getElementById("ins_last_institution").required = false;
 	}); 
 
 </script>

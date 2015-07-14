@@ -145,16 +145,19 @@ else
     
     /*** connect to database ***/
     /*** mysql hostname ***/
-    $mysql_hostname = 'localhost';
+
+    include_once('mysql_config.php');
+
+    $mysql_hostname = $mysql_hostname_config;
 
     /*** mysql username ***/
-    $mysql_username = 'crone';
+    $mysql_username = $mysql_username_config;
 
     /*** mysql password ***/
-    $mysql_password = 'crone2015';
+    $mysql_password = $mysql_password_config;
 
     /*** database name ***/
-    $mysql_dbname = 'crone';
+    $mysql_dbname = $mysql_dbname_config;
 
     try
     {
@@ -219,19 +222,19 @@ else
         }
 
         /*** if all is done, say thanks ***/
-        $message = '¡Sus datos fueron ingresados con éxito!';
+        $message = '&#161;Sus datos fueron ingresados con &#233;xito!';
     }
     catch(Exception $e)
     {
         /*** check if the username already exists ***/
         if( $e->getCode() == 23000)
         {
-            $message = '¡Usuario existente!';
+            $message = '&#161;Usuario existente!';
         }
         else
         {
             /*** if we are here, something has gone wrong with the database ***/
-            $message = '¡Ups! Creo que algo se rompió :s' . $e;
+            $message = '&#161;Ups! Creo que algo se rompió :s' . $e;
         }
     }
 }
