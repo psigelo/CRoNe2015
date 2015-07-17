@@ -227,14 +227,13 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>14.50 - 15.35</h5>
-							<h3>Talk #7</h3>
+							<h3>Graduate studies on computer science UTFSM</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/pat-di-utfsm.png" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h5>UTFSM</h5>
 								</div>						
 							</div>
 						</div>
@@ -274,14 +273,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>12.15 - 13.00</h5>
-							<h3>Talk #9</h3>
+							<h3>Fighting cancer using swarms of nanorobots</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-sylvain-martel.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h4>Sylvain Martel</h4>
+									<h5>NanoRobotics Laboratory, Polytechnique Montréal, Canada</h5>
 								</div>						
 							</div>
 						</div>
@@ -465,14 +464,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>14.50 - 15.35</h5>
-							<h3>Charla #7</h3>
+							<h3>Difusión postgrados en informática UTFSM</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/pat-di-utfsm.png" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									
+									<h5>UTFSM</h5>
 								</div>						
 							</div>
 						</div>
@@ -512,14 +511,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>12.15 - 13.00</h5>
-							<h3>Charla #9</h3>
+							<h3>Combatiendo el cáncer usando enjambres de nanorobot</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-sylvain-martel.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									<h4>Sylvain Martel</h4>
+									<h5>Laboratorio de Nanorobótica, Escuela Politécnica de Montreal, Canadá</h5>
 								</div>						
 							</div>
 						</div>

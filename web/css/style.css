@@ -22,6 +22,18 @@ body {
 .posterDetailConteiner h2 {
 	color:#3366FF;
 }
+.inscripcionDetailConteiner {
+	width:75%;
+	margin-left: 12%;
+	text-align: justify;
+}
+
+.inscripcionDetailConteiner h1 {
+	color:#3366FF;
+}
+.inscripcionDetailConteiner h2 {
+	color:#3366FF;
+}
 .hide {
     display:none;
 }
@@ -1535,3 +1547,50 @@ table tr:hover td {
 }
 
 
+.datagrid table { 
+	border-collapse: collapse; 
+	text-align: left; 
+	width: 100%;
+	 } 
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif;
+	background: #fff; 
+	overflow: hidden;
+	border: 1px solid #3366FF;
+	webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	width: 70%;
+}
+.datagrid table td, .datagrid table th { 
+	padding: 3px 10px; 
+}
+.datagrid table thead th {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3366FF), color-stop(1, #3366FF) );
+	background:-moz-linear-gradient( center top, #3366FF 5%, #3366FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3366FF', endColorstr='#3366FF');
+	background-color:#3366FF; 
+	color:#FFFFFF; 
+	font-size: 15px; 
+	font-weight: bold; 
+	border-left: 1px solid #3366FF; 
+} 
+.datagrid table thead th:first-child { 
+	border: none; 
+}
+.datagrid table tbody td { 
+	color: #060C1F; 
+	border-left: 1px solid #5278A3;
+	font-size: 12px;
+	font-weight: normal; 
+}
+.datagrid table tbody .alt td { 
+	background: #E1EEF4;
+	color: #3366FF; 
+}
+.datagrid table tbody td:first-child { 
+	border-left: none; 
+}
+.datagrid table tbody tr:last-child td { 
+	border-bottom: none; 
+}
