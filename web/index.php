@@ -230,7 +230,7 @@
 							<h3>Graduate studies on computer science UTFSM</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/pat-di-utfsm.png" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-di-informatica.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
 									<h5>UTFSM</h5>
@@ -467,7 +467,7 @@
 							<h3>Difusión postgrados en informática UTFSM</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/pat-di-utfsm.png" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-di-informatica.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
 									
