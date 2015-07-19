@@ -10,6 +10,29 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f3f6ed;
 }
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid red; /* DEBUG ONLY */
+}
+@media (max-width: 1200px) {
+	.container,
+	.container-header {
+		width: 1170px;
+	}
+}
+@media (max-width: 992px) {
+	.container,
+	.container-header {
+		width: 970px;
+	}
+}
+@media (max-width: 768px) {
+	.container,
+	.container-header {
+		width: 750px;
+	}
+}
 .posterDetailConteiner {
 	width:75%;
 	margin-left: 12%;
@@ -20,18 +43,6 @@ body {
 	color:#3366FF;
 }
 .posterDetailConteiner h2 {
-	color:#3366FF;
-}
-.inscripcionDetailConteiner {
-	width:75%;
-	margin-left: 12%;
-	text-align: justify;
-}
-
-.inscripcionDetailConteiner h1 {
-	color:#3366FF;
-}
-.inscripcionDetailConteiner h2 {
 	color:#3366FF;
 }
 .hide {
@@ -196,6 +207,27 @@ span.menu {
 	border-color: #b58900;
 	transition: .5s all;
 	outline: none;
+}
+.prelude-registration {
+	width:100%;
+	/*border-radius: 3px;*/
+	padding: 8em 0;
+}
+.prelude-registration-grid {
+	width: 100%;
+	padding-bottom: 25px;
+	/*margin-left: 12%;*/
+	/*text-align: justify;*/
+}
+.prelude-registration-grid h1 {
+	color:#3366FF;	
+	padding: 20px 0;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #3366FF;
+}
+.prelude-registration-grid h2 {
+	color:#3366FF;
+	padding: 10px 5px;
 }
 /*--banner--*/
 #owl-demo .item img{
