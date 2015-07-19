@@ -97,7 +97,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href=\"#expo\" class=\"scroll\">$expositores</a></li> 
 					<li><a href=\"poster.php?language=$language\" >$poster</a></li> 
 					<li><a href=\"#activity\" class=\"scroll\">$actividades</a></li>
-					<li><a href=\"inscriptions.php?language=$language\">$inscripcion</a></li>
+					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
 					";
 					 } elseif ((strcmp($current_page, "contact") == 0)) { 
@@ -106,7 +106,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
 					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
-					<li><a href=\"inscriptions.php?language=$language\">$inscripcion</a></li>
+					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
 					<li><a href=\"#header\" class=\"scroll\">$contacto</a></li>
 					";
 					} elseif ((strcmp($current_page, "poster") == 0)) { 
@@ -115,7 +115,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
 					<li><a href=\"#\">$poster</a></li> 
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
-					<li><a href=\"inscriptions.php?language=$language\">$inscripcion</a></li>
+					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
 					";
 					} elseif ((strcmp($current_page, "expo-details") == 0)) { 
@@ -124,7 +124,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href=\"#bio\" class=\"scroll\">$biografia</a></li> 
 					<li><a href=\"#talk\" class=\"scroll\">$charla</a></li> 
 					<!-- <li><a href=\"index.php?language=$language#activity\">$actividades</a></li> -->
-					<li><a href=\"inscriptions.php?language=$language\">$inscripcion</a></li>
+					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
 					";
 					} elseif ((strcmp($current_page, "inscriptions") == 0)) { 
@@ -133,7 +133,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
 					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
-					<li><a href=\"#inscriptions\">$inscripcion</a></li>
+					<li><a href=\"#inscripciones\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\" class=\"scroll\">$contacto</a></li>
 					";
 					} elseif ((strcmp($current_page, "inscriptions_service") == 0)) { 
@@ -142,7 +142,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
 					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
-					<li><a href=\"inscriptions.php?language=$language\">$inscripcion</a></li>
+					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\" class=\"scroll\">$contacto</a></li>
 					";
 					} ?>
