@@ -89,7 +89,7 @@
 </div>
 <!--//inscriptions-->
 
-<? } else { ?>
+<?php } else { ?>
 
 <!--inscriptions-->
 <div class="inscriptions" id="inscriptions">

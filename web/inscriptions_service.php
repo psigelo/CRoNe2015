@@ -154,6 +154,7 @@ else
     $mysql_username = $mysql_username_config;
 
     /*** mysql password ***/
+
     $mysql_password = $mysql_password_config;
 
     /*** database name ***/

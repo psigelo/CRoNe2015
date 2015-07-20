@@ -14,7 +14,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	$contacto =($language=='es') ? 'CONTACTO': 'CONTACT';
 	$biografia =($language=='es') ? 'BIOGRAFÍA': 'BIOGRAPHY';
 	$charla  =($language=='es') ? 'CHARLA': 'TALK';
-	$inscripcion = ($language=='es') ? 'INSCRIPCIÓN': 'INSCRIPTION';
+	$inscripcion = ($language=='es') ? 'INSCRIPCIÓN': 'REGISTRATION';
 ?>
 
 <!doctype html>
