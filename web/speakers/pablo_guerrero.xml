@@ -1,0 +1,56 @@
+<speaker>
+	<name>Pablo Guerrero</name>
+	<img>./images/expo-pablo-guerrero.jpg</img>
+	
+	<es>
+		<institution> 
+			Departamento de Ciencias de la Computación, Universidad de Chile, Chile
+		</institution>
+
+		<information>
+			<p>Pablo Guerrero recibió su título de Ingeniero Eléctrico en 2003 y se graduó como PhD en 2011, de la Universidad de Chile. Actualmente es un investigador postdoctoral en el departamento de ciencias de la computación en la Universidad de Chile. Es uno de los fundadores del primer equipo chileno de fútbol robótico, y fue capitán del equipo por muchos años.</p>
+
+			<p>Pablo Guerrero es autor de 20 artículos técnicos. Sus intereses de investigación incluyen robótica móvil, estimación de estado bayesiana, aprendizaje bajo incertidumbre, y aprendizaje de máquinas. Está especialmente interesado en el problema del manejo de incertidumbre en un robot móvil.</p>
+		</information>
+
+		<expositionDate> 
+			21 de Octubre, 11.30 - 12.10
+		</expositionDate>
+
+		<titleTalk>
+			Aprendizaje de Robots
+		</titleTalk>
+
+		<abstractTalk>
+			<p>Pronto.</p>
+		</abstractTalk>
+
+	</es>
+
+
+	<en>
+		<institution> 
+			Computer Science Department, University of Chile, Chile
+		</institution>
+
+		<information>
+
+			<p>Pablo Guerrero received his electrical engineering diploma in 2003 and his electrical engineering PhD in 2011, both from the University of Chile. He is currently a postdoctoral researcher at the Computer Science Department of the University of Chile. He was one of the founders of the first chilean robot soccer team and was head of the team for many years.</p>
+
+			<p>Pablo Guerrero is the author of 20 technical articles. His research interests include mobile robotics, Bayesian state estimation, learning and planning under uncertainty, and machine learning. He is especially interested on the problem of handling the uncertainty in a mobile robot.</p>
+
+		</information>
+
+		<expositionDate> 
+			October 21, 11.30 - 12.10 
+		</expositionDate>
+
+		<titleTalk>
+			Learning on robotics
+		</titleTalk>
+
+		<abstractTalk>
+			To be announced
+		</abstractTalk>
+	</en>
+</speaker>

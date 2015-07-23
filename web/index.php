@@ -86,14 +86,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
-							<h3>Talk #1</h3>
+							<h3>Learning on Robotics</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-pablo-guerrero.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h4>Pablo Guerrero</h4>
+									<h5>Computer Science Department, University of Chile, Chile</h5>
 								</div>						
 							</div>
 						</div>
@@ -119,14 +119,14 @@
 						</div>
 						<div class="activity-body-item">
 							<h5>14.00 - 14.45</h5>
-							<h3>Talk #3</h3>
+							<h3>Industrial Robotics</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-manuel-olivares.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h4>Manuel Olivares</h4>
+									<h5>Electronic Department, Federico Santa María Technical University, Chile</h5>
 								</div>						
 							</div>				
 						</div>
@@ -311,6 +311,7 @@
 		</div>
 	
 <?php } else{ ?>
+
 		<div class="activity" id="activity">
 			<div class="container">
 				<h3>Actividades</h3>
@@ -323,14 +324,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
-							<h3>Charla #1</h3>
+							<h3>Aprendizaje de Robots</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-pablo-guerrero.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									<h4>Pablo Guerrero</h4>
+									<h5>Departamento de Ciencias de la Computación, Universidad de Chile, Chile</h5>
 								</div>						
 							</div>
 						</div>
@@ -356,14 +357,14 @@
 						</div>
 						<div class="activity-body-item">
 							<h5>14.00 - 14.45</h5>
-							<h3>Charla #3</h3>
+							<h3>Robótica Industrial</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-manuel-olivares.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									<h4>Manuel Olivares</h4>
+									<h5>Departamento de Electrónica, Universidad Técnica Federico Santa María, Chile </h5>
 								</div>						
 							</div>				
 						</div>
@@ -511,7 +512,7 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>12.15 - 13.00</h5>
-							<h3>Combatiendo el cáncer usando enjambres de nanorobot</h3>
+							<h3>Combatiendo el cáncer usando enjambres de nanorobots</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-sylvain-martel.jpg" alt=""/>
