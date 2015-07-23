@@ -241,12 +241,15 @@
 						<div class="activity-body-item">
 							<h5>15.40 - 17.40</h5>
 							<h3>CINV visit</h3>
-							<!-- <div class="activity-body-item-description">
+							<div class="activity-body-item-description">
+								<div class="activity-body-item-description-img"> 
+									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Visita Centro Interdisciplinario de Neurociencia de Valparaíso</h4>
-									<h5></h5>
+									<h4>Centro Interdisciplinario de Neurociencia de Valparaíso</h4>
+									<h5>www.cinv.uv.cl</h5>
 								</div>						
-							</div> -->
+							</div>
 						</div>
 					</div>
 				</div>
@@ -480,12 +483,15 @@
 						<div class="activity-body-item">
 							<h5>15.40 - 17.40</h5>
 							<h3>Visita CINV</h3>
-							<!-- <div class="activity-body-item-description">
+							<div class="activity-body-item-description">
+								<div class="activity-body-item-description-img"> 
+									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Visita Centro Interdisciplinario de Neurociencia de Valparaíso</h4>
-									<h5></h5>
+									<h4>Centro Interdisciplinario de Neurociencia de Valparaíso</h4>
+									<h5>www.cinv.uv.cl</h5>
 								</div>						
-							</div> -->
+							</div>
 						</div>
 					</div>
 				</div>
