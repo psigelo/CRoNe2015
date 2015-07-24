@@ -16,6 +16,9 @@
 				<div class="banner-bottom-grids">
 					<a href="http://www.inf.utfsm.cl/" target="_blank"><img src="images/pat-di-utfsm.png" alt=""/></a>
 				</div>
+				<div class="banner-bottom-grids">
+					<a href="http://www.cinv.uv.cl/" target="_blank"><img src="images/pat-cinv.png" alt=""/></a>
+				</div>
 				<!-- <span class="stretch"></span> -->
 			</div>
 			<div class="banner-bottom-aus">
