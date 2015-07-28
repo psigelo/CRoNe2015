@@ -1,0 +1,59 @@
+<speaker>
+	<name>Maria José Escobar</name>
+	<img>./images/expo-mariajose-escobar.jpg</img>
+	
+	<es>
+		<institution> 
+			Departamento de Electrónica, Universidad Técnica Federico Santa María, Chile
+		</institution>
+
+		<information>
+			<p>Maria-Jose Escobar recibió el título de Ingeniería Electrónica y grado de Magíster en Ciencias de la Ingeniería ELectrónica, de la Universidad Técnica Federico Santa María (UTFSM), Chile, en 2003 y su Doctorado (PhD) en procesamiento de imágen y señales de la Universidad de Niza Sophia Antipolis, Francia, en 2009.</p>
+			<p> Su Doctorado estudió modelos biológicamente inspirados para estimación y análisis de movimiento aplicado a reconocimiento de acciones humanas e integración de movimiento, y fue realizado bajo la supervisión de el Dr. Pierre Kornprobst en el equipo del Proyecto Neuromathcomp, INRIA.</p>
+			<p> En Enero 2011, comienza a trabajar como investigadora en el Departamento de Ingeniería Electrónica, UTFSM, Valparaíso, Chile. Desde el 2014 es Profesor Asistente en la misma Universidad. Sus intereses de investigación cubren neurociencia computacional, visión biológica, percepción de movimiento, robótica bio-inspirada y análisis de imágenes naturales.</p>
+
+		</information>
+
+		<expositionDate> 
+			22 de Octubre, 14.00 - 14.45
+		</expositionDate>
+
+		<titleTalk>
+			Cómputo en la Retina: ¿qué podemos aprender de ella?
+		</titleTalk>
+
+		<abstractTalk>
+			<p>Registros fisiológicos en retina han permitido demostrar que ésta no es un simple transductor de luz a señales eléctricas, sino que se encarga de extraer importantes características de la imagen de entrada, eliminar redundancia, y transmitir información que realmente sea relevante para el resto de nuestro sistema visual.</p>
+			<p>Muchos de los cómputos realizados por la retina pueden ser modelados matemáticamente, y por qué no, inspirar algoritmos de aprendizaje y visión artificial. Durante esta charla revisaremos los principales cómputos realizados por la retina y cómo podemos aplicar estos principios de diseño en aplicaciones de ingeniería, como tone-mapping y compresión de imágenes.</p>
+		</abstractTalk>
+
+	</es>
+
+
+	<en>
+		<institution> 
+			Electronics Department, Universidad Técnica Federico Santa María, Chile
+		</institution>
+
+		<information>
+
+			<p>Maria-Jose Escobar received the Ms. in Electronic Engineer and Electronic Engineer diploma from Universidad Técnica Federico Santa María (UTFSM), Chile, in 2003 and her PhD in Signal and Image Processing from Nice Sophia Antipolis University, France, in 2009.</p>
+			<p>Her PhD concerned bio-inspired models for motion estimation and analysis applied to human action recognition and motion integration, and it was done under the supervision of Dr. Pierre Kornprobst in Neuromathcomp Project Team, INRIA.</p>
+			<p> In January 2011, she started to work as a researcher at the Department of Electronic Engineering, UTFSM, Valparaíso, Chile. In 2014 she became Assistant Professor in the same University. Her research interests cover computational neuroscience, biological vision, motion perception, bio-inspired robotics and natural image analysis.</p>
+
+		</information>
+
+		<expositionDate> 
+			October 22, 14.00 - 14.45 
+		</expositionDate>
+
+		<titleTalk>
+			Coding in retina: what can we learn from it?
+		</titleTalk>
+
+		<abstractTalk>
+			<p>Physiological retina records have shown that it is not just a simple light to electrical signals transducer, but it is in charge of extracting important features from the input image, removing redundancy, and transmiting relevant information for the rest of our visual system.</p>
+			<p>There are several coding in retina that can be mathematically modeled, and can inspire learning algorithms and artificial vision. This talk will cover the main coding being held in retina, and how this design principles can be set into engineering applications, such as tone-mapping and image compressing.</p>
+		</abstractTalk>
+	</en>
+</speaker>
