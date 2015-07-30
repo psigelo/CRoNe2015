@@ -213,14 +213,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>14.00 - 14.45</h5>
-							<h3>Talk #6</h3>
+							<h3>Coding in retina: what can we learn from it?</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-mariajose-escobar.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h4>Maria José Escobar</h4>
+									<h5>Electronics Department, Universidad Técnica Federico Santa María, Chile</h5>
 								</div>						
 							</div>
 						</div>
@@ -454,14 +454,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>14.00 - 14.45</h5>
-							<h3>Charla #6</h3>
+							<h3>Cómputo en la Retina: ¿qué podemos aprender de ella?</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-mariajose-escobar.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									<h4>Maria José Escobar</h4>
+									<h5>Departamento de Electrónica, Universidad Técnica Federico Santa María, Chile</h5>
 								</div>						
 							</div>
 						</div>
