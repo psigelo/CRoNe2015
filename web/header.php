@@ -23,6 +23,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<title>CRoNe 2015</title>
 	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+
+	<script type="text/javascript" src="js/modernizr.custom.41045.js"></script>
+
 	<link href="css/social-buttons.css" rel="stylesheet">
 	<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet">
 	<link href="css/owl-carousel/owl.theme.css" rel="stylesheet">
@@ -43,9 +46,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //Custom Theme files -->
 
 	<!-- js -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-1.9.1.min.js"></script>
-	<script src="js/modernizr.custom.js"></script>
+	<!-- <script src="js/jquery.min.js"></script> -->
+	<!-- <script src="js/jquery-1.9.1.min.js"></script> -->
+	<script src="js/jquery-1.11.3.js"></script>
+	<!-- <script src="js/modernizr.custom.js"></script> -->
 	<script src="js/owl-carousel/owl.carousel.js"></script>
 	<!-- <script src="js/carrusel.js"></script> -->
 	<!-- //js -->	
@@ -53,7 +57,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- start-smoth-scrolling-->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>	
-	<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+	<!-- <script type="text/javascript" src="js/modernizr.custom.53451.js"></script> -->
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -147,7 +151,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<li><a href=\"#inscripciones\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\" class=\"scroll\">$contacto</a></li>
 					";
-					} elseif ((strcmp($current_page, "inscriptions_service") == 0)) { 
+					// } elseif ((strcmp($current_page, "inscriptions_service") == 0) || (strcmp($current_page, "status_service") == 0)) { 
+					} else {
 					echo "
 					<li><a href=\"index.php?language=$language\">$inicio </a></li>
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 

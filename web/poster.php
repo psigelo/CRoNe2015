@@ -8,7 +8,7 @@
 	<div class="poster-title"> 
 				
 					<h4>¡Ven y presenta tu trabajo!</h4>
-					<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>07 de Agosto</b></p>
+					<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>16 de Agosto <i>(extendido)</i></b></p>
 				
 				
 	</div>
@@ -62,8 +62,8 @@
 	
 	<h2>Fechas Importantes</h2>
 	<ul>
-		<li><b>Envío de resumen extendido</b>: 07 de agosto</li>
-		<li><b>Notificación de resultados</b>: 28 de agosto</li>
+		<li><b>Envío de resumen extendido</b>: <strike>07 de agosto</strike> 16 de Agosto <i>(extendido)</i></li>
+		<li><b>Notificación de resultados</b>: <strike>28 de agosto</strike> 4 de Septiembre <i>(extendido)</i></li>
 		<li><b>Exposición</b>: 23 de octubre</li>
 	</ul>
 
@@ -87,7 +87,7 @@
 	<img src="images/banner-posters-square.png" alt=""/>
 	<div class="poster-title"> 
 		<h4>Come and present your work!</h4>
-					<p>Exhibit your investigation or development work in robotics and/or neuroscience, a committee of experts will give you an excellent feedback. </br></br> Send us your extended resume to <b>poster@crone2015.org</b> </br></br> Submission deadline <b>August 07</b></p>";
+					<p>Exhibit your investigation or development work in robotics and/or neuroscience, a committee of experts will give you an excellent feedback. </br></br> Send us your extended resume to <b>poster@crone2015.org</b> </br></br> Submission deadline <b>August 16 <i>(extended)</i></b></p>";
 	</div>
 </div>
 <!--//posters-->
@@ -139,8 +139,8 @@
 	
 	<h2>Important Dates</h2>
 	<ul>
-		<li><b>Extended abstract submission</b>: August 7</li>
-		<li><b>Decision notification</b>: August 28</li>
+		<li><b>Extended abstract submission</b>: <strike>August 7</strike> August 16 <i>(extended)</i></li>
+		<li><b>Decision notification</b>: <strike>August 28</strike> September 4 <i>(extended)</i></li>
 		<li><b>Oral poster presentation</b>: October 23</li>
 	</ul>
 

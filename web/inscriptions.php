@@ -14,7 +14,7 @@
 	<div class="container">
 		<h3>Inscripción</h3>
 		<div class="inscriptions-grid">
-			<form action="inscriptions_service.php" method="post">
+			<form action="inscriptions_service.php?language=<?php echo $language; ?>" method="post">
 			<fieldset>
 			<p>
 			<label for="ins_name">Nombre completo</label></br>

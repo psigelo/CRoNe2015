@@ -135,26 +135,27 @@ else
     {
         $ins_career = filter_var(strtolower($_POST['ins_career']), FILTER_SANITIZE_STRING);
         $ins_admission_year = filter_var($_POST['ins_admission_year'], FILTER_SANITIZE_NUMBER_INT);
+        $ins_person_type = 0;
     }
     elseif($radio_button == 'rdoProfessional')
     {
         $ins_last_grade = filter_var(strtolower($_POST['ins_last_grade']), FILTER_SANITIZE_STRING);
         $ins_graduation_year = filter_var($_POST['ins_graduation_year'], FILTER_SANITIZE_NUMBER_INT);
         $ins_last_institution = filter_var(strtolower($_POST['ins_last_institution']), FILTER_SANITIZE_STRING);
+        $ins_person_type = 1;
     }
     
     /*** connect to database ***/
-    /*** mysql hostname ***/
-
+    
     include_once('mysql_config.php');
 
+    /*** mysql hostname ***/
     $mysql_hostname = $mysql_hostname_config;
 
     /*** mysql username ***/
     $mysql_username = $mysql_username_config;
 
     /*** mysql password ***/
-
     $mysql_password = $mysql_password_config;
 
     /*** database name ***/
@@ -169,8 +170,8 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt_general = $dbh->prepare("INSERT INTO general (name, run, email, institution, city, country, status ) 
-        VALUES (:ins_name, :ins_rut, :ins_email, :ins_institution, :ins_city, :ins_country, :ins_status)");
+        $stmt_general = $dbh->prepare("INSERT INTO general (name, run, email, institution, city, country, status, type ) 
+        VALUES (:ins_name, :ins_rut, :ins_email, :ins_institution, :ins_city, :ins_country, :ins_status, :ins_person_type)");
 
         $ins_status = 0;
 
@@ -182,7 +183,8 @@ else
         $stmt_general->bindParam(':ins_city', $ins_city, PDO::PARAM_STR);
         $stmt_general->bindParam(':ins_country', $ins_country, PDO::PARAM_STR);
         $stmt_general->bindParam(':ins_status', $ins_status, PDO::PARAM_INT);
-
+        $stmt_general->bindParam(':ins_person_type', $ins_person_type, PDO::PARAM_INT);
+        
         /*** execute the prepared statement ***/
         $stmt_general->execute();
 

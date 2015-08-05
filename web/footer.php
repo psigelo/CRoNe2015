@@ -116,6 +116,25 @@
 					<li><a href=\"#\">$inscripcion</a></li>
 					<li><a href=\"contact.php\">$contacto</a></li>
 					";
+					} elseif ((strcmp($current_page, "inscriptions") == 0)) { 
+					echo "
+					<li><a href=\"index.php?language=$language\">$inicio </a></li>
+					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
+					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
+					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
+					<li><a href=\"#inscripciones\">$inscripcion</a></li>
+					<li><a href=\"contact.php?language=$language\" class=\"scroll\">$contacto</a></li>
+					";
+					// } elseif ((strcmp($current_page, "inscriptions_service") == 0) || (strcmp($current_page, "status_service") == 0)) { 
+					} else {
+					echo "
+					<li><a href=\"index.php?language=$language\">$inicio </a></li>
+					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
+					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
+					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
+					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
+					<li><a href=\"contact.php?language=$language\" class=\"scroll\">$contacto</a></li>
+					";
 					} ?> 
 					</ul>
 				</div>
