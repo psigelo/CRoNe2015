@@ -67,6 +67,12 @@
 		<li><b>Exposición</b>: 23 de octubre</li>
 	</ul>
 
+	<h2>gtCISC</h2>
+
+	<p>Los 10 mejores trabajos serán invitados a enviar una versión extendida para inclusión en una edición especial de la nueva revista "Gate to Computational Intelligence and Soft Computing", publicada por Science Gate Publishing.</p>
+
+	<p>Más información de esta revista en: <a href="http://sciencegatepub.com/journals/gtcisc" target="_blank">http://sciencegatepub.com/journals/gtcisc</a></p>
+
 
 </div>
 <br \>
@@ -144,7 +150,12 @@
 		<li><b>Oral poster presentation</b>: October 23</li>
 	</ul>
 
+	<h2>gtCISC</h2>
 
+	<p>10 most outstanding works will be invited to submit an extended version for inclusion on a special issue of the newly launched journal "Gate to Computational Intelligence and Soft Computing" published by Science Gate Publishing.</p>
+
+	<p>More information about this journal: <a href="http://sciencegatepub.com/journals/gtcisc" target="_blank">http://sciencegatepub.com/journals/gtcisc</a></p>
+	
 </div>
 <br \>
 <br \>
