@@ -6,12 +6,27 @@ $current_page="status_service";
 /*** check if all the input were filled ***/
 if(!isset( $_POST['ins_rut'] )) 
 {
-    $message = '<h3>Por favor ingrese el campo "Cédula de identidad".</h3>';
+    if ($language == 'es')
+    {
+        $message = '<h3>Por favor ingrese el campo "Cédula de identidad".</h3>';
+    }
+    else
+    {
+        $message = '<h3>Please fill the field "National identification number".</h3>';
+    }
+    
 }
 /*** check correct lengths of inputs ***/
 elseif (strlen( $_POST['ins_rut']) > 15)
 {
-    $message = '<h3>Largo del campo "Cédula de identidad" fuera de los límites.</h3>';
+    if ($language == 'es')
+    {
+        $message = '<h3>Largo del campo "Cédula de identidad" fuera de los límites.</h3>';
+    }
+    else
+    {
+        $message = '<h3>Lenght of the field "National identification number" out of bounds.</h3>';
+    }
 }
 else
 {
@@ -156,8 +171,15 @@ else
             
         } 
         else 
-        {
-            $message = '<h3>El RUN provisto no se encuentra en nuestra base de datos</h3>'; 
+        {    
+            if ($language == 'es')
+            {
+                $message = '<h3>El RUN provisto no se encuentra en nuestra base de datos</h3>'; 
+            }
+            else
+            {
+                $message = '<h3>The RUN is not in our databse</h3>'; 
+            }
         }
     }
     catch(Exception $e)

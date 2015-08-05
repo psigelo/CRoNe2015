@@ -124,6 +124,12 @@
 			<br />
 			<small><p>* Las becas disponibles cubrirán 100% (completa) o 60% (porcentual) del costo de inscripción.</p>
 			<p>** La siguiente prioridad la tendrán estudiantes de otras regiones y alumnos de pregrado y finalmente bajo criterio de la organización.</p></small>
+		</div>
+
+		<div class="prelude-registration-grid">
+			<h2>Revisa tu estado</h2>
+
+			<p>Revisa <a href="status.php?language=en">aquí</a> el estado actual de tu inscripción</p>
 			<br />
 			<br />
 			<br />
@@ -189,7 +195,7 @@
 		<div class="prelude-registration-grid">
 			<h1>Scholarships</h1>
 
-			Apply to registration scholarships (total or partial)* at the time of enrolling.
+			<p>Apply to registration scholarships (total or partial)* at the time of enrolling.</p>
 
 			<br />
 			<br />
@@ -213,6 +219,12 @@
 			<br />
 			<small><p>* Scholarships available cover 100% (total) or 60% (partial) of the registration price.</p>
 			<p>** Next priority will be given to students from other locations and undergraduate students.</p></small>
+		</div>
+
+		<div class="prelude-registration-grid">
+			<h2>Check your status</h2>
+
+			<p>Click <a href="status.php?language=en">here</a> to see the current status of your inscription</p>
 			<br />
 			<br />
 			<br />
