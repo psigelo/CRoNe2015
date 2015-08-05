@@ -53,12 +53,12 @@
 				<?php if($language=="es"){ ?>
 				
 					<h4>¡Ven y presenta tu trabajo!</h4>
-					<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>07 de Agosto</b></p>
+					<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>16 de Agosto (extendido)</b></p>
 				
 				<?php }	else { ?>
 				
 					<h4>Come and present your work!</h4>
-					<p>Exhibit your investigation or development work in robotics and/or neuroscience, a committee of experts will give you an excellent feedback. </br></br> Send us your extended resume to <b>poster@crone2015.org</b> </br></br> Submission deadline <b>August 07</b></p>
+					<p>Exhibit your investigation or development work in robotics and/or neuroscience, a committee of experts will give you an excellent feedback. </br></br> Send us your extended resume to <b>poster@crone2015.org</b> </br></br> Submission deadline <b>August 16 (extended)</b></p>
 				
 				<?php } ?>
 			</div>
