@@ -322,7 +322,15 @@ span.menu {
 }
 .banner-title {
   position: absolute;
-  padding: 30px;    
+  padding: 30px; 
+
+  margin: 0;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  color:#f3f6ed;
+  text-shadow: 0 0 2px black;   
 }
 .banner-title a {
   color: #9af1f8;    

@@ -563,11 +563,12 @@
 
 
 
+
+	
 <?php
 	echo "
 	<script>
 		createBanner(\"$language\");
-
 		$(document).ready(function() {
 	   		createSpeakersGrid(\"$language\");
 			
@@ -575,5 +576,7 @@
 	</script>
 	"
 ?>
+	
+
 
 <?php include_once('footer.php'); ?>

@@ -26,13 +26,27 @@ function createSpekerInformation(speaker, language){
 	var titleTalk = $(languageXML.getElementsByTagName('titleTalk')[0]);
 	var abstractTalk = $(languageXML.getElementsByTagName('abstractTalk')[0]);
 
-	$(document.getElementById('bio-name')).html( name.html() );
-	$(document.getElementById('bio-institution')).html( institution.html() );
-	$(document.getElementById('bio-information')).html( information.html() );
-	$(document.getElementById('talk-title')).html( titleTalk.html() );
-	$(document.getElementById('talk-date')).html( expositionDate.html() );
-	$(document.getElementById('talk-information')).html( abstractTalk.html() );
-	$(document.getElementById('bio-image')).attr('src',img.text());
+	if ((Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0) ){ // si es safari
+			$(document.getElementById('bio-name')).text( name.text() );
+		$(document.getElementById('bio-institution')).text( institution.text() );
+		$(document.getElementById('bio-information')).text( information.text() );
+		$(document.getElementById('talk-title')).text( titleTalk.text() );
+		$(document.getElementById('talk-date')).text( expositionDate.text() );
+		$(document.getElementById('talk-information')).text( abstractTalk.text() );
+		$(document.getElementById('bio-image')).attr('src',img.text());
+
+	}
+	else
+	{
+		$(document.getElementById('bio-name')).html( name.html() );
+		$(document.getElementById('bio-institution')).html( institution.html() );
+		$(document.getElementById('bio-information')).html( information.html() );
+		$(document.getElementById('talk-title')).html( titleTalk.html() );
+		$(document.getElementById('talk-date')).html( expositionDate.html() );
+		$(document.getElementById('talk-information')).html( abstractTalk.html() );
+		$(document.getElementById('bio-image')).attr('src',img.text());
+	}
+
 }
 
 
@@ -44,16 +58,16 @@ function createSpeakersGrid(language){
 	var title = document.createElement('h3');
 	div_1.setAttribute('class','container');
 	if(language == "es") {
-		$(title).html('Expositores');
+		$(title).text('Expositores');
 	}
 	else {
-		$(title).html('Speakers');
+		$(title).text('Speakers');
 	}
 	div_1.appendChild(title);
 
 	for (var i = 0; i < speakerIndexXML.getElementsByTagName('speaker').length; i++) 
 	{
-		var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).html();
+		var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).text();
 		var spikerXML = loadXMLDoc('./speakers/'+speakerText+'.xml');
 		var languageXML = spikerXML.getElementsByTagName(language)[0];
 		var div_2 = document.createElement('div');
@@ -69,14 +83,14 @@ function createSpeakersGrid(language){
 		div_4.setAttribute('class','caption caption-top');
 
 		var h5_1 = document.createElement('h5');
-		$(h5_1).html( $(spikerXML.getElementsByTagName('name')[0]).text() );
+		$(h5_1).text( $(spikerXML.getElementsByTagName('name')[0]).text() );
 
 		var div_5 = document.createElement('div');
 		div_5.setAttribute('class','caption caption-bottom');
 
 
 		var h5_2 = document.createElement('h5');
-		$(h5_2).html( $(languageXML.getElementsByTagName('institution')[0]).text() );
+		$(h5_2).text( $(languageXML.getElementsByTagName('institution')[0]).text() );
 
 		a_1.appendChild(img_1);
 		div_5.appendChild(h5_2);
@@ -106,11 +120,11 @@ function createSpeakersGrid(language){
 
 		var h5_1 = document.createElement('h5');
 		if(language == 'es'){
-			$(h5_1).html( 'Por confirmar' );
+			$(h5_1).text( 'Por confirmar' );
 		}
 		else
 		{
-			$(h5_1).html( 'Soon' );
+			$(h5_1).text( 'Soon' );
 		}
 
 		var div_5 = document.createElement('div');
@@ -118,7 +132,7 @@ function createSpeakersGrid(language){
 
 
 		var h5_2 = document.createElement('h5');
-		$(h5_2).html( '-' );
+		$(h5_2).text( '-' );
 
 		a_1.appendChild(img_1);
 		div_5.appendChild(h5_2);
@@ -140,13 +154,10 @@ function createSpeakersGrid(language){
 
 function createBanner(language){
 	var bannerIndexXML = loadXMLDoc('./banners/index.xml');
-	
-	
-
+ var prueba = bannerIndexXML.getElementsByTagName('banner').length	
 	for (var i = 0; i < bannerIndexXML.getElementsByTagName('banner').length; i++) 
 	{
-		var bannerName = $(bannerIndexXML.getElementsByTagName('banner')[i]).html();
-
+		var bannerName = $(bannerIndexXML.getElementsByTagName('banner')[i]).text();
 		var banner = loadXMLDoc('./banners/'+bannerName+'.xml');
 
 		var div_1 = document.createElement('div');
@@ -164,11 +175,26 @@ function createBanner(language){
 
 		if(language == "es") 
 		{
-			$(div_2).html( $(banner.getElementsByTagName('es')[0]).html()  );
+			if ((Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0) ){ // si es safari
+				$(div_2).html( $(banner.getElementsByTagName('es')[0]).text()  );
+
+			}
+			else
+			{
+				$(div_2).html( $(banner.getElementsByTagName('es')[0]).html()  );
+			}
+			
 		}
 		else 
 		{
-			$(div_2).html( $(banner.getElementsByTagName('en')[0]).html()  );
+			if ((Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0) ){ // si es safari
+				$(div_2).html( $(banner.getElementsByTagName('en')[0]).text()  );
+
+			}
+			else
+			{
+				$(div_2).html( $(banner.getElementsByTagName('en')[0]).html()  );
+			}
 		}
 
 		div_1.appendChild(div_2);
@@ -185,11 +211,11 @@ function createSpeakersCarrousel(language){
 	var speakerIndexXML = loadXMLDoc('./speakers/index.xml');
 	var raiz = document.getElementById('owl-speaker');
 	var title = document.getElementById('expositores_title');
-	$(title).html('Expositores');
+	$(title).text('Expositores');
 
 	for (var i = 0; i < speakerIndexXML.getElementsByTagName('speaker').length; i++) 
 	{
-		var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).html();
+		var speakerText = $(speakerIndexXML.getElementsByTagName('speaker')[i]).text();
 		var spikerXML = loadXMLDoc('./speakers/'+speakerText+'.xml');
 		var languageXML = spikerXML.getElementsByTagName(language)[0];
 		var div_2 = document.createElement('div');
@@ -205,13 +231,13 @@ function createSpeakersCarrousel(language){
 		var div_4 = document.createElement('div');
 		div_4.setAttribute('class','caption caption-top');
 		var h5_1 = document.createElement('h5');
-		$(h5_1).html( $(spikerXML.getElementsByTagName('name')[0]).text() );
+		$(h5_1).text( $(spikerXML.getElementsByTagName('name')[0]).text() );
 
 		var div_5 = document.createElement('div');
 		div_5.setAttribute('class','caption caption-bottom');
 
 		var h5_2 = document.createElement('h5');
-		$(h5_2).html( $(languageXML.getElementsByTagName('institution')[0]).text() );
+		$(h5_2).text( $(languageXML.getElementsByTagName('institution')[0]).text() );
 		a_1.appendChild(img_1);
 		div_5.appendChild(h5_2);
 		div_4.appendChild(h5_1);
@@ -240,11 +266,11 @@ function createSpeakersCarrousel(language){
 
 		var h5_1 = document.createElement('h5');
 		if(language == 'es'){
-			$(h5_1).html( 'Por confirmar' );
+			$(h5_1).text( 'Por confirmar' );
 		}
 		else
 		{
-			$(h5_1).html( 'Soon' );
+			$(h5_1).text( 'Soon' );
 		}
 		
 
@@ -253,7 +279,7 @@ function createSpeakersCarrousel(language){
 
 
 		var h5_2 = document.createElement('h5');
-		$(h5_2).html( '-' );
+		$(h5_2).text( '-' );
 
 		
 		div_5.appendChild(h5_2);
