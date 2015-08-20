@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	$language = !empty($_GET['language']) && is_string($_GET['language']) ? htmlspecialchars($_GET['language']) : 'es'; 
 	$inicio = ($language=='es') ? 'INICIO': 'HOME';
 	$expositores= ($language=='es') ? 'EXPOSITORES': 'SPEAKERS';
-	$poster= ($language=='es') ? 'POSTER': 'POSTER';
+	// $poster= ($language=='es') ? 'POSTER': 'POSTER';
 	$actividades=($language=='es') ? 'ACTIVIDADES': 'ACTIVITIES';
 	$contacto =($language=='es') ? 'CONTACTO': 'CONTACT';
 	$biografia =($language=='es') ? 'BIOGRAFÍA': 'BIOGRAPHY';
@@ -110,7 +110,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					echo "
 					<li><a href=\"#header\" class=\"scroll\">$inicio </a></li>
 					<li><a href=\"#expo\" class=\"scroll\">$expositores</a></li> 
-					<li><a href=\"poster.php?language=$language\" >$poster</a></li> 
+					<!-- <li><a href=\"poster.php?language=$language\" >$poster</a></li> -->
 					<li><a href=\"#activity\" class=\"scroll\">$actividades</a></li>
 					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
@@ -119,7 +119,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					echo "
 					<li><a href=\"index.php?language=$language\">$inicio </a></li>
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
-					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
+					<!-- <li><a href=\"poster.php?language=$language\">$poster</a></li> -->
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
 					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
 					<li><a href=\"#header\" class=\"scroll\">$contacto</a></li>
@@ -128,7 +128,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					echo "
 					<li><a href=\"index.php?language=$language\">$inicio </a></li>
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
-					<li><a href=\"#\">$poster</a></li> 
+					<!--  <li><a href=\"#\">$poster</a></li> -->
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
 					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
@@ -146,7 +146,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					echo "
 					<li><a href=\"index.php?language=$language\">$inicio </a></li>
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
-					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
+					<!-- <li><a href=\"poster.php?language=$language\">$poster</a></li> -->
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
 					<li><a href=\"#inscripciones\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\" class=\"scroll\">$contacto</a></li>
@@ -156,7 +156,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					echo "
 					<li><a href=\"index.php?language=$language\">$inicio </a></li>
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
-					<li><a href=\"poster.php?language=$language\">$poster</a></li> 
+					<!-- <li><a href=\"poster.php?language=$language\">$poster</a></li> -->
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
 					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
 					<li><a href=\"contact.php?language=$language\" class=\"scroll\">$contacto</a></li>
