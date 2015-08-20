@@ -39,38 +39,6 @@
 <div class="expo" id="expo"></div>
 <!--//expo-->
 
-<!--posters-->
-<div class="poster" id="poster" >
-	<div class="container">
-		<h3>   <?php if ($language=="es") {echo "Llamado a Posters";}else{echo "Call for poster presentation";} ?></h3>
-		<div class="poster-grids"></div> 
-	</div>
-	<div class="poster-img">
-	 	<a href="poster.php">
-			<img src="images/banner-poster-square.png" alt=""/>
-		
-			<div class="poster-title"> 
-				<?php if($language=="es"){ ?>
-				
-					<h4>¡Ven y presenta tu trabajo!</h4>
-					<p>Muestra tu trabajo de investigación o desarrollo en robótica y/o neurociencia, un comité de expositores te darán excelente retroalimentación. </br></br> Envía tu resumen extendido a <b>poster@crone2015.org</b> </br></br> Plazo hasta el <b>16 de Agosto (extendido)</b></p>
-				
-				<?php }	else { ?>
-				
-					<h4>Come and present your work!</h4>
-					<p>Exhibit your investigation or development work in robotics and/or neuroscience, a committee of experts will give you an excellent feedback. </br></br> Send us your extended resume to <b>poster@crone2015.org</b> </br></br> Submission deadline <b>August 16 (extended)</b></p>
-				
-				<?php } ?>
-			</div>
-		</a>
-	</div>
-	<div class="poster-button">
-		<a <?php echo"href=poster.php?language=$language" ?> >
-			<button type="button"><?php if ($language=="es") {echo "Ver Más información";}else{echo "See more information";} ?> </button> 
-		</a>
-	</div>
-</div>
-<!--//posters-->
 
 <!--activity-->
 <?php if($language=="en"){ ?>
