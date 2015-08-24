@@ -117,8 +117,8 @@
 			<h2>Fechas importantes</h2>
 
 			<ul>
-				<li><b>Postulación hasta el</b> 21 de Agosto.</li>
-				<li><b>Resultados:</b> 28 de Agosto.</li>
+				<li><b>Postulación hasta el </b><strike>21 de Agosto</strike> 28 de Agosto.</li>
+				<li><b>Resultados: </b><strike>28 de Agosto</strike> 1 de Septiembre.</li>
 			</ul>
 			<br />
 			<br />
@@ -212,8 +212,8 @@
 			<h2>Important dates</h2>
 
 			<ul>
-				<li><b>Apply until</b> August 21.</li>
-				<li><b>Results:</b> August 28.</li>
+				<li><b>Apply until </b><strike>August 21</strike> August 28.</li>
+				<li><b>Results: </b><strike>August 28</strike> September 1.</li>
 			</ul>
 			<br />
 			<br />
