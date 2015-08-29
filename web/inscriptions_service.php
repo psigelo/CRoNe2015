@@ -42,10 +42,10 @@ elseif(!isset( $_POST['person_type'] ))
         {
             $message = 'Por favor ingrese el campo "Año de ingreso".';
         }
-        elseif(!isset( $_POST['ins_scholarships'] )) 
-        {
-            $message = 'Por favor seleccione si se encuentra becado o no.';
-        }
+        // elseif(!isset( $_POST['ins_scholarships'] )) 
+        // {
+        //     $message = 'Por favor seleccione si se encuentra becado o no.';
+        // }
     }
     elseif($radio_button == 'rdoProfessional')
     {
@@ -193,7 +193,8 @@ else
 
         if($radio_button == 'rdoStudent')
         {
-            $ins_scholarship = ($_POST['ins_scholarships'] == 'yes');
+            // $ins_scholarship = ($_POST['ins_scholarships'] == 'yes');
+            $ins_scholarship = 0;
 
             /*** prepare the insert ***/
             $stmt_student = $dbh->prepare("INSERT INTO student ( user_id, career, year, scholarship ) 

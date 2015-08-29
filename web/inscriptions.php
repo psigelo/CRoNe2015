@@ -56,13 +56,13 @@
 				<label for="ins_admission_year">Año de ingreso</label></br>
 				<input type="number" id="ins_admission_year" name="ins_admission_year" value="" min="0" max="2015" maxlength="4" placeholder="1690"/>
 				</p>
-				<p>
+				<!-- <p>
 				<label for="ins_scholarships">Postular a becas de inscripción</label></br>
 				<input type="radio" id="ins_apply_scholarships" name="ins_scholarships" value="yes"/>
 				<label for="ins_apply_scholarships">Sí</label>
 				<input type="radio" id="ins_not_apply_scholarships" checked="checked" name="ins_scholarships" value="no"/>
 				<label for="ins_not_apply_scholarships">No</label>
-				</p>
+				</p> -->
 			</div>
 			<!-- Profesional -->
 			<div id="profesional_section">
