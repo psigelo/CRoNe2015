@@ -71,6 +71,7 @@ else
         {
             $query_name = $user['name'];
             $query_rut = substr_replace($ins_rut, '-', strlen($ins_rut) - 1, 0);
+
             if ($language == 'es')
             {
                 $query_type = ( $user['type'] == 0 ? "Estudiante" : "Profesional" );
@@ -82,7 +83,7 @@ else
             
             $query_status = $user['status'];
 
-            switch (query_status) 
+            switch ($query_status) 
             {
                 case 0:
                     $query_scholarship = "no";
