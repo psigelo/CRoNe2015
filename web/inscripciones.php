@@ -129,7 +129,7 @@
 		<div class="prelude-registration-grid">
 			<h2>Revisa tu estado</h2>
 
-			<p>Revisa <a href="status.php?language=en">aquí</a> el estado actual de tu inscripción</p>
+			<p>Revisa <a href="status.php?language=es">aquí</a> el estado actual de tu inscripción</p>
 			<br />
 			<br />
 			<br />

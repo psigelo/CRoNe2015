@@ -285,6 +285,7 @@ span.menu {
 }
 .status table {
   width: 100%;
+  text-align: left;
 }
 /*--banner--*/
 #owl-demo .item img{
