@@ -86,26 +86,26 @@ else
             {
                 case 0:
                     $query_scholarship = "no";
-                    $query_amount_clp = 15000 * ($user['status'] + 1);
-                    $query_amount_usd = 25 * ($user['status'] + 1);
+                    $query_amount_clp = 15000 * ($user['type'] + 1);
+                    $query_amount_usd = 25 * ($user['type'] + 1);
                     $query_bill = ( $language == 'es' ? "no cancelado" : "payment required"); 
                     break;
                 case 1:
                     $query_scholarship = "no";
-                    $query_amount_clp = 15000 * ($user['status'] + 1);
-                    $query_amount_usd = 25 * ($user['status'] + 1);
+                    $query_amount_clp = 15000 * ($user['type'] + 1);
+                    $query_amount_usd = 25 * ($user['type'] + 1);
                     $query_bill = ( $language == 'es' ? "cancelado" : "payment done"); 
                     break;
                 case 2:
                     $query_scholarship = "60%";
-                    $query_amount_clp = 6000 * ($user['status'] + 1);
-                    $query_amount_usd = 10 * ($user['status'] + 1);
+                    $query_amount_clp = 6000 * ($user['type'] + 1);
+                    $query_amount_usd = 10 * ($user['type'] + 1);
                     $query_bill = ( $language == 'es' ? "no cancelado" : "payment required"); 
                     break;
                 case 3:
                     $query_scholarship = "60%";
-                    $query_amount_clp = 6000 * ($user['status'] + 1);
-                    $query_amount_usd = 10 * ($user['status'] + 1);
+                    $query_amount_clp = 6000 * ($user['type'] + 1);
+                    $query_amount_usd = 10 * ($user['type'] + 1);
                     $query_bill = ( $language == 'es' ? "cancelado" : "payment done"); 
                     break;
                 case 4:
