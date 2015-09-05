@@ -148,8 +148,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<li><a href=\"index.php?language=$language#expo\">$expositores</a></li> 
 					<!-- <li><a href=\"poster.php?language=$language\">$poster</a></li> -->
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
-					<li><a href=\"#inscripciones\">$inscripcion</a></li>
-					<li><a href=\"contact.php?language=$language\" class=\"scroll\">$contacto</a></li>
+					<li><a href=\"#inscripciones\" class=\"scroll\">$inscripcion</a></li>
+					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
 					";
 					// } elseif ((strcmp($current_page, "inscriptions_service") == 0) || (strcmp($current_page, "status_service") == 0)) { 
 					} else {
@@ -159,7 +159,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<!-- <li><a href=\"poster.php?language=$language\">$poster</a></li> -->
 					<li><a href=\"index.php?language=$language#activity\">$actividades</a></li> 
 					<li><a href=\"inscripciones.php?language=$language\">$inscripcion</a></li>
-					<li><a href=\"contact.php?language=$language\" class=\"scroll\">$contacto</a></li>
+					<li><a href=\"contact.php?language=$language\">$contacto</a></li>
 					";
 					} ?>
 				</ul>
