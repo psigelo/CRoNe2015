@@ -21,8 +21,9 @@
 					<thead>
 						<tr>
 						<th>Tipo</th>
-						<th colspan="2">Inscripción temprana: <br/>13 Julio a 11 Septiembre</th>
-						<th colspan="2">Inscripción tardía:<br/> 12 Septiembre a 09 Octubre</th>
+						<th colspan="2">Inscripción: <br/>13 Julio a 09 Octubre</th>
+<!-- 						<th colspan="2">Inscripción temprana: <br/>13 Julio a 11 Septiembre</th>
+						<th colspan="2">Inscripción tardía:<br/> 12 Septiembre a 09 Octubre</th> -->
 						</tr>
 					</thead>
 					<tbody>
@@ -30,23 +31,23 @@
 							<td></td>
 							<td><b>Sin cena</b></td>
 							<td><b>Con cena</b></td>
-							<td><b>Sin cena</b></td>
-							<td><b>Con cena</b></td>
+<!-- 							<td><b>Sin cena</b></td>
+							<td><b>Con cena</b></td> -->
 							
 						</tr>
 						<tr class="alt">
 							<td>Estudiante</td>
 							<td>15.000 clp <i>(25 usd)</i></td>
 							<td>25.000 clp <i>(40 usd)</i></td>
-							<td>22.500 clp <i>(35 usd)</i></td>
-							<td>32.500 clp <i>(50 usd)</i></td>
+<!-- 							<td>22.500 clp <i>(35 usd)</i></td>
+							<td>32.500 clp <i>(50 usd)</i></td> -->
 						</tr>
 						<tr >
 							<td>Profesional</td>
 							<td>30.000 clp <i>(50 usd)</i></td>
 							<td>40.000 clp <i>(65 usd)</i></td>
-							<td>45.000 clp <i>(75 usd)</i></td>
-							<td>55.000 clp <i>(90 usd)</i></td>
+<!-- 							<td>45.000 clp <i>(75 usd)</i></td>
+							<td>55.000 clp <i>(90 usd)</i></td> -->
 						</tr>
 					</tbody>
 				</table>
@@ -153,8 +154,9 @@
 					<thead>
 						<tr>
 						<th>Tipo</th>
-						<th colspan="2">Early-bird: <br/>13 July to 11 Sept</th>
-						<th colspan="2">Late: <br/>12 Sept to 09 Oct</th>
+						<th colspan="2">Early-bird: <br/>13 July to 09 Oct</th>
+<!-- 						<th colspan="2">Early-bird: <br/>13 July to 11 Sept</th>
+						<th colspan="2">Late: <br/>12 Sept to 09 Oct</th> -->
 						</tr>
 					</thead>
 					<tbody>
@@ -162,23 +164,23 @@
 							<td></td>
 							<td><b>without dinner</b></td>
 							<td><b>dinner included</b></td>
-							<td><b>without dinner</b></td>
-							<td><b>dinner included</b></td>
+<!-- 							<td><b>without dinner</b></td>
+							<td><b>dinner included</b></td> -->
 							
 						</tr>
 						<tr class="alt">
 							<td>Student</td>
 							<td>25 usd</td>
 							<td>40 usd</td>
-							<td>35 usd</td>
-							<td>50 usd</td>
+<!-- 							<td>35 usd</td>
+							<td>50 usd</td> -->
 						</tr>
 						<tr >
 							<td>Profesional</td>
 							<td>50 usd</td>
 							<td>65 usd</td>
-							<td>75 usd</td>
-							<td>90 usd</td>
+<!-- 							<td>75 usd</td>
+							<td>90 usd</td> -->
 						</tr>
 					</tbody>
 				</table>
