@@ -321,6 +321,12 @@ span.menu {
   right: 5%;    
   background-color: rgba(0,43,54,0.6); 
 }
+#banner-extension{
+  width: 35%;
+  top: 10%;
+  right: 5%;    
+  background-color: rgba(0,43,54,0.8); 
+}
 .banner-title {
   position: absolute;
   padding: 30px; 
