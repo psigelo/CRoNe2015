@@ -1,0 +1,12 @@
+<banner>
+	<img>./images/banner-taller.jpg</img>
+	<id>banner-taller</id>
+	<es>
+		<h4>¡Entérate de nuestros talleres!</h4>
+		<p>Al asistir a nuestros 3 talleres podrás aprender a programar un robot en un ambiente simulado e implementarlo en un robot real.</p>	
+	</es>
+	<en>
+		<h4>Inform yourself about our workshops!</h4>
+		<p>By attending to our 3 workshops you will learn to code a robot on a simulated environment and implement it on a real plattform.</p>
+	</en>
+</banner>

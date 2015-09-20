@@ -101,14 +101,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>15.00 - 15.40</h5>
-							<h3>Workshop : Part A</h3>
+							<h3>Workshop : Brief introduction to C++</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-cr.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h4>Robotics Center, UTFSM</h4>
+									<!-- <h5>...</h5> -->
 								</div>						
 							</div>
 						</div>
@@ -120,14 +120,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>16.10 - 17.40</h5>
-							<h3>Workshop : Part B</h3>
+							<h3>Workshop : V-Rep programming</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-cr.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h4>Robotics Center, UTFSM</h4>
+									<!-- <h5>...</h5> -->
 								</div>						
 							</div>
 						</div>
@@ -208,14 +208,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>15.40 - 17.40</h5>
-							<h3>Workshop: Part C</h3>
+							<h3>Workshop: Real plataform programming</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-cr.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h4>Robotics Center, UTFSM</h4>
+									<!-- <h5>...</h5> -->
 								</div>						
 							</div>
 						</div>
@@ -356,14 +356,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>15.00 - 15.40</h5>
-							<h3>Taller : Parte A</h3>
+							<h3>Taller : Breve introducción a C++</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-cr.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									<h4>Centro de Robótica, UTFSM</h4>
+									<!-- <h5>...</h5> -->
 								</div>						
 							</div>
 						</div>
@@ -375,14 +375,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>16.10 - 17.40</h5>
-							<h3>Taller : Parte B</h3>
+							<h3>Taller : Programación en V-Rep</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-cr.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									<h4>Centro de Robótica, UTFSM</h4>
+									<!-- <h5>...</h5> -->
 								</div>						
 							</div>
 						</div>
@@ -464,14 +464,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>15.40 - 17.40</h5>
-							<h3>Taller: Parte C</h3>
+							<h3>Taller: Programación en plataforma real</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-cr.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									<h4>Centro de Robótica, UTFSM</h4>
+									<!-- <h5>...</h5> -->
 								</div>						
 							</div>
 						</div>
