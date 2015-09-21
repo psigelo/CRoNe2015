@@ -87,7 +87,7 @@
 						</div>
 						<div class="activity-body-item">
 							<h5>14.00 - 14.45</h5>
-							<h3>Industrial Robotics</h3>
+							<h3>Instrumentation and Control of Mechatronics Systems</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-manuel-olivares.jpg" alt=""/>
@@ -147,14 +147,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
-							<h3>Talk #4</h3>
+							<h3>Computational models: The Ultimate Frontier in Neuroscience</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-adrian-palacios.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h4>Adrián Palacios</h4>
+									<h5>Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de Valparaíso, Chile</h5>
 								</div>						
 							</div>
 						</div>
@@ -342,7 +342,7 @@
 						</div>
 						<div class="activity-body-item">
 							<h5>14.00 - 14.45</h5>
-							<h3>Robótica Industrial</h3>
+							<h3>Instrumentación y Control de Sistemas Mecatrónicos</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
 									<img class ="img-thumbnail" src="images/expo-manuel-olivares.jpg" alt=""/>
@@ -402,14 +402,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
-							<h3>Charla #4</h3>
+							<h3>Modelos Computacionales: la Última Frontera en Neurociencia</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-adrian-palacios.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									<h4>Adrián Palacios</h4>
+									<h5>Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de Valparaíso, Chile</h5>
 								</div>						
 							</div>
 						</div>
