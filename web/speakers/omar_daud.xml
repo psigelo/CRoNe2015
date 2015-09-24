@@ -1,0 +1,50 @@
+<speaker>
+	<name>Omar Daud</name>
+	<img>./images/expo-omar-daud.jpg</img>
+	
+	<es>
+		<institution> 
+			Institución Pendiente
+		</institution>
+
+		<information>
+			<p><i>Información aún no especificada.</i></p>
+		</information>
+
+		<expositionDate> 
+			23 de Octubre, 11.30 - 12.10 
+		</expositionDate>
+
+		<titleTalk>
+			Charla Pendiente
+		</titleTalk>
+
+		<abstractTalk>
+			<p><i>Resumen aún no especificado.</i></p>
+		</abstractTalk>
+
+	</es>
+
+
+	<en>
+		<institution> 
+			Pending Institution
+		</institution>
+
+		<information>
+			<p><i>Information not specified yet.</i></p>
+		</information>
+
+		<expositionDate> 
+			October 23, 11.30 - 12.10 
+		</expositionDate>
+
+		<titleTalk>
+			Pending Talk
+		</titleTalk>
+
+		<abstractTalk>
+			<p><i>Resume not specified yet.</i></p>
+		</abstractTalk>
+	</en>
+</speaker>
