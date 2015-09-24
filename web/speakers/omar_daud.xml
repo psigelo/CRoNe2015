@@ -4,35 +4,41 @@
 	
 	<es>
 		<institution> 
-			Institución Pendiente
+			Centro de Investigación en Tecnología Aplicada a la Minería, Universidad de Chile, Chile
 		</institution>
 
 		<information>
-			<p><i>Información aún no especificada.</i></p>
+<p>El Dr. Omar Daud Albasini es Ingeniero Civil Mecánico graduado de la Universidad de La Serena, Chile, en el año 2004. Posteriormente, ha obtenido el grado de Magister en Ingeniería Mecatrónica en la Universidad de Trento, Italia, en el año 2007. De la misma institución, ha conseguido el grado de Doctor en Control Automático en el año 20011.</p>
+<p>Él ha trabajado en el campo de la robótica, particularmente en el área de rehabilitación, implementando interfaces hápticas para el tratamiento de pacientes con desórdenes neurológicos debido a accidentes cerebrovasculares. Dicha actividad, la ha realizado en el laboratorio de Cinemática y Robótica del Hospital San Camilo de Venecia, Italia, entre los años 2008 y 2011.</p>
+<p>En el año 2012, él se ha incorporado al Advanced Mining Technology Center de la Universidad de Chile. En dicho centro ha realizado actividades de investigación relacionadas con la ingeniería de los factores humanos y la tele-operación háptica de equipos mineros. Actualmente, sus áreas de interés son: Haptics, Motion Control y Mechatronics.</p>
 		</information>
 
 		<expositionDate> 
-			23 de Octubre, 11.30 - 12.10 
+			23 de Octubre, 11.30 - 12.10
 		</expositionDate>
 
 		<titleTalk>
-			Charla Pendiente
+			Sistemas hápticos para rehabilitación de pacientes con lesión cerebrovascular
 		</titleTalk>
 
 		<abstractTalk>
-			<p><i>Resumen aún no especificado.</i></p>
+<p>La utilización de las interfaces hápticas para el tratamiento de desórdenes neurológicos se está consolidando como un método eficaz en la práctica clínica en los países desarrollados. Las interfaces hápticas no sólo otorgan la posibilidad de rehabilitar y ayudar a recuperar las habilidades motoras perdidas, sino además la de entregar información objetiva al equipo médico tratante sobre el proceso de rehabilitación.</p>
+<p>Convencionalmente, los dispositivos hápticos vienen utilizados en ambientes locales, donde el paciente interactúa con ambientes virtuales; los cuales son recreados en la pantalla de un computador. Una extensión de este concepto se verifica cuando el terapeuta ocupacional interactúa desde remoto, y en tiempo real, con el paciente. Este concepto ha sido aplicado a un sistema master/slave de un grado de libertad. Una ortesis ha sido usada como master en el lado del terapeuta ocupacional, mientras que otra ortesis ha sido ocupada como slave en el lado del paciente. Para que esta interacción se realice correctamente, se han propuesto dos sistemas bilaterales de control con el objetivo de tener una interacción estable entre el dispositivo master y el slave, no obstante las condiciones siempre variables e impredecibles de la red (i.e. Internet). </p>
+<p> Mediante la utilización del dispositivo master, el terapeuta ocupacional puede mover desde remoto la mano del paciente y al mismo tiempo, percibir su resistencia al movimiento, consintiendo la evaluación de parámetros tan importantes, por ejemplo, el nivel residual de espasticidad. De esta manera, se pueden verificar las condiciones de un paciente desde remoto, y consecuentemente se le puede proponer un apropiado programa de rehabilitación.</p>
 		</abstractTalk>
 
 	</es>
 
-
 	<en>
 		<institution> 
-			Pending Institution
+			Advanced Mining Technology Center, University of Chile, Chile
 		</institution>
 
 		<information>
-			<p><i>Information not specified yet.</i></p>
+<p>Dr. Omar Daud Albasini is a Mechanics Engineer graduated from Universidad de La Serena, Chile, on 2004. Later, has obtained the Master degree on Mechatronics Engineering at University of Trento, Italy, on 2007. From this same institution, he has obtained the Ph.D. degree on Automatic Control on 2011.</p>
+<p>He has been working on robotics, in particular on rehabilitation, developing haptic interfaces for treatment of neurological disorders due to neurovascular accidents. This activity has been made at Kinematics and Robotics laboratory at San Camilo de Venecia Hospital, Italy, between 2008 and 2011.</p>
+<p>On 2012, he joined the Advanced Mining Technology Center of University of Chile. At this center, he has made research activities related to human factor engineering and haptic tele-operation of mining equipment. Currently, his research interests include: Haptics, Motion Control and Mechatronics.</p>
+
 		</information>
 
 		<expositionDate> 
@@ -40,11 +46,11 @@
 		</expositionDate>
 
 		<titleTalk>
-			Pending Talk
+			Haptic systems for neurovascular rehabilitation
 		</titleTalk>
 
 		<abstractTalk>
-			<p><i>Resume not specified yet.</i></p>
+			<p>To be announced.</p>
 		</abstractTalk>
 	</en>
 </speaker>

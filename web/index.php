@@ -230,14 +230,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
-							<h3>Talk #8</h3>
+							<h3>Haptic systems for neurovascular rehabilitation</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-omar-daud.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Attendance to be confirmed</h4>
-									<h5>...</h5>
+									<h4>Omar Daud</h4>
+									<h5>Advanced Mining Technology Center, University of Chile, Chile</h5>
 								</div>						
 							</div>
 						</div>
@@ -486,14 +486,14 @@
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
-							<h3>Charla #8</h3>
+							<h3>Sistemas hápticos para rehabilitación de pacientes con lesión cerebrovascular</h3>
 							<div class="activity-body-item-description">
 								<div class="activity-body-item-description-img"> 
-									<img class ="img-thumbnail" src="images/expo-unknown.jpg" alt=""/>
+									<img class ="img-thumbnail" src="images/expo-omar-daud.jpg" alt=""/>
 								</div>
 								<div class="activity-body-item-description-info"> 
-									<h4>Por confirmar</h4>
-									<h5>...</h5>
+									<h4>Omar Daud</h4>
+									<h5>Centro de Investigación en Tecnología Aplicada a la Minería, Universidad de Chile, Chile</h5>
 								</div>						
 							</div>
 						</div>
