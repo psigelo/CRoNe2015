@@ -2,8 +2,8 @@
 	<img>./images/Banner_Extension.png</img>
 	<id>banner-extension</id>
 	<es><h4>Extensión de inscripciones</h4>
-				<p>Debido al alto interés del público asistente, mantendremos los mismos precios durante todo el período de inscripción. <b>¡Sólo hasta el 09 de octubre!</b></p>
+				<p>Debido al alto interés del público asistente, mantendremos los mismos precios durante todo el período de inscripción. <b>¡Sólo hasta el <strike>09 de octubre</strike> 14 de Octubre!</b></p>
 	</es>
 	<en><h4>Registration deadline extended</h4><p>
-   Given the high interest from the audience, we will fix the registration fee during the whole period. <b>Just until october 9th!</b> </p></en>
+   Given the high interest from the audience, we will fix the registration fee during the whole period. <b>Just until <strike>October 9th</strike> October 14th!</b> </p></en>
 </banner>

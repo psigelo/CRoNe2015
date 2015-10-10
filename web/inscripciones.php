@@ -21,7 +21,7 @@
 					<thead>
 						<tr>
 						<th>Tipo</th>
-						<th colspan="2">Inscripción: <br/>13 Julio a 09 Octubre</th>
+						<th colspan="2">Inscripción: <br/>13 Julio a <strike>09 Octubre</strike> 14 Octubre</th>
 <!-- 						<th colspan="2">Inscripción temprana: <br/>13 Julio a 11 Septiembre</th>
 						<th colspan="2">Inscripción tardía:<br/> 12 Septiembre a 09 Octubre</th> -->
 						</tr>
@@ -154,7 +154,7 @@
 					<thead>
 						<tr>
 						<th>Tipo</th>
-						<th colspan="2">Early-bird: <br/>13 July to 09 Oct</th>
+						<th colspan="2">Early-bird: <br/>13 July to <strike>09 Oct</strike> 14 Oct</th>
 <!-- 						<th colspan="2">Early-bird: <br/>13 July to 11 Sept</th>
 						<th colspan="2">Late: <br/>12 Sept to 09 Oct</th> -->
 						</tr>
