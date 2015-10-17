@@ -53,6 +53,20 @@
 					<div class="activity-body">
 						<!-- ########################### -->
 						<div class="activity-body-item">
+							<h5>11.15 - 11.30</h5>
+							<h3>Inauguration Ceremony</h3>
+							<!-- div class="activity-body-item-description">
+								<div class="activity-body-item-description-img"> 
+									<img class ="img-thumbnail" src="images/expo-pablo-guerrero.jpg" alt=""/>
+								</div>
+								<div class="activity-body-item-description-info"> 
+									<h4>Pablo Guerrero</h4>
+									<h5>Computer Science Department, University of Chile, Chile</h5>
+								</div>						
+							</div> -->
+						</div>
+						<!-- ########################### -->
+						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
 							<h3>Learning on Robotics</h3>
 							<div class="activity-body-item-description">
@@ -306,6 +320,20 @@
 						<h4>Día uno</h4>
 					</div>
 					<div class="activity-body">
+						<!-- ########################### -->
+						<div class="activity-body-item">
+							<h5>11.15 - 11.30</h5>
+							<h3>Ceremonia de Inauguración</h3>
+							<!-- div class="activity-body-item-description">
+								<div class="activity-body-item-description-img"> 
+									<img class ="img-thumbnail" src="images/expo-pablo-guerrero.jpg" alt=""/>
+								</div>
+								<div class="activity-body-item-description-info"> 
+									<h4>Pablo Guerrero</h4>
+									<h5>Computer Science Department, University of Chile, Chile</h5>
+								</div>						
+							</div> -->
+						</div>
 						<!-- ########################### -->
 						<div class="activity-body-item">
 							<h5>11.30 - 12.10</h5>
